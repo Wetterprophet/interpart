@@ -1,0 +1,70 @@
+{
+    "question00":
+    {
+        "en":"Hello, who's there?",
+        "translations":
+        {
+            "de":"Hallo, wer ist da?",
+            "fr":"Bonjour, qui est là?",
+            "ru":"Привет, кто там?",
+            "ar":"arabictranslationwelcome?",
+            "fa":"farsitranslationwelcome?"
+        },
+        "answers00":
+        {
+            "00":"Stefan",
+            "01":"Simone",
+            "02":"Juri",
+            "03":"Ashmael",
+            "04":"Dave"
+        }
+    },
+    "question01":
+    {
+        "en":"How do you feel in this city?",
+        "translations":
+        {
+            "de":"wie fühlst du dich in dieser Stadt?",
+            "fr":"Comment vous sentez-vous dans cette ville?",
+            "ru":"Как вы себя чувствуете в этом городе?"
+        },
+        "answers01":
+        {
+            "00":
+            {
+                "de":"Manchmal fühle ich mich sehr klein.",
+                "translations":
+                {
+                    "en":"Sometimes, i feel very small.",
+                    "fr":"Parfois je me sens très petit.",
+                    "ru":"Иногда я чувствую себя очень маленьким."
+                }
+            }
+        }
+    },
+    "question02":{
+      "de":"Was bedeutet Heimat für dich?",
+        "translations":{
+            "de": "Was does home mean to you?",
+            "fr": "Qu'est-ce que la maison signifie pour vous?",
+            "ru": "Что для тебя значит дом?"
+        },
+        "answers02":
+        {
+            "04":
+            {
+                "en":"to have everything I need to survive in my truck",
+                "translations":
+                {
+                    "en":"",
+                    "fr":".",
+                    "ru":""
+                }
+            }
+        }
+    }
+}
+
+
+
+##Wissenschaft ist keine Frage der Nützlichkeit, sondern des Fortschritts.
