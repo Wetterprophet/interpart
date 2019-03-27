@@ -4,7 +4,7 @@
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-27 18:55:40 
  * @Last Modified by: Lutz Reiter - http://lu-re.de
- * @Last Modified time: 2019-03-27 19:25:27
+ * @Last Modified time: 2019-03-27 20:02:08
  */
 
 const _ = require('lodash')
@@ -35,6 +35,11 @@ const optionDefinitions = [
         defaultValue: "de,en,es,it,ar",
         typeLabel: 'string',
         description: 'Languages to translate to (comma seperated)'
+    },
+    {
+        name: 'help',
+        alias: 'h',
+        description: 'Display these usage informations'
     }
 ]
 
@@ -44,8 +49,11 @@ var options = {}
 try {
     options = commandLineArgs(optionDefinitions)
 
+    if (_.has(options,'help'))
+        throw new Error('Show usage information')
+
     if (!_.has(options,'text'))
-        throw new Error("No Text supplied")
+        throw new Error('No Text supplied')
 
     // split comma seperate language array
     options.to = options.to.split(',')
@@ -54,7 +62,6 @@ try {
     options.to = _.without(options.to, options.from)
 
 } catch (err) {
-    console.log(err);
     const usage = commandLineUsage([
         {
             header: 'Interop Translator',
@@ -63,6 +70,12 @@ try {
         {
             header: 'Options',
             optionList: optionDefinitions
+        },
+        {
+            header: 'Example',
+            content: [
+              'interop-translate "Hello World" --from en --to de',
+            ]
         }
     ])
     console.log(usage)
