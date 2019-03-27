@@ -1,5 +1,12 @@
 #!/usr/bin/env node
 
+/*
+ * @Author: Lutz Reiter - http://lu-re.de 
+ * @Date: 2019-03-27 18:55:40 
+ * @Last Modified by: Lutz Reiter - http://lu-re.de
+ * @Last Modified time: 2019-03-27 19:25:27
+ */
+
 const _ = require('lodash')
 const { Translate, TranslateRequest } = require('@google-cloud/translate');
 const commandLineArgs = require('command-line-args')
@@ -62,25 +69,24 @@ try {
     process.exit()
 }
 
-
+// if everything is ok run translator
 run(options)
 
 async function run(options) {
-
     const translate = new Translate({ projectId : config.googleApiProjectId });
 
     const requests = _.map(options.to, (language) => {
         return new Promise(function(resolve, reject) {
             translate.translate(options.text, { from : options.from, to: language })
-                .then( (result) => resolve({ translation: result[0], language: language }))
+                .then( (result) => resolve({ text: result[0], language: language }))
                 .catch( (err) => reject(err))
         })
     })
 
     Promise.all(requests).then( (results) => {
-        console.log(results)
+        console.log({ original: { text: options.text ,language: options.from }, translations: results })
     }).catch( (err) => {
-        console.log(err)
+        console.log({ errors: err.errors })
     })
 }
 
