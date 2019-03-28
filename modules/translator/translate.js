@@ -4,7 +4,7 @@
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-27 18:55:40 
  * @Last Modified by: Lutz Reiter - http://lu-re.de
- * @Last Modified time: 2019-03-28 16:24:19
+ * @Last Modified time: 2019-03-28 17:27:07
  */
 
 const _ = require('lodash')
@@ -64,7 +64,7 @@ try {
 } catch (err) {
     const usage = commandLineUsage([
         {
-            header: 'Interop Translator',
+            header: 'Interpart Translator',
             content: 'Translates text in multiple other languages and generates json object'
         },
         {
@@ -88,20 +88,36 @@ run(options)
 async function run(options) {
     const translate = new Translate({ projectId : config.googleApiProjectId });
 
+    // modifiy text to exclude translation of text inside {}
+    let text = options.text
+    text = text.replace('{','<span class="notranslate">')
+    text = text.replace('}','</span>')
+
     const requests = _.map(options.to, (language) => {
         return new Promise(function(resolve, reject) {
-            translate.translate(options.text, { from : options.from, to: language })
-                .then( (result) => resolve({ text: result[0], language: language }))
+            translate.translate(text, { from : options.from, to: language })
+                .then( (result) => {
+                    let text = result[0]
+
+                    // revert resulting string
+                    text = text.replace('<span class="notranslate">','{')
+                    text = text.replace('</span>','}')
+                    resolve({ text: text, language: language })
+                })
                 .catch( (err) => reject(err))
         })
     })
 
     Promise.all(requests).then( (results) => {
-        console.log({ original: { text: options.text ,language: options.from }, translations: results })
+        output({ original: { text: options.text ,language: options.from }, translations: results })
     }).catch( (err) => {
-        console.log({ errors: err.errors })
+        output({ errors: err.errors })
     })
 }
+
+function output(json) {
+    console.log(JSON.stringify(json))
+} 
 
 
 
