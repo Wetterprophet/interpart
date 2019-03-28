@@ -9,8 +9,8 @@ class SubmissionModel {
             id : uuidv1(),
             question: null,
             original: {
-                text : "Hello World",
-                language : "en"
+                text : "Hallo {name}. Wie geht es dir?",
+                language : "de"
             },
             translations : []
         },data)

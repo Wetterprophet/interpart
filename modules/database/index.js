@@ -44,13 +44,16 @@ function setupRoutes(app) {
         } 
     })
 
-    app.get('/questions/list', (req, res) => {
+    app.get('/questions/list', async (req, res) => {
 
-        var question = new QuestionModel({
-            text : "Test Frage",
-        })
+        var question = new QuestionModel('Hallo Mein Name ist {name}',"de")
 
-        res.send([question.data])
+        try {
+            await question.translate();
+            res.send([question.data])
+        } catch (err) {
+            res.status(400).send({error: err})
+        }
     })
 }
 
