@@ -39,10 +39,10 @@ function setupRoutes(app) {
 
             db.get('submissions').push(submission.data).write()
 
-            res.send({ message: "Added submission to database"})
+            res.send({ data: submission.data})
         } catch (err) {
             console.log(err)
-            res.send({error: err})
+            res.status(400).send({error: err})
         } 
     })
 
