@@ -20,6 +20,13 @@ class SubmissionModel {
         this.data.translations = await translate(this.data.text, this.data.language)
     }
 
+    getLanguage(lang) {
+        if (this.data.language == lang)
+            return _.pick(this.data, ['text', 'language'])
+        else
+            return _.find(this.data.translations, { 'language' : lang })
+    }
+
     static validate(data) {
         if (!_.has(data,'text'))
             return false

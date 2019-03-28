@@ -23,8 +23,18 @@ function setupRoutes(app) {
 
     app.get('/submissions/list', (req, res) => {
         const db = getDatabase()
-        const submissions = db.get('submissions')
-        res.send(submissions)
+
+        const data = db.get('submissions').value()
+
+        if (_.has(req.query,'lang')) {
+            let translations = _.map(data, (entry) => {
+                let submission = new SubmissionModel(entry)
+                return submission.getLanguage(req.query.lang)
+            })
+
+            res.send({ data: translations })
+        } else
+            res.send({ data: data })
     })
 
     app.post('/submissions/add', async (req, res) => {
@@ -62,13 +72,20 @@ function setupRoutes(app) {
         }
     })
 
-    app.get('/questions/:language', async (req, res) => {
+    app.get('/questions/list', async (req, res) => {
         try {
             var questions = _.map(require('./data/questions.json'), (data) => {
                 let question = new QuestionModel(data)
-                return question.data
+                return question
             })
-            res.send(questions)
+
+            if (_.has(req.query,'lang')) {
+                let translations = _.map(questions, (questions) => {
+                    return questions.getLanguage(req.query.lang)
+                })
+                res.send({ data: translations })
+            } else
+                res.send({ data: _.map(questions, (q) => q.data) })
         } catch (err) {
             res.status(400).send({error: err})
         }
