@@ -16,5 +16,5 @@ Translates a string into multiple different languages using the google translate
 
 ## Usage
 
-* run `interop-translate --help` to see ussage information
+* run `interpart-translate --help` to see ussage information
 

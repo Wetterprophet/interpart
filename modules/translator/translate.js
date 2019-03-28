@@ -4,7 +4,7 @@
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-27 18:55:40 
  * @Last Modified by: Lutz Reiter - http://lu-re.de
- * @Last Modified time: 2019-03-27 20:02:08
+ * @Last Modified time: 2019-03-28 16:24:19
  */
 
 const _ = require('lodash')
@@ -32,7 +32,7 @@ const optionDefinitions = [
     {
         name: 'to',
         type: String, 
-        defaultValue: "de,en,es,it,ar",
+        defaultValue: "de,en,es,it,ar,urd,fr,ka",
         typeLabel: 'string',
         description: 'Languages to translate to (comma seperated)'
     },
@@ -74,7 +74,7 @@ try {
         {
             header: 'Example',
             content: [
-              'interop-translate "Hello World" --from en --to de',
+              'interpart-translate "Hello World" --from en --to de',
             ]
         }
     ])
