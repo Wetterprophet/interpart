@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 
 const { SubmissionModel } = require('./models/SubmissionModel') 
 const { QuestionModel } = require('./models/QuestionModel') 
+const _ = require('lodash')
 const config = require('./config')
 
 function getDatabase() {
@@ -26,21 +27,22 @@ function setupRoutes(app) {
         res.send(submissions)
     })
 
-    app.post('/submissions/add', (req, res) => {
+    app.post('/submissions/add', async (req, res) => {
         const db = getDatabase()
-        var submission = new SubmissionModel(req.body)
-        console.log(submission.data)
-
         try {
-            if (!submission.validate())
-                throw Error("Could not validate submission")
+
+            if (!SubmissionModel.validate(req.body))
+                throw Error("Validation failed")
+            
+            var submission = new SubmissionModel(req.body.text, req.body.language)
+            await submission.translate();
 
             db.get('submissions').push(submission.data).write()
 
             res.send({ message: "Added submission to database"})
         } catch (err) {
             console.log(err)
-            res.status(400).send({error: err})
+            res.send({error: err})
         } 
     })
 

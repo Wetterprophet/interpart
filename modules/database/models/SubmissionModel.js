@@ -1,22 +1,32 @@
 const _ = require('lodash')
-const uuidv1 = require('uuid/v1');
+const uuidv1 = require('uuid/v1')
+
+const { translate } = require('../utils')
 
 class SubmissionModel {
     
-    constructor(data) {
+    constructor(text, language, question = null) {
 
-        this.data = _.extend({
+        this.data = {
             id : uuidv1(),
-            question: null,
+            question: question,
             original: {
-                text : "Hallo {name}. Wie geht es dir?",
-                language : "de"
+                text : text,
+                language : language
             },
             translations : []
-        },data)
+        }
     }
 
-    validate() {
+    async translate() {
+        this.data.translations = await translate(this.data.original.text, this.data.original.language)
+    }
+
+    static validate(data) {
+        if (!_.has(data,'text'))
+            return false
+        if (!_.has(data,'language'))
+            return false
         return true
     }
 }

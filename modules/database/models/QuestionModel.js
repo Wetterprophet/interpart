@@ -1,9 +1,7 @@
 const _ = require('lodash')
 const uuidv1 = require('uuid/v1');
-const util = require('util');
-const { exec } = require('child_process');
 
-const { addslashes } = require('../utils')
+const { translate } = require('../utils')
 
 class QuestionModel {
     
@@ -19,16 +17,8 @@ class QuestionModel {
         }
     }
 
-    validate() {
-        return true
-    }
-
     async translate() {
-        let asyncExec = util.promisify(exec);
-        let text = addslashes(this.data.original.text)
-        let result = await asyncExec(`interop-translate --from ${this.data.original.language} "${text}"`)
-        let output = JSON.parse(result.stdout)
-        this.data.translations = output.translations
+        this.data.translations = await translate(this.data.original.text, this.data.original.language)
     }
 }
 
