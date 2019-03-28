@@ -5,21 +5,19 @@ const { translate } = require('../utils')
 
 class SubmissionModel {
     
-    constructor(text, language, question = null) {
+    constructor(data) {
 
-        this.data = {
+        this.data = _.extend({
             id : uuidv1(),
-            question: question,
-            original: {
-                text : text,
-                language : language
-            },
+            question: null,
+            text : "",
+            language : "de",
             translations : []
-        }
+        }, data)
     }
 
     async translate() {
-        this.data.translations = await translate(this.data.original.text, this.data.original.language)
+        this.data.translations = await translate(this.data.text, this.data.language)
     }
 
     static validate(data) {

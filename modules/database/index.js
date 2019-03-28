@@ -32,9 +32,9 @@ function setupRoutes(app) {
         try {
 
             if (!SubmissionModel.validate(req.body))
-                throw Error("Validation failed")
+                throw "Validation failed"
             
-            var submission = new SubmissionModel(req.body.text, req.body.language)
+            var submission = new SubmissionModel(req.body)
             await submission.translate();
 
             db.get('submissions').push(submission.data).write()
@@ -46,13 +46,29 @@ function setupRoutes(app) {
         } 
     })
 
-    app.get('/questions/list', async (req, res) => {
-
-        var question = new QuestionModel('Hallo Mein Name ist {name}',"de")
-
+    app.post('/questions/translate', async (req, res) => {
         try {
-            await question.translate();
-            res.send([question.data])
+
+            if (!QuestionModel.validate(req.body))
+                throw "Validation failed"
+
+            var question = new QuestionModel(req.body)
+            await question.translate()
+
+            res.send({ data: question.data})
+        } catch (err) {
+            console.log(err)
+            res.status(400).send({error: err})
+        }
+    })
+
+    app.get('/questions/:language', async (req, res) => {
+        try {
+            var questions = _.map(require('./data/questions.json'), (data) => {
+                let question = new QuestionModel(data)
+                return question.data
+            })
+            res.send(questions)
         } catch (err) {
             res.status(400).send({error: err})
         }
@@ -64,3 +80,6 @@ setupRoutes(app)
 
 //start server
 app.listen(config.port, () => console.log(`Example app listening on port ${config.port}!`))
+
+//setup questions
+

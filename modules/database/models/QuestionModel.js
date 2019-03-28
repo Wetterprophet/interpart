@@ -5,20 +5,26 @@ const { translate } = require('../utils')
 
 class QuestionModel {
     
-    constructor(question, language = 'de') {
+    constructor(data) {
 
-        this.data = {
+        this.data = _.extend({
             id : uuidv1(),
-            original: {
-                text : question,
-                language : language
-            },
+            text : "",
+            language : "de",
             translations : []
-        }
+        }, data)
     }
 
     async translate() {
-        this.data.translations = await translate(this.data.original.text, this.data.original.language)
+        this.data.translations = await translate(this.data.text, this.data.language)
+    }
+
+    static validate(data) {
+        if (!_.has(data,'text'))
+            return false
+        if (!_.has(data,'language'))
+            return false
+        return true
     }
 }
 
