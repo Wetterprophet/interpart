@@ -12,6 +12,7 @@ class SubmissionModel {
             question: null,
             text : "",
             language : "de",
+            author: null,
             translations : []
         }, data)
     }

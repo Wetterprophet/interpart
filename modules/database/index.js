@@ -14,7 +14,6 @@ function getDatabase() {
     
     // set defaults
     db.defaults({ submissions: [] }).write()
-
     return db
 }
 
@@ -24,17 +23,18 @@ function setupRoutes(app) {
     app.get('/submissions/list', (req, res) => {
         const db = getDatabase()
 
-        const data = db.get('submissions').value()
+        let data = db.get('submissions').value()
+
+        let submissions = _.map(data, (entry) => new SubmissionModel(entry))
 
         if (_.has(req.query,'lang')) {
-            let translations = _.map(data, (entry) => {
-                let submission = new SubmissionModel(entry)
-                return submission.getLanguage(req.query.lang)
+            let translations = _.map(submissions, (entry) => {
+                return entry.getLanguage(req.query.lang)
             })
 
-            res.send({ data: translations })
+            res.send({ data: _.omitBy(translations, _.isNil) })
         } else
-            res.send({ data: data })
+            res.send({ data: _.map(submissions, (s) => s.data) })
     })
 
     app.post('/submissions/add', async (req, res) => {
@@ -83,7 +83,7 @@ function setupRoutes(app) {
                 let translations = _.map(questions, (questions) => {
                     return questions.getLanguage(req.query.lang)
                 })
-                res.send({ data: translations })
+                res.send({ data: _.omitBy(translations, _.isNil) })
             } else
                 res.send({ data: _.map(questions, (q) => q.data) })
         } catch (err) {
@@ -96,7 +96,7 @@ const app = express()
 setupRoutes(app)
 
 //start server
-app.listen(config.port, () => console.log(`Example app listening on port ${config.port}!`))
+app.listen(config.port, () => console.log(`Interpart Server listening on port ${config.port}!`))
 
 //setup questions
 

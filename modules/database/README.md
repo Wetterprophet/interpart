@@ -2,6 +2,10 @@
 
 Holds question ands submission, provides translation service.
 
+## Requirements
+
+* requires interpart-translate to be installed (see modules/translator)
+
 ## Setup
 
 * run `npm install`
@@ -15,4 +19,4 @@ Holds question ands submission, provides translation service.
 * GET /submissions/list?\[lang=x\]
 * POST /submission/add
 * GET /questions/list?\[lang=x\]
-* POST /question/translate
+* POST /questions/translate
