@@ -1,4 +1,11 @@
-const _ = require('lodash')
+/*
+ * @Author: Lutz Reiter - http://lu-re.de 
+ * @Date: 2019-03-29 19:20:29 
+ * @Last Modified by:   Lutz Reiter - http://lu-re.de 
+ * @Last Modified time: 2019-03-29 19:20:29 
+ */
+
+ const _ = require('lodash')
 const uuidv1 = require('uuid/v1')
 
 const { translate } = require('../utils')

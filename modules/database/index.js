@@ -1,4 +1,11 @@
-const low = require('lowdb')
+/*
+ * @Author: Lutz Reiter - http://lu-re.de 
+ * @Date: 2019-03-29 19:20:39 
+ * @Last Modified by: Lutz Reiter - http://lu-re.de
+ * @Last Modified time: 2019-03-30 01:45:09
+ */
+
+ const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 const express = require('express')
 const bodyParser = require('body-parser')
@@ -32,7 +39,7 @@ function setupRoutes(app) {
                 return entry.getLanguage(req.query.lang)
             })
 
-            res.send({ data: _.omitBy(translations, _.isNil) })
+            res.send({ data: _._.compact(translations) })
         } else
             res.send({ data: _.map(submissions, (s) => s.data) })
     })
@@ -83,10 +90,11 @@ function setupRoutes(app) {
                 let translations = _.map(questions, (questions) => {
                     return questions.getLanguage(req.query.lang)
                 })
-                res.send({ data: _.omitBy(translations, _.isNil) })
+                res.send({ data: _.compact(translations) })
             } else
                 res.send({ data: _.map(questions, (q) => q.data) })
         } catch (err) {
+            console.log(err)
             res.status(400).send({error: err})
         }
     })
@@ -97,6 +105,3 @@ setupRoutes(app)
 
 //start server
 app.listen(config.port, () => console.log(`Interpart Server listening on port ${config.port}!`))
-
-//setup questions
-
