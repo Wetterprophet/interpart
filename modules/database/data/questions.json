@@ -1,0 +1,107 @@
+[
+    {
+        "id": "bde4d640-5182-11e9-8950-d77e99bee325",
+        "text": "Hallo was ist dein Name",
+        "language": "de",
+        "translations": [
+            {
+                "text": "Hello, what is your name",
+                "language": "en"
+            },
+            {
+                "text": "Hola como te llamas",
+                "language": "es"
+            },
+            {
+                "text": "Ciao, come ti chiami",
+                "language": "it"
+            },
+            {
+                "text": "مرحبا ما اسمك",
+                "language": "ar"
+            },
+            {
+                "text": "ہیلو، آپ کا نام کیا ہے",
+                "language": "urd"
+            },
+            {
+                "text": "Bonjour, quel est votre nom",
+                "language": "fr"
+            },
+            {
+                "text": "გამარჯობა, რა არის შენი სახელი?",
+                "language": "ka"
+            }
+        ]
+    },
+    {
+        "id": "ca4293f0-5182-11e9-b27d-c9b5e6dd7dab",
+        "text": "Wie findest du diesen Platz?",
+        "language": "de",
+        "translations": [
+            {
+                "text": "How do you like this place?",
+                "language": "en"
+            },
+            {
+                "text": "¿Cómo te gusta este lugar?",
+                "language": "es"
+            },
+            {
+                "text": "Come ti piace questo posto?",
+                "language": "it"
+            },
+            {
+                "text": "كيف تحب هذا المكان؟",
+                "language": "ar"
+            },
+            {
+                "text": "آپ کو یہ جگہ کیسے پسند ہے؟",
+                "language": "urd"
+            },
+            {
+                "text": "Comment aimez-vous cet endroit?",
+                "language": "fr"
+            },
+            {
+                "text": "როგორ მოგწონთ ეს ადგილი?",
+                "language": "ka"
+            }
+        ]
+    },
+    {
+        "id": "d3899bc0-5182-11e9-b27d-c9b5e6dd7dab",
+        "text": "Was machst du heute so?",
+        "language": "de",
+        "translations": [
+            {
+                "text": "What are you doing today?",
+                "language": "en"
+            },
+            {
+                "text": "Que haces hoy",
+                "language": "es"
+            },
+            {
+                "text": "Cosa stai facendo oggi?",
+                "language": "it"
+            },
+            {
+                "text": "ماذا تفعل اليوم",
+                "language": "ar"
+            },
+            {
+                "text": "آج آپ کیا کر رہے ہیں",
+                "language": "urd"
+            },
+            {
+                "text": "Tu fais quoi aujourd'hui",
+                "language": "fr"
+            },
+            {
+                "text": "რას აკეთებ დღეს?",
+                "language": "ka"
+            }
+        ]
+    }
+]
