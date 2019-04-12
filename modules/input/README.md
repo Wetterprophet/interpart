@@ -2,6 +2,10 @@
 
 Speech and Keyboard Input Module for installation
 
+## Prerequisites
+
+* enable speech-to-text feature in your google cloud api project: [https://console.developers.google.com/apis/api/speech.googleapis.com/]
+
 ## Setup
 
 * install virtualenv: `sudo pip install virtualenv`

@@ -10,3 +10,6 @@ class RestClient:
         response = requests.get(url)
         questions = response.json()["data"]
         return questions
+
+    def sendAnswer(self, answer):
+        x = None
