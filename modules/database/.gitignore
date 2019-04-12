@@ -1,3 +1,4 @@
 node_modules/
 data/*
+!data/questions.json
 !data/.keep
