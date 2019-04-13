@@ -14,7 +14,6 @@ class Action(Enum):
     SET_QUESTION = auto(),
     DONE = auto(),
     SEND_ANSWER = auto(),
-    RECEIVED_TRANSLATION = auto(),
     RESET = auto(),
     ERROR = auto()
 
@@ -53,7 +52,7 @@ class StateMachine:
                 self.answer = args.get("answer")
                 self.status = State.SENDING
         elif self.status == State.SENDING:
-            if action == Action.RECEIVED_TRANSLATION:
+            if action == Action.DONE:
                 self.status = State.OUTPUT
         elif self.status == State.OUTPUT:
             if action == Action.DONE:

@@ -26,7 +26,7 @@ def run(config):
             language = keyInput.read()
 
             state.consumeAction(Action.SET_LANGUAGE, language = language)
-            
+
         elif state.status == State.FETCH_QUESTION:
             try:
                  # fetch question from database
@@ -55,7 +55,7 @@ def run(config):
             try:
                 translations = restClient.postAnswer(state.answer, state.language)
                 print(json.dumps(translations, indent=4))
-                state.consumeAction(Action.RECEIVED_TRANSLATION, answer = answer)
+                state.consumeAction(Action.DONE)
             except Exception as error:
                 state.consumeAction(Action.ERROR, error = str(error))
         elif state.status == State.OUTPUT:
