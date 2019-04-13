@@ -77,6 +77,8 @@ class VoiceInput:
     def __init__(self, language, supported_languages):
         self.language = best_match(language, supported_languages)[0]
         logging.info("created speech input for language: " + self.language)
+        if (self.language == None or self.language == "und"):
+            raise ValueError("Language is not supported")
         self.client = speech_v1.SpeechClient()
         
     def makeConfig(self, sample_rate):
@@ -97,7 +99,7 @@ class VoiceInput:
             requests = (types.StreamingRecognizeRequest(audio_content=content) for content in audio_generator)
             responses = self.client.streaming_recognize(streaming_config, requests)
             
-            logging.info("started speech detection")
+            logging.info("started speech detection. say exit or ende to stop.")
             result = transcribe_speech(responses)
             logging.info("finished speech detection")
 
@@ -178,10 +180,13 @@ def transcribe_speech(responses):
             finalResult += transcript
             # Exit recognition if any of the transcribed phrases could be
             # one of our keywords.
-            if re.search(r'\b(exit|quit)\b', transcript, re.I):
-                print('Exiting..')
-                break
+            
 
             num_chars_printed = 0
+        
+        if re.search(r'\b(exit|ende)\b', transcript, re.I):
+            print('Exiting..')
+            finalResult += transcript
+            break
 
     return finalResult

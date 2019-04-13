@@ -26,6 +26,7 @@ def run(config):
             language = keyInput.read()
 
             state.consumeAction(Action.SET_LANGUAGE, language = language)
+            
         elif state.status == State.FETCH_QUESTION:
             try:
                  # fetch question from database
@@ -35,16 +36,19 @@ def run(config):
                 state.consumeAction(Action.SET_QUESTION, question = question)
             except:
                 state.consumeAction(Action.ERROR, error = "Could not fetch question")
+
         elif state.status == State.ASKING_QUESTION:
             logging.info("asking question: " + str(state.question))
-
             state.consumeAction(Action.DONE)
+
         elif state.status == State.LISTENING:
             # listening for voice input
-            print(config)
-            voiceInput = VoiceInput(state.language, config["SUPPORTED_LANGUAGES"])
-            answer = voiceInput.listenToMic()
-            state.consumeAction(Action.SEND_ANSWER, answer = answer)
+            try:
+                voiceInput = VoiceInput(state.language, config["SUPPORTED_LANGUAGES"])
+                answer = voiceInput.listenToMic()
+                state.consumeAction(Action.SEND_ANSWER, answer = answer)
+            except Exception as error:
+                state.consumeAction(Action.ERROR, error = str(error))
             
         elif state.status == State.SENDING:
             logging.info("answer: " + str(state.answer))
