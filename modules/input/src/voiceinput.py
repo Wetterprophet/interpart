@@ -131,7 +131,7 @@ class VoiceInput:
         return output.alternatives[0]
 
 def toAscii(string):
-    return str(string.encode('ascii', 'backslashreplace'))
+    return str(string.encode('ascii', 'replace'))
 
 def transcribe_speech(responses):
     """Iterates through server responses and prints them.
@@ -178,7 +178,7 @@ def transcribe_speech(responses):
             num_chars_printed = len(transcript)
 
         else:
-            print(transcript + overwrite_chars)
+            print(toAscii(transcript + overwrite_chars))
             finalResult += transcript
             # Exit recognition if any of the transcribed phrases could be
             # one of our keywords.
@@ -186,7 +186,7 @@ def transcribe_speech(responses):
 
             num_chars_printed = 0
         
-        if re.search(r'\b(exit|ende)\b', transcript, re.I):
+        if re.search(r'\b(exit|ende|fin)\b', transcript, re.I):
             print('Exiting..')
             finalResult += transcript
             break
