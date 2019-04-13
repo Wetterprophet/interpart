@@ -130,6 +130,8 @@ class VoiceInput:
         logging.info("stopped speech detection")
         return output.alternatives[0]
 
+def toAscii(string):
+    return str(string.encode('ascii', 'backslashreplace'))
 
 def transcribe_speech(responses):
     """Iterates through server responses and prints them.
@@ -170,7 +172,7 @@ def transcribe_speech(responses):
         overwrite_chars = ' ' * (num_chars_printed - len(transcript))
 
         if not result.is_final:
-            sys.stdout.write(transcript + overwrite_chars + '\r')
+            sys.stdout.write(toAscii(transcript + overwrite_chars) + '\r')
             sys.stdout.flush()
 
             num_chars_printed = len(transcript)

@@ -14,7 +14,7 @@ Speech and Keyboard Input Module for installation
 * load virtualenvironment: `source .venv/bin/activate`
 * install portaudio: `brew install portaudio`
 * install dependencies: `pip install -r requirements.txt`
-* if there is a problem installing pyaudio install it with: `pip install --global-option='build_ext' --global-option='-I/usr/local/include' --global-option='-L/usr/local/lib' pyaudio`
+    * if there is a problem installing pyaudio install it with: `pip install --global-option='build_ext' --global-option='-I/usr/local/include' --global-option='-L/usr/local/lib' pyaudio`
 
 ## Run Script
 
