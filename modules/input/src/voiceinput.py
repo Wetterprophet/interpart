@@ -6,6 +6,7 @@ import pyaudio
 import sys
 import re
 from six.moves import queue
+from langcodes import best_match
 
 class MicrophoneStream(object):
     """Opens a recording stream as a generator yielding the audio chunks."""
@@ -73,15 +74,15 @@ class MicrophoneStream(object):
 
 class VoiceInput:
 
-    def __init__(self, language):
-        logging.info("created speech input for language: " + language)
-        self.language = language
+    def __init__(self, language, supported_languages):
+        self.language = best_match(language, supported_languages)[0]
+        logging.info("created speech input for language: " + self.language)
         self.client = speech_v1.SpeechClient()
         
     def makeConfig(self, sample_rate):
         encoding = enums.RecognitionConfig.AudioEncoding.LINEAR16
         sample_rate_hertz = sample_rate
-        language_code = 'en-US'
+        language_code = self.language
 
         return {'encoding': encoding, 'sample_rate_hertz': sample_rate_hertz, 'language_code': language_code}
 

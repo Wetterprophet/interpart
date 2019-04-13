@@ -1,5 +1,6 @@
 import random
 import logging
+import json
 
 from .keyboardinput import KeyGrabber 
 from .voiceinput import VoiceInput 
@@ -10,11 +11,12 @@ logging.basicConfig(level=logging.INFO)
 
 running = True
 
-def run():
+def run(config):
     global running
+
     #initialize
     logging.info("started script")
-    state = StateMachine()
+    state = StateMachine(State.WAITING_FOR_KEY)
     restClient = RestClient("http://localhost:3030")
 
     while running:
@@ -39,12 +41,20 @@ def run():
             state.consumeAction(Action.DONE)
         elif state.status == State.LISTENING:
             # listening for voice input
-            voiceInput = VoiceInput(state.language)
+            print(config)
+            voiceInput = VoiceInput(state.language, config["SUPPORTED_LANGUAGES"])
             answer = voiceInput.listenToMic()
             state.consumeAction(Action.SEND_ANSWER, answer = answer)
             
         elif state.status == State.SENDING:
             logging.info("answer: " + str(state.answer))
+            try:
+                translations = restClient.postAnswer(state.answer, state.language)
+                print(json.dumps(translations, indent=4))
+                state.consumeAction(Action.RECEIVED_TRANSLATION, answer = answer)
+            except Exception as error:
+                state.consumeAction(Action.ERROR, error = str(error))
+        elif state.status == State.OUTPUT:
             stop()
 
     logging.info("stopped loop")

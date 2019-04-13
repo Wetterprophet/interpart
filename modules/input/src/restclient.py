@@ -1,4 +1,5 @@
 import requests
+import json
 
 class RestClient:
 
@@ -11,5 +12,11 @@ class RestClient:
         questions = response.json()["data"]
         return questions
 
-    def sendAnswer(self, answer):
-        x = None
+    def postAnswer(self, answer, language):
+        url = self.apiAdress + "/submissions/add"
+        payload = {
+            "text" : answer,
+            "language" : language
+        }
+        response = requests.post(url, json=payload)
+        return response.json()

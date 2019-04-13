@@ -14,17 +14,18 @@ class Action(Enum):
     SET_QUESTION = auto(),
     DONE = auto(),
     SEND_ANSWER = auto(),
+    RECEIVED_TRANSLATION = auto(),
     RESET = auto(),
     ERROR = auto()
 
 class StateMachine:
-    def __init__(self):
+    def __init__(self, initialState = State.WAITING_FOR_KEY):
+        self.initialState = initialState
         self.reset()
 
-
     def reset(self):
-        self.status = State.LISTENING
-        self.language = "de"
+        self.status = self.initialState
+        self.language = None
         self.question = None
         self.answer = None
 
@@ -51,8 +52,8 @@ class StateMachine:
             if action == Action.SEND_ANSWER:
                 self.answer = args.get("answer")
                 self.status = State.SENDING
-        elif self.stats == State.SENDING:
-            if action == Action.DONE:
+        elif self.status == State.SENDING:
+            if action == Action.RECEIVED_TRANSLATION:
                 self.status = State.OUTPUT
         elif self.status == State.OUTPUT:
             if action == Action.DONE:
