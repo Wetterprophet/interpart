@@ -1,4 +1,5 @@
 from enum import Enum, auto
+import logging
 
 class State(Enum):
     WAITING_FOR_KEY = auto(),
@@ -13,7 +14,8 @@ class Action(Enum):
     SET_QUESTION = auto(),
     DONE = auto(),
     SEND_ANSWER = auto(),
-    RESET = auto()
+    RESET = auto(),
+    ERROR = auto()
 
 class StateMachine:
     def __init__(self):
@@ -28,6 +30,10 @@ class StateMachine:
 
     def consumeAction(self, action, **args):
         if action == Action.RESET:
+            self.reset()
+
+        if action == Action.ERROR:
+            logging.error(args.get("error"))
             self.reset()
 
         if self.status == State.WAITING_FOR_KEY:

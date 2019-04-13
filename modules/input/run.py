@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 
 running = True
 
-def main():
+def run():
     global running
     #initialize
     logging.info("started script")
@@ -25,14 +25,14 @@ def main():
 
             state.consumeAction(Action.SET_LANGUAGE, language = language)
         elif state.status == State.FETCH_QUESTION:
-
-            # fetch question from database
-            questions = restClient.getQuestions(state.language)
-
-            # pick random questions
-            question = questions[random.randint(0, len(questions) - 1)]
-
-            state.consumeAction(Action.SET_QUESTION, question = question)
+            try:
+                 # fetch question from database
+                questions = restClient.getQuestions(state.language)
+                # pick random questions
+                question = questions[random.randint(0, len(questions) - 1)]
+                state.consumeAction(Action.SET_QUESTION, question = question)
+            except:
+                state.consumeAction(Action.ERROR, error = "Could not fetch question")
         elif state.status == State.ASKING_QUESTION:
             logging.info("asking question: " + str(state.question))
 
@@ -42,6 +42,7 @@ def main():
             voiceInput = VoiceInput(state.language)
             answer = voiceInput.listen("data/test.wav")
             state.consumeAction(Action.SEND_ANSWER, answer = answer)
+            
         elif state.status == State.SENDING:
             logging.info("answer: " + str(state.answer))
             stop()
@@ -53,4 +54,4 @@ def stop():
     running = False
 
 if __name__ == '__main__':
-    main()
+    run()

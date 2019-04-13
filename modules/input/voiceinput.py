@@ -11,21 +11,32 @@ class VoiceInput:
         self.language = language
         self.client = speech_v1.SpeechClient()
 
+        
+        
+    def makeConfig(self):
         encoding = enums.RecognitionConfig.AudioEncoding.LINEAR16
         sample_rate_hertz = 44100
         language_code = 'en-US'
 
-        self.config = {'encoding': encoding, 'sample_rate_hertz': sample_rate_hertz, 'language_code': language_code}
-        
+        return {'encoding': encoding, 'sample_rate_hertz': sample_rate_hertz, 'language_code': language_code}
 
     def listen(self, stream_file):
 
         with io.open(stream_file, 'rb') as audio_file:
             content = audio_file.read()
 
-        audio = speech_v1.types.RecognitionAudio(content=content)
-        logging.info("voice recognition started")
-        response = self.client.recognize(config=self.config, audio=audio)
-        logging.info("voice recognition stopped")
-        result = response.results[0]
-        return result.alternatives[0].transcript
+        stream = [content]
+        chunks = (types.StreamingRecognizeRequest(audio_content=chunk) for chunk in stream)
+        
+        streaming_config = types.StreamingRecognitionConfig(config=self.makeConfig())
+
+        responses = self.client.streaming_recognize(streaming_config, chunks)
+
+        # pick output text
+        output = None
+        for response in responses:
+            for result in response.results:
+                output = result
+                print(result)
+
+        return output.alternatives[0]

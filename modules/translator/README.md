@@ -18,3 +18,6 @@ Translates a string into multiple different languages using the google translate
 
 * run `interpart-translate --help` to see ussage information
 
+## Todo
+
+* fragen in auch in db.json speichern
