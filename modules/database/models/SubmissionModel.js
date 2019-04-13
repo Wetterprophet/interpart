@@ -1,14 +1,15 @@
 /*
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-29 19:20:29 
- * @Last Modified by:   Lutz Reiter - http://lu-re.de 
- * @Last Modified time: 2019-03-29 19:20:29 
+ * @Last Modified by: Lutz Reiter - http://lu-re.de
+ * @Last Modified time: 2019-04-13 18:21:57
  */
 
- const _ = require('lodash')
+const _ = require('lodash')
 const uuidv1 = require('uuid/v1')
 
 const { translate } = require('../utils')
+const config = require('../config')
 
 class SubmissionModel {
     
@@ -25,7 +26,7 @@ class SubmissionModel {
     }
 
     async translate() {
-        this.data.translations = await translate(this.data.text, this.data.language)
+        this.data.translations = await translate(this.data.text, this.data.language, config.languages)
     }
 
     getLanguage(lang) {

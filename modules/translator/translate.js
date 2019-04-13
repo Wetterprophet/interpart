@@ -4,7 +4,7 @@
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-27 18:55:40 
  * @Last Modified by: Lutz Reiter - http://lu-re.de
- * @Last Modified time: 2019-03-28 17:27:07
+ * @Last Modified time: 2019-04-13 18:16:26
  */
 
 const _ = require('lodash')
@@ -32,7 +32,7 @@ const optionDefinitions = [
     {
         name: 'to',
         type: String, 
-        defaultValue: "de,en,es,it,ar,urd,fr,ka",
+        defaultValue: "de,en,es,it",
         typeLabel: 'string',
         description: 'Languages to translate to (comma seperated)'
     },

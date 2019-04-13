@@ -2,7 +2,7 @@
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-29 19:20:49 
  * @Last Modified by: Lutz Reiter - http://lu-re.de
- * @Last Modified time: 2019-04-11 20:31:57
+ * @Last Modified time: 2019-04-13 18:18:46
  */
 
 const _ = require('lodash')
@@ -27,10 +27,10 @@ function stripslashes(str) {
     return str;
 }
 
-async function translate(text, language) {
+async function translate(text, language, translateTo = ["en","de"]) {
     text = addslashes(text)
     language = addslashes(language)
-    let result = await asyncExec(`interop-translate --from "${language}" "${text}"`)
+    let result = await asyncExec(`interop-translate --from "${language}" --to ${translateTo.join()} "${text}"`)
     let output = JSON.parse(result.stdout)
     if (_.has(output,'errors')) {
         throw output.errors
