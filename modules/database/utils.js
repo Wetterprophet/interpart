@@ -30,7 +30,7 @@ function stripslashes(str) {
 async function translate(text, language, translateTo = ["en","de"]) {
     text = addslashes(text)
     language = addslashes(language)
-    let result = await asyncExec(`interop-translate --from "${language}" --to ${translateTo.join()} "${text}"`)
+    let result = await asyncExec(`interpart-translate --from "${language}" --to ${translateTo.join()} "${text}"`)
     let output = JSON.parse(result.stdout)
     if (_.has(output,'errors')) {
         throw output.errors

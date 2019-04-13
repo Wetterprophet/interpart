@@ -26,8 +26,8 @@ def run(config):
             language = keyInput.read()
 
             state.consumeAction(Action.SET_LANGUAGE, language = language)
-
         elif state.status == State.FETCH_QUESTION:
+            logging.info("fetching question...")
             try:
                  # fetch question from database
                 questions = restClient.getQuestions(state.language)

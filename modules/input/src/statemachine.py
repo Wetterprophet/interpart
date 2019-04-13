@@ -1,21 +1,21 @@
-from enum import Enum, auto
+from aenum import AutoNumberEnum
 import logging
 
-class State(Enum):
-    WAITING_FOR_KEY = auto(),
-    FETCH_QUESTION = auto(),
-    ASKING_QUESTION = auto(),
-    LISTENING = auto(),
-    SENDING = auto(),
-    OUTPUT = auto()
+class State(AutoNumberEnum):
+    WAITING_FOR_KEY = (),
+    FETCH_QUESTION = (),
+    ASKING_QUESTION = (),
+    LISTENING = (),
+    SENDING = (),
+    OUTPUT = ()
 
-class Action(Enum):
-    SET_LANGUAGE = auto(),
-    SET_QUESTION = auto(),
-    DONE = auto(),
-    SEND_ANSWER = auto(),
-    RESET = auto(),
-    ERROR = auto()
+class Action(AutoNumberEnum):
+    SET_LANGUAGE = (),
+    SET_QUESTION = (),
+    DONE = (),
+    SEND_ANSWER = (),
+    RESET = (),
+    ERROR = ()
 
 class StateMachine:
     def __init__(self, initialState = State.WAITING_FOR_KEY):
