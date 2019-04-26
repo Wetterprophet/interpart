@@ -14,7 +14,12 @@ KEY_MAP = {
 class KeyGrabber: 
 
     def read(self):
-        return wrapper(listenForKey)
+        key = wrapper(listenForKey)
+
+        if str(key) in KEY_MAP:
+            return KEY_MAP[str(key)]
+        else:
+            return None
         
 def listenForKey(stdscr):
     # turn of echo
@@ -36,10 +41,5 @@ def listenForKey(stdscr):
     curses.echo()
     curses.endwin()
 
-    return mapKeyToLanguage(c)
-
-def mapKeyToLanguage(key):
-    if str(key) in KEY_MAP:
-        return KEY_MAP[str(key)]
-    else:
-        return None
+    return c
+    

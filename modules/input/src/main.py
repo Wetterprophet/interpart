@@ -45,7 +45,7 @@ def run(config):
             # listening for voice input
             try:
                 voiceInput = VoiceInput(state.language, config["SUPPORTED_LANGUAGES"])
-                answer = voiceInput.listenToMic()
+                answer = voiceInput.listenToMic(config["RECORDING_DURATION"])
                 #answer = voiceInput.listenToFile("data/georgisch.wav")
                 state.consumeAction(Action.SEND_ANSWER, answer = answer)
             except Exception as error:
