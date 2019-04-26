@@ -1,6 +1,7 @@
 import random
 import logging
 import json
+import os
 
 from .keyboardinput import KeyGrabber 
 from .voiceinput import VoiceInput 
@@ -39,6 +40,7 @@ def run(config):
 
         elif state.status == State.ASKING_QUESTION:
             logging.info("asking question: " + str(state.question))
+            speakText(state.question["text"], state.language)
             state.consumeAction(Action.DONE)
 
         elif state.status == State.LISTENING:
@@ -55,12 +57,12 @@ def run(config):
             logging.info("answer: " + str(state.answer))
             try:
                 translations = restClient.postAnswer(state.answer, state.language)
-                print("answer posted")
                 # print(json.dumps(translations, indent=4))
                 state.consumeAction(Action.DONE)
             except Exception as error:
                 state.consumeAction(Action.ERROR, error = str(error))
         elif state.status == State.OUTPUT:
+            speakText("You responded: " + state.answer, state.language)
             state.consumeAction(Action.DONE)
             #stop()
 
@@ -69,3 +71,6 @@ def run(config):
 def stop():
     global running
     running = False
+
+def speakText(text, language):
+    os.system("interpart-speak \"{}\" --lang {}".format(text, language))
