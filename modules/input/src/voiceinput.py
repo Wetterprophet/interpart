@@ -5,6 +5,8 @@ import io
 import pyaudio
 import sys
 import re
+import threading
+import time 
 from six.moves import queue
 from langcodes import best_match
 
@@ -47,6 +49,7 @@ class MicrophoneStream(object):
 
     def _fill_buffer(self, in_data, frame_count, time_info, status_flags):
         """Continuously collect data from the audio stream, into the buffer."""
+        #print(".", end ="")
         self._buff.put(in_data)
         return None, pyaudio.paContinue
 
@@ -99,8 +102,14 @@ class VoiceInput:
             requests = (types.StreamingRecognizeRequest(audio_content=content) for content in audio_generator)
             responses = self.client.streaming_recognize(streaming_config, requests)
             
-            logging.info("started speech detection. say exit or ende to stop.")
-            result = transcribe_speech(responses)
+            SPEECH_DURATION = 8
+            logging.info("started speech detection for {} seconds.".format(SPEECH_DURATION))
+            thread = TranscribeThread(responses, False)
+            thread.start()
+            # record for 5 seconds
+            time.sleep(SPEECH_DURATION)
+            thread.stop()
+            result = thread.result
             logging.info("finished speech detection")
 
             return result
@@ -115,80 +124,79 @@ class VoiceInput:
         stream = [content]
         chunks = (types.StreamingRecognizeRequest(audio_content=chunk) for chunk in stream)
         
-        streaming_config = types.StreamingRecognitionConfig(config=self.makeConfig(FILE_SAMPLE_RATE))
+        streaming_config = types.StreamingRecognitionConfig(config=self.makeConfig(FILE_SAMPLE_RATE), interim_results=True)
 
         responses = self.client.streaming_recognize(streaming_config, chunks)
 
         logging.info("started speech detection")
         # pick output text
-        output = None
-        for response in responses:
-            for result in response.results:
-                output = result
-                print(result)
-
+        # output = None
+        # for response in responses:
+        #     for result in response.results:
+        #         output = result
+        #         print(result)
+        result = transcribe_speech(responses)
         logging.info("stopped speech detection")
-        return output.alternatives[0]
+
+        return result
+
+class TranscribeThread (threading.Thread):
+    def __init__(self, responses, asciiOutput=True):
+        threading.Thread.__init__(self)
+        self.responses = responses
+        self.asciiOutput = asciiOutput
+
+        self.result = ""
+
+    def run(self):
+        self.running = True
+
+        num_chars_printed = 0
+        for response in self.responses:
+            if not response.results:
+                continue
+
+            # The `results` list is consecutive. For streaming, we only care about
+            # the first result being considered, since once it's `is_final`, it
+            # moves on to considering the next utterance.
+            result = response.results[0]
+            if not result.alternatives:
+                continue
+
+            # Display the transcription of the top alternative.
+            transcript = result.alternatives[0].transcript
+
+            # Display interim results, but with a carriage return at the end of the
+            # line, so subsequent lines will overwrite them.
+            #
+            # If the previous result was longer than this one, we need to print
+            # some extra spaces to overwrite the previous result
+            overwrite_chars = ' ' * (num_chars_printed - len(transcript))
+
+            if not result.is_final:
+                if (self.asciiOutput):
+                    sys.stdout.write(toAscii(transcript + overwrite_chars) + '\r')
+                else:
+                    sys.stdout.write(transcript + overwrite_chars + '\r')
+                sys.stdout.flush()
+
+                num_chars_printed = len(transcript)
+
+            else:
+                print(transcript + overwrite_chars)
+                self.result += transcript
+                # Exit recognition if any of the transcribed phrases could be
+                # one of our keywords.
+                
+
+                num_chars_printed = 0
+            
+            if not self.running:
+                break
+
+    def stop(self):
+        self.running = False
+    
 
 def toAscii(string):
     return str(string.encode('ascii', 'backslashreplace'))
-
-def transcribe_speech(responses):
-    """Iterates through server responses and prints them.
-
-    The responses passed is a generator that will block until a response
-    is provided by the server.
-
-    Each response may contain multiple results, and each result may contain
-    multiple alternatives; for details, see https://goo.gl/tjCPAU.  Here we
-    print only the transcription for the top alternative of the top result.
-
-    In this case, responses are provided for interim results as well. If the
-    response is an interim one, print a line feed at the end of it, to allow
-    the next result to overwrite it, until the response is a final one. For the
-    final one, print a newline to preserve the finalized transcription.
-    """
-    finalResult = ""
-    num_chars_printed = 0
-    for response in responses:
-        if not response.results:
-            continue
-
-        # The `results` list is consecutive. For streaming, we only care about
-        # the first result being considered, since once it's `is_final`, it
-        # moves on to considering the next utterance.
-        result = response.results[0]
-        if not result.alternatives:
-            continue
-
-        # Display the transcription of the top alternative.
-        transcript = result.alternatives[0].transcript
-
-        # Display interim results, but with a carriage return at the end of the
-        # line, so subsequent lines will overwrite them.
-        #
-        # If the previous result was longer than this one, we need to print
-        # some extra spaces to overwrite the previous result
-        overwrite_chars = ' ' * (num_chars_printed - len(transcript))
-
-        if not result.is_final:
-            sys.stdout.write(toAscii(transcript + overwrite_chars) + '\r')
-            sys.stdout.flush()
-
-            num_chars_printed = len(transcript)
-
-        else:
-            print(transcript + overwrite_chars)
-            finalResult += transcript
-            # Exit recognition if any of the transcribed phrases could be
-            # one of our keywords.
-            
-
-            num_chars_printed = 0
-        
-        if re.search(r'\b(exit|ende)\b', transcript, re.I):
-            print('Exiting..')
-            finalResult += transcript
-            break
-
-    return finalResult

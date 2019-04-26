@@ -46,6 +46,7 @@ def run(config):
             try:
                 voiceInput = VoiceInput(state.language, config["SUPPORTED_LANGUAGES"])
                 answer = voiceInput.listenToMic()
+                #answer = voiceInput.listenToFile("data/georgisch.wav")
                 state.consumeAction(Action.SEND_ANSWER, answer = answer)
             except Exception as error:
                 state.consumeAction(Action.ERROR, error = str(error))
@@ -54,12 +55,14 @@ def run(config):
             logging.info("answer: " + str(state.answer))
             try:
                 translations = restClient.postAnswer(state.answer, state.language)
-                print(json.dumps(translations, indent=4))
+                print("answer posted")
+                # print(json.dumps(translations, indent=4))
                 state.consumeAction(Action.DONE)
             except Exception as error:
                 state.consumeAction(Action.ERROR, error = str(error))
         elif state.status == State.OUTPUT:
-            stop()
+            state.consumeAction(Action.DONE)
+            #stop()
 
     logging.info("stopped loop")
 
