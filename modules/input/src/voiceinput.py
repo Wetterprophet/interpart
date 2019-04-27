@@ -91,7 +91,7 @@ class VoiceInput:
 
         return {'encoding': encoding, 'sample_rate_hertz': sample_rate_hertz, 'language_code': language_code}
 
-    def listenToMic(self):
+    def listenToMic(self, record_duration):
         MIC_SAMPLE_RATE = 16000
         MIC_CHUNK_SIZE = int(MIC_SAMPLE_RATE / 10)  # 100ms
 
@@ -102,12 +102,11 @@ class VoiceInput:
             requests = (types.StreamingRecognizeRequest(audio_content=content) for content in audio_generator)
             responses = self.client.streaming_recognize(streaming_config, requests)
             
-            SPEECH_DURATION = 8
-            logging.info("started speech detection for {} seconds.".format(SPEECH_DURATION))
+            logging.info("started speech detection for {} seconds.".format(record_duration))
             thread = TranscribeThread(responses, False)
             thread.start()
             # record for 5 seconds
-            time.sleep(SPEECH_DURATION)
+            time.sleep(record_duration)
             thread.stop()
             result = thread.result
             logging.info("finished speech detection")
@@ -192,6 +191,7 @@ class TranscribeThread (threading.Thread):
                 num_chars_printed = 0
             
             if not self.running:
+                self.result += transcript
                 break
 
     def stop(self):

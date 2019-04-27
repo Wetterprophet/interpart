@@ -7,14 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "interpart-translate": "./translate.js"
+    "interpart-translate": "./translate.js",
+    "interpart-speak": "./speak.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/text-to-speech": "^0.5.1",
     "@google-cloud/translate": "^2.1.4",
     "command-line-args": "^5.1.0",
     "command-line-usage": "^5.0.5",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "speaker": "^0.4.1",
+    "wav": "^1.0.2"
   }
 }
