@@ -191,6 +191,7 @@ class TranscribeThread (threading.Thread):
                 num_chars_printed = 0
             
             if not self.running:
+                self.result += transcript
                 break
 
     def stop(self):

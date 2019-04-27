@@ -2,6 +2,7 @@ import random
 import logging
 import json
 import os
+import time
 
 from .keyboardinput import KeyGrabber 
 from .voiceinput import VoiceInput 
@@ -36,7 +37,7 @@ def run(config):
                 question = questions[random.randint(0, len(questions) - 1)]
                 state.consumeAction(Action.SET_QUESTION, question = question)
             except:
-                state.consumeAction(Action.ERROR, error = "Could not fetch question")
+                state.consumeAction(Action.THROW_ERROR, error = "Could not fetch question")
 
         elif state.status == State.ASKING_QUESTION:
             logging.info("asking question: " + str(state.question))
@@ -51,7 +52,7 @@ def run(config):
                 #answer = voiceInput.listenToFile("data/georgisch.wav")
                 state.consumeAction(Action.SEND_ANSWER, answer = answer)
             except Exception as error:
-                state.consumeAction(Action.ERROR, error = str(error))
+                state.consumeAction(Action.THROW_ERROR, error = str(error))
             
         elif state.status == State.SENDING:
             logging.info("answer: " + str(state.answer))
@@ -60,11 +61,16 @@ def run(config):
                 # print(json.dumps(translations, indent=4))
                 state.consumeAction(Action.DONE)
             except Exception as error:
-                state.consumeAction(Action.ERROR, error = str(error))
+                state.consumeAction(Action.THROW_ERROR, error = str(error))
         elif state.status == State.OUTPUT:
             speakText("You responded: " + state.answer, state.language)
             state.consumeAction(Action.DONE)
             #stop()
+
+        elif state.status == State.ERROR:
+            logging.error(state.error)
+            time.sleep(3.0)
+            state.consumeAction(Action.TIMEOUT)
 
     logging.info("stopped loop")
 

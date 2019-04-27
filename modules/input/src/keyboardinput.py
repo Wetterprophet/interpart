@@ -8,7 +8,8 @@ KEY_MAP = {
     "51" : "es",
     "52" : "it",
     "53" : "ar",
-    "54" : "ro"
+    "54" : "ro",
+    "55" : "fr"
 }
 
 class KeyGrabber: 
