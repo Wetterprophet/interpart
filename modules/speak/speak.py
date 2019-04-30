@@ -1,10 +1,14 @@
-"""Synthesizes speech from the input string of text or ssml.
+#!/usr/bin/env python
 
-Note: ssml must be well-formed according to:
-    https://www.w3.org/TR/speech-synthesis/
-"""
 from google.cloud import texttospeech
 import pyaudio
+import argparse
+
+parser = argparse.ArgumentParser(description='Uses google text to speech api to speak out text')
+parser.add_argument('text', help='text to speak')
+parser.add_argument('-l', '--lang', default="en", help='the language the text should be spoken')
+
+args = parser.parse_args()
 
 SAMPLE_RATE = 44100
 
@@ -12,12 +16,11 @@ SAMPLE_RATE = 44100
 client = texttospeech.TextToSpeechClient()
 
 # Set the text input to be synthesized
-synthesis_input = texttospeech.types.SynthesisInput(text="Hello, World!")
+synthesis_input = texttospeech.types.SynthesisInput(text=args.text)
 
-# Build the voice request, select the language code ("en-US") and the ssml
-# voice gender ("neutral")
+# Build the voice request
 voice = texttospeech.types.VoiceSelectionParams(
-    language_code='en-US',
+    language_code=args.lang,
     ssml_gender=texttospeech.enums.SsmlVoiceGender.NEUTRAL)
 
 # Select the type of audio file you want returned
@@ -26,22 +29,16 @@ audio_config = texttospeech.types.AudioConfig(
     sample_rate_hertz=SAMPLE_RATE
     )
 
-# Perform the text-to-speech request on the text input with the selected
-# voice parameters and audio file type
+print("requesting sound stream")
 response = client.synthesize_speech(synthesis_input, voice, audio_config)
 
-print(response)
-
+print("start playback")
 pya = pyaudio.PyAudio()
-
 stream = pya.open(format=pya.get_format_from_width(width=2), channels=1, rate=SAMPLE_RATE, output=True)
-stream.write(response.audio_content)
+## remove the first 44 bytes from stream
+stream.write(response.audio_content[44:])
 stream.stop_stream()
 stream.close()
 pya.terminate()
 
-# The response's audio_content is binary.
-# with open('output.mp3', 'wb') as out:
-#     # Write the response to the output file.
-#     out.write(response.audio_content)
-#     print('Audio content written to file "output.mp3"')
+print("playback stopped")

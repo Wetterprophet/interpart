@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "interpart-translate": "./translate.js",
-    "interpart-speak": "./speak.js"
+    "interpart-translate": "./translate.js"
   },
   "author": "",
   "license": "ISC",
