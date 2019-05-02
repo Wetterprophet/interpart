@@ -1,8 +1,8 @@
 import random
 import logging
 import json
-import os
 import time
+from subprocess import call
 
 from .keyboardinput import KeyGrabber 
 from .voiceinput import VoiceInput 
@@ -79,4 +79,4 @@ def stop():
     running = False
 
 def speakText(text, language):
-    os.system("interpart-speak \"{}\" --lang {}".format(text, language))
+    call('../speak/.venv/bin/python ../speak/speak.py \"{}\" --lang {}'.format(text,language), shell=True)
