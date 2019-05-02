@@ -3,11 +3,12 @@
 from google.cloud import texttospeech
 import pyaudio
 import argparse
+import os
 
 parser = argparse.ArgumentParser(description='Uses google text to speech api to speak out text')
 parser.add_argument('text', help='text to speak')
 parser.add_argument('-l', '--lang', default="en", help='the language the text should be spoken')
-parser.add_argument('-d', '--decode', default=False, help='decode byte string')
+parser.add_argument('-d', '--decode', action='store_true', help='decodes input from utf8 byte string')
 
 args = parser.parse_args()
 
@@ -16,8 +17,13 @@ SAMPLE_RATE = 44100
 # Instantiates a client
 client = texttospeech.TextToSpeechClient()
 
+def decodeUtf8(string):
+    x = os.fsdecode(string)
+    return x.decode("utf8")
+
 # Set the text input to be synthesized
-text = args.text
+text = decodeUtf8(args.text) if args.decode else args.text
+print(text)
 
 synthesis_input = texttospeech.types.SynthesisInput(text=text)
 
