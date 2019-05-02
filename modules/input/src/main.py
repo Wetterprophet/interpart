@@ -1,13 +1,14 @@
 import random
 import logging
 import json
-import os
 import time
+from subprocess import call
 
 from .keyboardinput import KeyGrabber 
 from .voiceinput import VoiceInput 
 from .statemachine import StateMachine, Action, State
 from .restclient import RestClient
+from .audio.speak import speak
 
 logging.basicConfig(level=logging.INFO)
 
@@ -63,9 +64,11 @@ def run(config):
             except Exception as error:
                 state.consumeAction(Action.THROW_ERROR, error = str(error))
         elif state.status == State.OUTPUT:
-            speakText("You responded: " + state.answer, state.language)
-            state.consumeAction(Action.DONE)
-            #stop()
+            if not state.answer:
+                state.consumeAction(Action.THROW_ERROR, error = "Answer is empty")
+            else:
+                speakText(state.answer, state.language)
+                state.consumeAction(Action.DONE)
 
         elif state.status == State.ERROR:
             logging.error(state.error)
@@ -79,4 +82,8 @@ def stop():
     running = False
 
 def speakText(text, language):
-    os.system("interpart-speak \"{}\" --lang {}".format(text, language))
+    speak(text, language)
+    # call('../speak/.venv/bin/python ../speak/speak.py \"{}\" --lang {}'.format(text, language), shell=True)
+
+def toAscii(string):
+    return str(string.encode('ascii', 'backslashreplace'))

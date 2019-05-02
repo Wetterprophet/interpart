@@ -19,4 +19,3 @@
 ## Usage
 
 * run `interpart-translate --help` to see ussage information
-* run `interpart-speak --help` to see ussage information

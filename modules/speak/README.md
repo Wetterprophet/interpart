@@ -1,10 +1,12 @@
-# Input Module
+# Speech Module
 
-Speech and Keyboard Input Module for installation
+** installing this tool is not needed **
+
+Speaks Sentences using googles text to speech api
 
 ## Prerequisites
 
-* enable speech-to-text feature in your google cloud api project: [https://console.developers.google.com/apis/api/speech.googleapis.com/]
+* enable text to speec feature in your google cloud api project
 * download json file of project and set your $GOOGLE_APPLICATION_CREDENTIALS to its path: osx: `export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"`
 
 ## Setup
@@ -12,22 +14,16 @@ Speech and Keyboard Input Module for installation
 * install virtualenv: `sudo pip install virtualenv`
 * create virtual envronment: `virtualenv -p python3 .venv`
 * load virtualenvironment: `source .venv/bin/activate`
-* install portaudio: `brew install portaudio`
-    * if linuxbrew is not installed: `sudo apt-get install linuxbrew-wrapper`
 * install dependencies: `pip install -r requirements.txt`
     * if there is a problem installing pyaudio install it with: `pip install --global-option='build_ext' --global-option='-I/usr/local/include' --global-option='-L/usr/local/lib' pyaudio`
-
-### Setup loacale on raspberry pi
-
-* run `dpkg-reconfigure locales` and set language to *en_US.UTF-8*
-    * if it doesnt work run these three lines before:
-    ```
-    export LANGUAGE=en_US.UTF-8
-    export LANG=en_US.UTF-8
-    export LC_ALL=en_US.UTF-8
-    ```
+* write alias in your ~/.bashrc file by adding line: `alias interpart-speak='~/<Path>/interpart/modules/speak/.venv/bin/python ~/<Path>/interpart/modules/speak/speak.py'`
 
 ## Run Script
 
 * load virtualenvironment: `source .venv/bin/activate`
 * run script with `python run.py`
+
+## Usage
+
+* run `interpart-speak --help` to see ussage information
+* adjust output volume with: `amixer set 'Master' 30%` or `pactl -- set-sink-volume 0 30%`
