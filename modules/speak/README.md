@@ -1,5 +1,7 @@
 # Speech Module
 
+** installing this tool is not needed **
+
 Speaks Sentences using googles text to speech api
 
 ## Prerequisites
