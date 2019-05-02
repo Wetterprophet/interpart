@@ -8,6 +8,7 @@ from .keyboardinput import KeyGrabber
 from .voiceinput import VoiceInput 
 from .statemachine import StateMachine, Action, State
 from .restclient import RestClient
+from .audio.speak import speak
 
 logging.basicConfig(level=logging.INFO)
 
@@ -81,7 +82,8 @@ def stop():
     running = False
 
 def speakText(text, language):
-    call('../speak/.venv/bin/python ../speak/speak.py \"{}\" --lang {}'.format(text, language), shell=True)
+    speak(text, language)
+    # call('../speak/.venv/bin/python ../speak/speak.py \"{}\" --lang {}'.format(text, language), shell=True)
 
 def toAscii(string):
     return str(string.encode('ascii', 'backslashreplace'))
