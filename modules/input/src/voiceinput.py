@@ -105,13 +105,17 @@ class VoiceInput:
             logging.info("started speech detection for {} seconds.".format(record_duration))
             thread = TranscribeThread(responses, False)
             thread.start()
-            # record for 5 seconds
-            time.sleep(record_duration)
+            
+            # record for x seconds
+            time.sleep(record_duration) 
             thread.stop()
-            result = thread.result
-            logging.info("finished speech detection")
 
-            return result
+        # wait for thread to end & read result
+        thread.join()
+        result = thread.result
+        logging.info("finished speech detection")
+
+        return result
         
 
     def listenToFile(self, stream_file):
@@ -140,18 +144,25 @@ class VoiceInput:
         return result
 
 class TranscribeThread (threading.Thread):
-    def __init__(self, responses, asciiOutput=True):
+    def __init__(self, responses, output=True):
         threading.Thread.__init__(self)
         self.responses = responses
-        self.asciiOutput = asciiOutput
+        self.output = output
 
         self.result = ""
 
     def run(self):
         self.running = True
 
+        output = self.output
+
         num_chars_printed = 0
         for response in self.responses:
+
+            if not output:
+                sys.stdout.write(".")
+                sys.stdout.flush()
+
             if not response.results:
                 continue
 
@@ -173,16 +184,14 @@ class TranscribeThread (threading.Thread):
             overwrite_chars = ' ' * (num_chars_printed - len(transcript))
 
             if not result.is_final:
-                if (self.asciiOutput):
-                    sys.stdout.write(toAscii(transcript + overwrite_chars) + '\r')
-                else:
+                if (output):
                     sys.stdout.write(transcript + overwrite_chars + '\r')
-                sys.stdout.flush()
-
+                    sys.stdout.flush()
                 num_chars_printed = len(transcript)
 
             else:
-                print(transcript + overwrite_chars)
+                if (output):
+                    print(transcript + overwrite_chars)
                 self.result += transcript
                 # Exit recognition if any of the transcribed phrases could be
                 # one of our keywords.
@@ -191,7 +200,7 @@ class TranscribeThread (threading.Thread):
                 num_chars_printed = 0
             
             if not self.running:
-                self.result += transcript
+                print("\r")
                 break
 
     def stop(self):

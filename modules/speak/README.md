@@ -24,3 +24,4 @@ Speaks Sentences using googles text to speech api
 ## Usage
 
 * run `interpart-speak --help` to see ussage information
+* adjust output volume with: `amixer set 'Master' 30%` or `pactl -- set-sink-volume 0 30%`

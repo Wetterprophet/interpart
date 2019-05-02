@@ -63,9 +63,11 @@ def run(config):
             except Exception as error:
                 state.consumeAction(Action.THROW_ERROR, error = str(error))
         elif state.status == State.OUTPUT:
-            speakText("You responded: " + state.answer, state.language)
-            state.consumeAction(Action.DONE)
-            #stop()
+            if not state.answer:
+                state.consumeAction(Action.THROW_ERROR, error = "Answer is empty")
+            else:
+                speakText(state.answer, state.language)
+                state.consumeAction(Action.DONE)
 
         elif state.status == State.ERROR:
             logging.error(state.error)
@@ -79,4 +81,8 @@ def stop():
     running = False
 
 def speakText(text, language):
+    print(text)
     call('../speak/.venv/bin/python ../speak/speak.py \"{}\" --lang {}'.format(text,language), shell=True)
+
+def toAscii(string):
+    return str(string.encode('ascii', 'backslashreplace'))

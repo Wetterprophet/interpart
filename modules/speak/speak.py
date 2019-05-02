@@ -7,6 +7,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Uses google text to speech api to speak out text')
 parser.add_argument('text', help='text to speak')
 parser.add_argument('-l', '--lang', default="en", help='the language the text should be spoken')
+parser.add_argument('-d', '--decode', default=False, help='decode byte string')
 
 args = parser.parse_args()
 
@@ -16,7 +17,9 @@ SAMPLE_RATE = 44100
 client = texttospeech.TextToSpeechClient()
 
 # Set the text input to be synthesized
-synthesis_input = texttospeech.types.SynthesisInput(text=args.text)
+text = args.text
+
+synthesis_input = texttospeech.types.SynthesisInput(text=text)
 
 # Build the voice request
 voice = texttospeech.types.VoiceSelectionParams(
