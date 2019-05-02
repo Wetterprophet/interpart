@@ -81,8 +81,7 @@ def stop():
     running = False
 
 def speakText(text, language):
-    print(text)
-    call('../speak/.venv/bin/python ../speak/speak.py \"{}\" --lang {}'.format(text,language), shell=True)
+    call('../speak/.venv/bin/python ../speak/speak.py \"{}\" --lang {}'.format(text, language), shell=True)
 
 def toAscii(string):
     return str(string.encode('ascii', 'backslashreplace'))
