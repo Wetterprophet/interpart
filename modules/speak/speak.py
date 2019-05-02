@@ -17,13 +17,12 @@ SAMPLE_RATE = 44100
 # Instantiates a client
 client = texttospeech.TextToSpeechClient()
 
+# not used
 def decodeUtf8(string):
-    x = os.fsdecode(string)
-    return x.decode("utf8")
+    return string
 
 # Set the text input to be synthesized
 text = decodeUtf8(args.text) if args.decode else args.text
-print(text)
 
 synthesis_input = texttospeech.types.SynthesisInput(text=text)
 
@@ -38,7 +37,7 @@ audio_config = texttospeech.types.AudioConfig(
     sample_rate_hertz=SAMPLE_RATE
     )
 
-print("requesting sound stream")
+print("requesting sound stream for: {}".format(text))
 response = client.synthesize_speech(synthesis_input, voice, audio_config)
 
 print("start playback")

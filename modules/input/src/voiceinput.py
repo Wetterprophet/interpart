@@ -103,7 +103,7 @@ class VoiceInput:
             responses = self.client.streaming_recognize(streaming_config, requests)
             
             logging.info("started speech detection for {} seconds.".format(record_duration))
-            thread = TranscribeThread(responses, False)
+            thread = TranscribeThread(responses, True)
             thread.start()
             
             # record for x seconds
