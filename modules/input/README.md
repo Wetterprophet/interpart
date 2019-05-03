@@ -26,7 +26,7 @@ Speech and Keyboard Input Module for installation
     export LC_ALL=en_US.UTF-8
     ```
 * run `source ~/.bash_profile`
-* run `dpkg-reconfigure locales` and set language to *en_US.UTF-8*
+* run `dpkg-reconfigure locales` and generate lang files and set language to *en_US.UTF-8*
     
 
 ## Run Script

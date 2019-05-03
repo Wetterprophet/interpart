@@ -20,3 +20,7 @@ Holds question ands submission, provides translation service.
 * POST /submission/add
 * GET /questions/list?\[lang=x\]
 * POST /questions/translate
+
+## Delete Submissions
+
+to remove all previous submissions, just delete the database file with `rm data/db.json`

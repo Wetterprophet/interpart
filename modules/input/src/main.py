@@ -27,7 +27,7 @@ def run(config):
         led = Leds()
     except:
         led = LedsDummy()
-        
+
     led.update(Leds.rgb_off())
 
     while running:
@@ -71,7 +71,7 @@ def run(config):
             logging.info("answer: " + str(state.answer))
             try:
                 translations = restClient.postAnswer(state.answer, state.language)
-                # print(json.dumps(translations, indent=4))
+                logging.info("answer got posted to server. ")
                 state.consumeAction(Action.DONE)
             except Exception as error:
                 state.consumeAction(Action.THROW_ERROR, error = str(error))
