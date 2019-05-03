@@ -17,15 +17,17 @@ Speech and Keyboard Input Module for installation
 * install dependencies: `pip install -r requirements.txt`
     * if there is a problem installing pyaudio install it with: `pip install --global-option='build_ext' --global-option='-I/usr/local/include' --global-option='-L/usr/local/lib' pyaudio`
 
-### Setup loacale on raspberry pi
+### Setup locale on raspberry pi
 
-* run `dpkg-reconfigure locales` and set language to *en_US.UTF-8*
-    * if it doesnt work run these three lines before:
+* add these 3 lines to ~/.bash_profile:
     ```
     export LANGUAGE=en_US.UTF-8
     export LANG=en_US.UTF-8
     export LC_ALL=en_US.UTF-8
     ```
+* run `source ~/.bash_profile`
+* run `dpkg-reconfigure locales` and set language to *en_US.UTF-8*
+    
 
 ## Run Script
 

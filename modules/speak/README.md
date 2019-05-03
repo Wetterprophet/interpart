@@ -1,8 +1,8 @@
 # Speech Module
 
-** installing this tool is not needed **
-
 Speaks Sentences using googles text to speech api
+
+**This tool does not need to be installed for running the installation**
 
 ## Prerequisites
 

@@ -9,7 +9,7 @@ from .voiceinput import VoiceInput
 from .statemachine import StateMachine, Action, State
 from .restclient import RestClient
 from .audio.speak import speak
-from .hardware.leds import Leds,Color
+from .hardware.leds import Leds,Color,LedsDummy
 
 logging.basicConfig(level=logging.INFO)
 
@@ -23,7 +23,11 @@ def run(config):
     state = StateMachine(State.WAITING_FOR_KEY)
     restClient = RestClient("http://localhost:3030")
 
-    led = Leds()
+    try:
+        led = Leds()
+    except:
+        led = LedsDummy()
+        
     led.update(Leds.rgb_off())
 
     while running:

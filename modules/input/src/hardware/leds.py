@@ -205,3 +205,7 @@ class RgbLeds:
 
     def __exit__(self, exc_type, exc_value, exc_tb):
         self._leds.update(Leds.rgb_off())
+
+class LedsDummy:
+    def update(self, color):
+        return True
