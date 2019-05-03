@@ -8,6 +8,8 @@ from .keyboardinput import KeyGrabber
 from .voiceinput import VoiceInput 
 from .statemachine import StateMachine, Action, State
 from .restclient import RestClient
+from .audio.speak import speak
+from .hardware.leds import Leds,Color
 
 logging.basicConfig(level=logging.INFO)
 
@@ -20,6 +22,9 @@ def run(config):
     logging.info("started script")
     state = StateMachine(State.WAITING_FOR_KEY)
     restClient = RestClient("http://localhost:3030")
+
+    led = Leds()
+    led.update(Leds.rgb_off())
 
     while running:
         if (state.status == State.WAITING_FOR_KEY):
@@ -41,14 +46,18 @@ def run(config):
 
         elif state.status == State.ASKING_QUESTION:
             logging.info("asking question: " + str(state.question))
+            led.update(Leds.rgb_on(Color.BLUE))
             speakText(state.question["text"], state.language)
+            led.update(Leds.rgb_off())
             state.consumeAction(Action.DONE)
 
         elif state.status == State.LISTENING:
             # listening for voice input
             try:
                 voiceInput = VoiceInput(state.language, config["SUPPORTED_LANGUAGES"])
+                led.update(Leds.rgb_on(Color.RED))
                 answer = voiceInput.listenToMic(config["RECORDING_DURATION"])
+                led.update(Leds.rgb_off())
                 #answer = voiceInput.listenToFile("data/georgisch.wav")
                 state.consumeAction(Action.SEND_ANSWER, answer = answer)
             except Exception as error:
@@ -63,9 +72,13 @@ def run(config):
             except Exception as error:
                 state.consumeAction(Action.THROW_ERROR, error = str(error))
         elif state.status == State.OUTPUT:
-            speakText("You responded: " + state.answer, state.language)
-            state.consumeAction(Action.DONE)
-            #stop()
+            if not state.answer:
+                state.consumeAction(Action.THROW_ERROR, error = "Answer is empty")
+            else:
+                led.update(Leds.rgb_on(Color.BLUE))
+                speakText(state.answer, state.language)
+                led.update(Leds.rgb_off())
+                state.consumeAction(Action.DONE)
 
         elif state.status == State.ERROR:
             logging.error(state.error)
@@ -73,6 +86,7 @@ def run(config):
             state.consumeAction(Action.TIMEOUT)
 
     logging.info("stopped loop")
+    led.update(Leds.rgb_off())
 
 def stop():
     global running
