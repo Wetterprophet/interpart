@@ -16,6 +16,7 @@ Holds question ands submission, provides translation service.
 
 ## Add new questions
 
+* change desired languaged in *config.js* by editing the lanuage array
 * run `./create-question.js "Wie geht es dir" --language de`
 * copy output and add it to the file *data/questions.json*:
     ```
