@@ -1,6 +1,14 @@
 # interpart
 installation for moabit
 
+## Setup
+
+Each module has to be setup by following its README.md:
+
+* [modules/translate/README.md](modules/translate/README.md)
+* [modules/database/README.md](modules/database/README.md)
+* [modules/input/README.md](modules/input/README.md)
+
 ## Run as Service
 
 * install supervisor `sudo apt-install supervisor`
