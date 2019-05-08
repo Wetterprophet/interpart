@@ -40,8 +40,22 @@ Holds question ands submission, provides translation service.
 
 * GET /submissions/list?\[lang=x\]
 * POST /submission/add
+    ```
+    {
+        "text" : "Ich möchte ein Eis.",
+        "language" : "de",
+        "author": "Peter",
+        "question": "dsjkls"
+    }
+    ```
 * GET /questions/list?\[lang=x\]
 * POST /questions/translate
+     ```
+    {
+	    "text" : "Ich finde alles Scheisse",
+	    "language" : "de"
+    }
+    ```
 
 ## Delete Submissions
 
