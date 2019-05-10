@@ -12,6 +12,12 @@ class RestClient:
         questions = response.json()["data"]
         return questions
 
+    def getNameQuestion(self, language):
+        url = self.apiAdress + "/questions/name?lang=" + language
+        response = requests.get(url)
+        questions = response.json()["data"]
+        return questions
+
     def postAnswer(self, answer, language):
         url = self.apiAdress + "/submissions/add"
         payload = {

@@ -2,7 +2,7 @@
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-29 19:20:39 
  * @Last Modified by: Lutz Reiter - http://lu-re.de
- * @Last Modified time: 2019-03-30 01:45:09
+ * @Last Modified time: 2019-05-10 18:30:28
  */
 
  const low = require('lowdb')
@@ -82,6 +82,26 @@ function setupRoutes(app) {
     app.get('/questions/list', async (req, res) => {
         try {
             var questions = _.map(require('./data/questions.json'), (data) => {
+                let question = new QuestionModel(data)
+                return question
+            })
+
+            if (_.has(req.query,'lang')) {
+                let translations = _.map(questions, (questions) => {
+                    return questions.getLanguage(req.query.lang)
+                })
+                res.send({ data: _.compact(translations) })
+            } else
+                res.send({ data: _.map(questions, (q) => q.data) })
+        } catch (err) {
+            console.log(err)
+            res.status(400).send({error: err})
+        }
+    })
+
+    app.get('/questions/name', async (req, res) => {
+        try {
+            var questions = _.map(require('./data/questions-name.json'), (data) => {
                 let question = new QuestionModel(data)
                 return question
             })

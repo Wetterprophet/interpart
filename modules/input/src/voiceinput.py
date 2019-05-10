@@ -91,7 +91,7 @@ class VoiceInput:
 
         return {'encoding': encoding, 'sample_rate_hertz': sample_rate_hertz, 'language_code': language_code}
 
-    def listenToMic(self, record_duration):
+    def listenToMic(self, record_duration, oneWord = False):
         MIC_SAMPLE_RATE = 16000
         MIC_CHUNK_SIZE = int(MIC_SAMPLE_RATE / 10)  # 100ms
 
@@ -102,46 +102,58 @@ class VoiceInput:
             requests = (types.StreamingRecognizeRequest(audio_content=content) for content in audio_generator)
             responses = self.client.streaming_recognize(streaming_config, requests)
             
-            logging.info("started speech detection for {} seconds.".format(record_duration))
-            thread = TranscribeThread(responses, True)
+            if oneWord:
+                logging.info("started speech detection - listening for one word.")
+            else:
+                logging.info("started speech detection for {} seconds.".format(record_duration))
+            thread = TranscribeThread(responses)
             thread.start()
-            
-            # record for x seconds
-            time.sleep(record_duration) 
-            thread.stop()
-
+            if oneWord:
+                while len(thread.result) < 1:
+                    time.sleep(0.1)
+                thread.stop()
+            else:
+                # record for x seconds
+                time.sleep(record_duration)
+                thread.stop()
+                
         # wait for thread to end & read result
-        thread.join()
-        result = thread.result
+        if oneWord:
+            result = thread.result
+            thread.join()
+        else:
+            thread.join()
+            result = thread.result
+            
         logging.info("finished speech detection")
 
         return result
         
 
-    def listenToFile(self, stream_file):
-        FILE_SAMPLE_RATE = 44100
+    # def listenToFile(self, stream_file):
+    #     FILE_SAMPLE_RATE = 44100
 
-        with io.open(stream_file, 'rb') as audio_file:
-            content = audio_file.read()
+    #     with io.open(stream_file, 'rb') as audio_file:
+    #         content = audio_file.read()
 
-        stream = [content]
-        chunks = (types.StreamingRecognizeRequest(audio_content=chunk) for chunk in stream)
+    #     stream = [content]
+    #     chunks = (types.StreamingRecognizeRequest(audio_content=chunk) for chunk in stream)
         
-        streaming_config = types.StreamingRecognitionConfig(config=self.makeConfig(FILE_SAMPLE_RATE), interim_results=True)
+    #     streaming_config = types.StreamingRecognitionConfig(config=self.makeConfig(FILE_SAMPLE_RATE), interim_results=True)
 
-        responses = self.client.streaming_recognize(streaming_config, chunks)
+    #     responses = self.client.streaming_recognize(streaming_config, chunks)
 
-        logging.info("started speech detection")
-        # pick output text
-        # output = None
-        # for response in responses:
-        #     for result in response.results:
-        #         output = result
-        #         print(result)
-        result = transcribe_speech(responses)
-        logging.info("stopped speech detection")
+    #     logging.info("started speech detection")
+    #     # pick output text
+    #     # output = None
+    #     # for response in responses:
+    #     #     for result in response.results:
+    #     #         output = result
+    #     #         print(result)
+    #     result = transcribe_speech(responses)
+    #     logging.info("stopped speech detection")
 
-        return result
+    #     return result
 
 class TranscribeThread (threading.Thread):
     def __init__(self, responses, output=True):
@@ -193,10 +205,6 @@ class TranscribeThread (threading.Thread):
                 if (output):
                     print(transcript + overwrite_chars)
                 self.result += transcript
-                # Exit recognition if any of the transcribed phrases could be
-                # one of our keywords.
-                
-
                 num_chars_printed = 0
             
             if not self.running:

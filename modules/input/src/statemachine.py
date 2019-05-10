@@ -2,6 +2,8 @@ from aenum import AutoNumberEnum
 
 class State(AutoNumberEnum):
     WAITING_FOR_KEY = (),
+    ASKING_FOR_NAME = (),
+    LISTENING_FOR_NAME = (),
     FETCH_QUESTION = (),
     ASKING_QUESTION = (),
     LISTENING = (),
@@ -11,9 +13,10 @@ class State(AutoNumberEnum):
 
 class Action(AutoNumberEnum):
     SET_LANGUAGE = (),
+    SET_NAME = (),
     SET_QUESTION = (),
     DONE = (),
-    SEND_ANSWER = (),
+    SET_ANSWER = (),
     RESET = (),
     THROW_ERROR = (),
     TIMEOUT = ()
@@ -29,6 +32,7 @@ class StateMachine:
         self.question = None
         self.answer = None
         self.error = None
+        self.name = None
 
     def consumeAction(self, action, **args):
         if action == Action.RESET:
@@ -41,6 +45,15 @@ class StateMachine:
         if self.status == State.WAITING_FOR_KEY:
             if action == Action.SET_LANGUAGE:
                 self.language = args.get("language")
+                self.status = State.ASKING_FOR_NAME
+
+        elif self.status == State.ASKING_FOR_NAME:
+            if action == Action.DONE:
+                self.status = State.LISTENING_FOR_NAME
+
+        elif self.status ==  State.LISTENING_FOR_NAME:
+            if action == Action.SET_NAME:
+                self.name = args.get("name")
                 self.status = State.FETCH_QUESTION
 
         elif self.status == State.FETCH_QUESTION:
@@ -53,17 +66,17 @@ class StateMachine:
                 self.status = State.LISTENING
 
         elif self.status == State.LISTENING:
-            if action == Action.SEND_ANSWER:
+            if action == Action.SET_ANSWER:
                 self.answer = args.get("answer")
-                self.status = State.SENDING
+                self.status = State.OUTPUT
 
         elif self.status == State.SENDING:
             if action == Action.DONE:
-                self.status = State.OUTPUT
+                self.reset()
 
         elif self.status == State.OUTPUT:
             if action == Action.DONE:
-                self.reset()
+                self.status = State.SENDING
 
         elif self.status == State.ERROR:
             if action == Action.TIMEOUT:

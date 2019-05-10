@@ -1,47 +1,16 @@
 [
     {
-        "id": "bde4d640-5182-11e9-8950-d77e99bee325",
-        "text": "Hallo was ist dein Name",
-        "language": "de",
-        "translations": [
-            {
-                "text": "Hello, what is your name",
-                "language": "en"
-            },
-            {
-                "text": "Hola como te llamas",
-                "language": "es"
-            },
-            {
-                "text": "Ciao, come ti chiami",
-                "language": "it"
-            },
-            {
-                "text": "مرحبا ما اسمك",
-                "language": "ar"
-            },
-            {
-                "text": "ہیلو، آپ کا نام کیا ہے",
-                "language": "urd"
-            },
-            {
-                "text": "Bonjour, quel est votre nom",
-                "language": "fr"
-            },
-            {
-                "text": "გამარჯობა, რა არის შენი სახელი?",
-                "language": "ka"
-            }
-        ]
-    },
-    {
-        "id": "ca4293f0-5182-11e9-b27d-c9b5e6dd7dab",
+        "id": "10c7f450-7348-11e9-910c-5f6b9a2ef1c6",
         "text": "Wie findest du diesen Platz?",
         "language": "de",
         "translations": [
             {
                 "text": "How do you like this place?",
                 "language": "en"
+            },
+            {
+                "text": "Comment aimez-vous cet endroit?",
+                "language": "fr"
             },
             {
                 "text": "¿Cómo te gusta este lugar?",
@@ -52,31 +21,51 @@
                 "language": "it"
             },
             {
+                "text": "Burayı nasıl buldun?",
+                "language": "tr"
+            },
+            {
                 "text": "كيف تحب هذا المكان؟",
                 "language": "ar"
             },
             {
-                "text": "آپ کو یہ جگہ کیسے پسند ہے؟",
-                "language": "urd"
+                "text": "Πώς σας αρέσει αυτό το μέρος;",
+                "language": "el"
             },
             {
-                "text": "Comment aimez-vous cet endroit?",
-                "language": "fr"
+                "text": "Jak ci się podoba to miejsce?",
+                "language": "pl"
             },
             {
-                "text": "როგორ მოგწონთ ეს ადგილი?",
-                "language": "ka"
+                "text": "Bạn thích nơi này như thế nào?",
+                "language": "vi"
+            },
+            {
+                "text": "چطور این مکان را دوست دارید؟",
+                "language": "fa"
+            },
+            {
+                "text": "Cum vă place acest loc?",
+                "language": "ro"
+            },
+            {
+                "text": "आपको यह जगह कैसी लगी?",
+                "language": "hi"
             }
         ]
     },
     {
-        "id": "d3899bc0-5182-11e9-b27d-c9b5e6dd7dab",
+        "id": "fe34b490-7347-11e9-b66f-a557f806aa6b",
         "text": "Was machst du heute so?",
         "language": "de",
         "translations": [
             {
                 "text": "What are you doing today?",
                 "language": "en"
+            },
+            {
+                "text": "Tu fais quoi aujourd'hui",
+                "language": "fr"
             },
             {
                 "text": "Que haces hoy",
@@ -87,20 +76,36 @@
                 "language": "it"
             },
             {
+                "text": "Bugün ne yapıyorsun",
+                "language": "tr"
+            },
+            {
                 "text": "ماذا تفعل اليوم",
                 "language": "ar"
             },
             {
-                "text": "آج آپ کیا کر رہے ہیں",
-                "language": "urd"
+                "text": "Τι κάνεις σήμερα;",
+                "language": "el"
             },
             {
-                "text": "Tu fais quoi aujourd'hui",
-                "language": "fr"
+                "text": "Co dzisiaj robisz",
+                "language": "pl"
             },
             {
-                "text": "რას აკეთებ დღეს?",
-                "language": "ka"
+                "text": "Bạn đang làm gì hôm nay",
+                "language": "vi"
+            },
+            {
+                "text": "امروز چه کار میکنی؟",
+                "language": "fa"
+            },
+            {
+                "text": "Ce faci azi?",
+                "language": "ro"
+            },
+            {
+                "text": "आज क्या कर रहे हो",
+                "language": "hi"
             }
         ]
     }

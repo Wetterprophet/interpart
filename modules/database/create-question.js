@@ -15,7 +15,7 @@ const optionDefinitions = [
         description: 'Question to create'
     },
     { 
-        name: 'language',
+        name: 'lang',
         type: String, 
         defaultValue: "de",
         typeLabel: 'string',
@@ -69,7 +69,7 @@ async function run(options) {
 
     let data = {
         text : options.question,
-        language : options.language
+        language : options.lang
     }
 
     if (!QuestionModel.validate(data))
