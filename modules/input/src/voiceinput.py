@@ -110,7 +110,10 @@ class VoiceInput:
             thread.start()
             if oneWord:
                 while len(thread.result) < 1:
-                    time.sleep(0.1)
+                    if thread.checkTranscript(3.0):
+                        thread.result = thread.transcript
+                        break
+                    time.sleep(0.01)
                 thread.stop()
             else:
                 # record for x seconds
@@ -160,8 +163,10 @@ class TranscribeThread (threading.Thread):
         threading.Thread.__init__(self)
         self.responses = responses
         self.output = output
+        self.running = False
 
         self.result = ""
+        self.transcript = ""
 
     def run(self):
         self.running = True
@@ -187,7 +192,6 @@ class TranscribeThread (threading.Thread):
 
             # Display the transcription of the top alternative.
             transcript = result.alternatives[0].transcript
-
             # Display interim results, but with a carriage return at the end of the
             # line, so subsequent lines will overwrite them.
             #
@@ -196,6 +200,7 @@ class TranscribeThread (threading.Thread):
             overwrite_chars = ' ' * (num_chars_printed - len(transcript))
 
             if not result.is_final:
+                self.setTranscript(transcript)
                 if (output):
                     sys.stdout.write(transcript + overwrite_chars + '\r')
                     sys.stdout.flush()
@@ -205,14 +210,24 @@ class TranscribeThread (threading.Thread):
                 if (output):
                     print(transcript + overwrite_chars)
                 self.result += transcript
+                self.setTranscript("")
                 num_chars_printed = 0
             
             if not self.running:
+                if len(self.transcript) > 1:
+                    self.result += self.transcript
                 print("\r")
                 break
 
     def stop(self):
         self.running = False
+
+    def checkTranscript(self, timeout):
+        return len(self.transcript) > 0 and time.time() - self.lastChange > timeout
+
+    def setTranscript(self, transcript):
+        self.lastChange = time.time()
+        self.transcript = transcript
     
 
 def toAscii(string):
