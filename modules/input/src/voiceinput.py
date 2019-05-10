@@ -77,12 +77,13 @@ class MicrophoneStream(object):
 
 class VoiceInput:
 
-    def __init__(self, language, supported_languages):
-        self.language = best_match(language, supported_languages)[0]
+    def __init__(self, language, config):
+        self.language = best_match(language, config["SUPPORTED_LANGUAGES"])[0]
         logging.info("created speech input for language: " + self.language)
         if (self.language == None or self.language == "und"):
             raise ValueError("Language is not supported")
         self.client = speech_v1.SpeechClient()
+        self.config = config
         
     def makeConfig(self, sample_rate):
         encoding = enums.RecognitionConfig.AudioEncoding.LINEAR16
@@ -110,7 +111,7 @@ class VoiceInput:
             thread.start()
             if oneWord:
                 while len(thread.result) < 1:
-                    if thread.checkTranscript(3.0):
+                    if thread.checkTranscript(self.config["SPEAKING_NAME_TIMEOUT"]):
                         thread.result = thread.transcript
                         break
                     time.sleep(0.01)

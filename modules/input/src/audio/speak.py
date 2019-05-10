@@ -3,7 +3,7 @@ import pyaudio
 
 SAMPLE_RATE = 44100
 
-def speak(text, language):
+def speak(text, language, speaking_rate = 0.9):
 
     # Instantiates a client
     client = texttospeech.TextToSpeechClient()
@@ -18,7 +18,8 @@ def speak(text, language):
     # Select the type of audio file you want returned
     audio_config = texttospeech.types.AudioConfig(
         audio_encoding=texttospeech.enums.AudioEncoding.LINEAR16,
-        sample_rate_hertz=SAMPLE_RATE
+        sample_rate_hertz=SAMPLE_RATE,
+        speaking_rate=speaking_rate
         )
 
     print("requesting sound stream for: {}".format(text))

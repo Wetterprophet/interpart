@@ -53,7 +53,7 @@ def run(config):
         elif state.status == State.LISTENING_FOR_NAME:
             logging.info("listening for name")
             try:
-                voiceInput = VoiceInput(state.language, config["SUPPORTED_LANGUAGES"])
+                voiceInput = VoiceInput(state.language, config)
                 led.update(Leds.rgb_on(Color.RED))
                 answer = voiceInput.listenToMic(99.0, oneWord = True)
                 led.update(Leds.rgb_off())
@@ -83,7 +83,7 @@ def run(config):
         elif state.status == State.LISTENING:
             logging.info("listening for voice input")
             try:
-                voiceInput = VoiceInput(state.language, config["SUPPORTED_LANGUAGES"])
+                voiceInput = VoiceInput(state.language, config)
                 led.update(Leds.rgb_on(Color.RED))
                 answer = voiceInput.listenToMic(config["RECORDING_DURATION"])
                 led.update(Leds.rgb_off())
@@ -123,7 +123,7 @@ def stop():
     running = False
 
 def speakText(text, language):
-    speak(text, language)
+    speak(text, language, )
     # call('../speak/.venv/bin/python ../speak/speak.py \"{}\" --lang {}'.format(text, language), shell=True)
 
 def toAscii(string):
