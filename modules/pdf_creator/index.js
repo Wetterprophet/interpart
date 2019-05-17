@@ -102,8 +102,6 @@ async function run(options) {
 
     exec(`weasyprint ${outputPathHtml} ${outputPathPdf}`) 
 
-    console.log(html)
-
     // const pdfOptions = {
     //     htmlTemplatePath: path.resolve(__dirname, 'templates/template.pug'),
     //     styleOptions: {
