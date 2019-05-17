@@ -93,8 +93,9 @@ async function run(options) {
 
     const outputPathHtml = path.resolve(__dirname, 'output', submission.id + '.html');
     const outputPathPdf = path.resolve(__dirname, 'output', submission.id + '.pdf');
+    const templatePath = path.resolve(__dirname, 'templates', 'template.pug');
 
-    const compiledTemplate = pug.compileFile('templates/template.pug');
+    const compiledTemplate = pug.compileFile(templatePath);
 
     const html = compiledTemplate({ submission : submission })
 
