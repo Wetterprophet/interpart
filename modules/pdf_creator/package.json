@@ -14,6 +14,6 @@
   "dependencies": {
     "command-line-args": "^5.1.1",
     "command-line-usage": "^5.0.5",
-    "tea-school": "^1.4.1"
+    "pug": "^2.0.3"
   }
 }

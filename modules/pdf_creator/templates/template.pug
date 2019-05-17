@@ -1,23 +1,29 @@
 // Use !{var} to use unescaped conent
-style(type="text/css") !{compiledStyle}
-link(href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet")
+doctype html
 
-div.content
-  div.left
-    h1 Interpart
-    h2 Wann ist ein Platz ein Platz?
-    
-    p.created-at Erstellt am #{submission.createdAt} in Berlin Moabit.
+html
 
-  div.right
-    img.map(src="http://localhost:3030/assets/image.png")
+  head
+    style(type="text/css") !{compiledStyle}
+    link(href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet")
 
-  div.all
-    h3 Frage: #{submission.question}
+  body
+    div.content
+      div.left
+        h1 Interpart
+        h2 Wann ist ein Platz ein Platz?
+        
+        p.created-at Erstellt am #{submission.createdAt} in Berlin Moabit.
 
-    p.author Antwort von #{submission.author}:
+      div.right
+        img.map(src="http://localhost:3030/assets/image.png")
 
-    ul
-      li #{submission.text}
-      each translation in submission.translations
-        li #{translation.text}
+      div.all
+        h3 Frage: #{submission.question}
+
+        p.author Antwort von #{submission.author}:
+
+        ul
+          li #{submission.text}
+          each translation in submission.translations
+            li #{translation.text}

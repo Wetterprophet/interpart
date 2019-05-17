@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
-const { generatePdf } = require('tea-school');
+const pug = require('pug');
 const path = require('path');
+const fs = require('fs');
+const { exec } = require('child_process');
 const _ = require('lodash')
 const commandLineArgs = require('command-line-args')
 const commandLineUsage = require('command-line-usage')
@@ -89,26 +91,37 @@ async function run(options) {
 
     const submission = _.extend(submissionTemplate, options.submission);
 
-    const outputPath = path.resolve(__dirname, 'output', submission.id + '.pdf');
+    const outputPathHtml = path.resolve(__dirname, 'output', submission.id + '.html');
+    const outputPathPdf = path.resolve(__dirname, 'output', submission.id + '.pdf');
 
-    const pdfOptions = {
-        htmlTemplatePath: path.resolve(__dirname, 'templates/template.pug'),
-        styleOptions: {
-            file: path.resolve(__dirname, 'templates/template.scss')
-        },
-        htmlTemplateOptions: {
-            submission: submission
-        },
-        pdfOptions: {
-            // Omit to get output as buffer solely
-            path: outputPath,
-            format: 'A5',
-            printBackground: true
-        }
-    }
+    const compiledTemplate = pug.compileFile('templates/template.pug');
 
-    const pdfBuffer = await generatePdf(pdfOptions);
+    const html = compiledTemplate({ submission : submission })
+
+    fs.writeFileSync(outputPathHtml, html);
+
+    exec(`weasyprint ${outputPathHtml} ${outputPathPdf}`) 
+
+    console.log(html)
+
+    // const pdfOptions = {
+    //     htmlTemplatePath: path.resolve(__dirname, 'templates/template.pug'),
+    //     styleOptions: {
+    //         file: path.resolve(__dirname, 'templates/template.scss')
+    //     },
+    //     htmlTemplateOptions: {
+    //         submission: submission
+    //     },
+    //     pdfOptions: {
+    //         // Omit to get output as buffer solely
+    //         path: outputPath,
+    //         format: 'A5',
+    //         printBackground: true
+    //     }
+    // }
+
+    // const pdfBuffer = await generatePdf(pdfOptions);
     
     //output filename
-    console.log(outputPath)
+    console.log(outputPathPdf)
 };
