@@ -77,13 +77,12 @@ class MicrophoneStream(object):
 
 class VoiceInput:
 
-    def __init__(self, language, config):
-        self.language = best_match(language, config["SUPPORTED_LANGUAGES"])[0]
+    def __init__(self, language, supportedLanguages):
+        self.language = best_match(language, supportedLanguages)[0]
         logging.info("created speech input for language: " + self.language)
         if (self.language == None or self.language == "und"):
             raise ValueError("Language is not supported")
         self.client = speech_v1.SpeechClient()
-        self.config = config
         
     def makeConfig(self, sample_rate):
         encoding = enums.RecognitionConfig.AudioEncoding.LINEAR16
@@ -92,7 +91,7 @@ class VoiceInput:
 
         return {'encoding': encoding, 'sample_rate_hertz': sample_rate_hertz, 'language_code': language_code}
 
-    def listenToMic(self, record_duration, oneWord = False):
+    def listenToMic(self, recordDuration = 99.0, silenceTimeout = 0.0):
         MIC_SAMPLE_RATE = 16000
         MIC_CHUNK_SIZE = int(MIC_SAMPLE_RATE / 10)  # 100ms
 
@@ -103,26 +102,26 @@ class VoiceInput:
             requests = (types.StreamingRecognizeRequest(audio_content=content) for content in audio_generator)
             responses = self.client.streaming_recognize(streaming_config, requests)
             
-            if oneWord:
-                logging.info("started speech detection - listening for one word.")
+            if silenceTimeout > 0.0:
+                logging.info("started speech detection - listening for input. stop after {} of silence.".format(silenceTimeout))
             else:
-                logging.info("started speech detection for {} seconds.".format(record_duration))
+                logging.info("started speech detection for {} seconds.".format(recordDuration))
             thread = TranscribeThread(responses)
             thread.start()
-            if oneWord:
+            if silenceTimeout > 0.0:
                 while len(thread.result) < 1:
-                    if thread.checkTranscript(self.config["SPEAKING_NAME_TIMEOUT"]):
+                    if thread.checkTranscript(silenceTimeout):
                         thread.result = thread.transcript
                         break
                     time.sleep(0.01)
                 thread.stop()
             else:
                 # record for x seconds
-                time.sleep(record_duration)
+                time.sleep(recordDuration)
                 thread.stop()
                 
         # wait for thread to end & read result
-        if oneWord:
+        if silenceTimeout > 0.0:
             result = thread.result
             thread.join()
         else:

@@ -1,0 +1,33 @@
+body {
+    font-family: 'Changa', sans-serif;
+}
+
+h2 {
+    color: lightgray;
+}
+
+.content {
+    margin: 20px;
+}
+
+.map {
+    height: 210px;
+    margin-bottom: 100px;
+}
+
+.left {
+    width: 60%;
+    float: left;
+}
+
+.right {
+    text-align: right;
+    width: 40%;
+    float: right;
+}
+
+.all {
+    display: block;
+    float: none;
+    width: 100%;
+}

@@ -2,7 +2,7 @@
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-29 19:20:39 
  * @Last Modified by: Lutz Reiter - http://lu-re.de
- * @Last Modified time: 2019-05-10 18:30:28
+ * @Last Modified time: 2019-05-17 15:42:12
  */
 
  const low = require('lowdb')
@@ -118,6 +118,8 @@ function setupRoutes(app) {
             res.status(400).send({error: err})
         }
     })
+
+    app.use('/assets/',express.static('assets'))
 }
 
 const app = express()

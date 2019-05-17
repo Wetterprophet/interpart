@@ -18,11 +18,12 @@ class RestClient:
         questions = response.json()["data"]
         return questions
 
-    def postAnswer(self, answer, language):
+    def postAnswer(self, answer, language, author):
         url = self.apiAdress + "/submissions/add"
         payload = {
             "text" : answer,
-            "language" : language
+            "language" : language,
+            "author" : author
         }
         response = requests.post(url, json=payload)
         return response.json()

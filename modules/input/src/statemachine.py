@@ -32,7 +32,7 @@ class StateMachine:
         self.question = None
         self.answer = None
         self.error = None
-        self.name = None
+        self.author = None
 
     def consumeAction(self, action, **args):
         if action == Action.RESET:
@@ -53,7 +53,7 @@ class StateMachine:
 
         elif self.status ==  State.LISTENING_FOR_NAME:
             if action == Action.SET_NAME:
-                self.name = args.get("name")
+                self.author = args.get("name")
                 self.status = State.FETCH_QUESTION
 
         elif self.status == State.FETCH_QUESTION:
