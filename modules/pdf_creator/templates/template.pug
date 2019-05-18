@@ -4,26 +4,30 @@ doctype html
 html
 
   head
-    style(type="text/css") !{compiledStyle}
     link(href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet")
+    link(rel="stylesheet" type="text/css" href="../assets/style.css")
 
   body
     div.content
-      div.left
-        h1 Interpart
-        h2 Wann ist ein Platz ein Platz?
-        
-        p.created-at Erstellt am #{submission.createdAt} in Berlin Moabit.
+      div.top
+        div.left
+          h1 Interpart
+          h2 Wann ist ein Platz ein Platz?
 
-      div.right
-        img.map(src="http://localhost:3030/assets/image.png")
+        div.right
+          img.map(src="../assets/image.png")
 
-      div.all
-        h3 Frage: #{submission.question}
-
-        p.author Antwort von #{submission.author}:
+      div.bottom
+        p.created-at 
+            |Created at #{submission.createdAt} in Berlin Moabit from 
+            |<i>#{submission.author}</i>.
 
         ul
-          li #{submission.text}
+          li
+            h3 #{submission.question}
+            p #{submission.text}
+          
           each translation in submission.translations
-            li #{translation.text}
+            li
+              h3 #{submission.question}
+              p #{translation.text}

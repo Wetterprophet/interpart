@@ -1,0 +1,55 @@
+@page {
+    size: A5; /* Change from the default size of A4 */
+    margin: 1.0cm; /* Set margin on each page */
+}
+
+body {
+    font-family: 'Changa', sans-serif;
+}
+
+h1 {
+    margin: 0 0 .3em 0;
+    line-height: 1;
+    font-size: 300%
+}
+
+h2 {
+    margin: 0 0 1.5em 0;
+    line-height: 1;
+    color: lightgray;
+    font-size: 180%
+}
+
+ul {
+    padding-left: 25px;
+}
+
+.content {
+    margin: 20px;
+}
+
+.map {
+    height: 140px;
+}
+
+.left {
+    float: left;
+    width: 60%;
+}
+
+.right {
+    text-align: right;
+    width: 40%;
+    float: right;
+}
+
+.top {
+    width: 100%;
+}
+
+.bottom {
+    margin-top: 50px;
+    width: 100%;
+    clear: both;
+}
+

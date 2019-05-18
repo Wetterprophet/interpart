@@ -141,7 +141,5 @@ def printSubmission(submission, languages):
     #encode as string and remove line ending
     filePath = filePath.decode("utf-8").rstrip("\n\r")
 
-    print('lp -o media=A5 {}'.format(filePath))
-
     # send file to printer
     system('lp -o media=A5 {}'.format(filePath))
