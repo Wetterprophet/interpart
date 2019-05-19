@@ -3,22 +3,22 @@ from curses import wrapper
 
 # num buttons starting from 1(=49), 2(=50), ...
 KEY_MAP = {
-    "49" : "de",
-    "50" : "en",
-    "51" : "es",
-    "52" : "it",
-    "53" : "ar",
-    "54" : "ro",
-    "55" : "fr"
+    "1" : "de",
+    "2" : "en",
+    "3" : "es",
+    "4" : "it",
+    "5" : "ar",
+    "6" : "ro",
+    "7" : "fr"
 }
 
 class KeyGrabber: 
 
     def read(self):
-        key = wrapper(listenForKey)
+        key = chr(wrapper(listenForKey))
 
-        if str(key) in KEY_MAP:
-            return KEY_MAP[str(key)]
+        if key in KEY_MAP:
+            return KEY_MAP[key]
         else:
             return None
         
@@ -32,7 +32,7 @@ def listenForKey(stdscr):
     #print keymap
     stdscr.addstr("# CHOOSE INPUT LANGUAGE\n\n")
     for key in KEY_MAP:
-        stdscr.addstr("- Press key {} for language: {}\n\r".format(int(key) - 48, KEY_MAP[key]))
+        stdscr.addstr("- Press key {} for language: {}\n\r".format(key, KEY_MAP[key]))
 
     c = stdscr.getch()
     
