@@ -24,10 +24,10 @@ html
 
         ul
           li
-            h3 #{submission.question}
+            h3 #{submission.question.text}
             p #{submission.text}
           
           each translation in submission.translations
             li
-              h3 #{submission.question}
+              h3 #{submission.question.text}
               p #{translation.text}

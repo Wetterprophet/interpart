@@ -105,10 +105,19 @@ def run(config):
         elif state.status == State.SENDING:
             logging.info("answer: " + str(state.answer))
             try:
-                response = restClient.postAnswer(state.answer, state.language, state.author)
+                submission = {
+                    "text" : state.answer,
+                    "author" : state.author,
+                    "language" : state.language,
+                    "question" : state.question
+                }
+
+                response = restClient.postAnswer(submission)
                 logging.info("answer got posted to server. ")
+
                 printSubmission(response['data'], "en, de")
                 logging.info("answer got printed. ")
+                
                 time.sleep(3.0)
                 state.consumeAction(Action.DONE)
             except Exception as error:
@@ -127,7 +136,7 @@ def stop():
     running = False
 
 def speakText(text, language):
-    speak(text, language, )
+    speak(text, language)
     # call('../speak/.venv/bin/python ../speak/speak.py \"{}\" --lang {}'.format(text, language), shell=True)
 
 def toAscii(string):

@@ -4,7 +4,7 @@
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-27 18:55:40 
  * @Last Modified by: Lutz Reiter - http://lu-re.de
- * @Last Modified time: 2019-04-13 18:16:26
+ * @Last Modified time: 2019-05-19 02:10:42
  */
 
 const _ = require('lodash')
@@ -90,8 +90,8 @@ async function run(options) {
 
     // modifiy text to exclude translation of text inside {}
     let text = options.text
-    text = text.replace('{','<span class="notranslate">')
-    text = text.replace('}','</span>')
+    text = text.replace('{{','<span class="notranslate">')
+    text = text.replace('}}','</span>')
 
     const requests = _.map(options.to, (language) => {
         return new Promise(function(resolve, reject) {
@@ -100,8 +100,8 @@ async function run(options) {
                     let text = result[0]
 
                     // revert resulting string
-                    text = text.replace('<span class="notranslate">','{')
-                    text = text.replace('</span>','}')
+                    text = text.replace('<span class="notranslate">','{{')
+                    text = text.replace('</span>','}}')
                     resolve({ text: text, language: language })
                 })
                 .catch( (err) => reject(err))
