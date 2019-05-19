@@ -1,0 +1,65 @@
+[
+    {
+        "id": "4f765aa0-7a11-11e9-9ea7-4d94fda0fbcf",
+        "text": "Danke für deine Antwort {{NAME}}. Komm doch bald wieder einmal vorbei.",
+        "language": "de",
+        "translations": [
+            {
+                "text": "Thanks for your answer {{NAME}} . Come back soon.",
+                "language": "en"
+            },
+            {
+                "text": "Merci pour votre réponse {{NAME}} . Reviens bientôt.",
+                "language": "fr"
+            },
+            {
+                "text": "Grazie per la tua risposta {{NAME}} . Torna presto.",
+                "language": "it"
+            },
+            {
+                "text": "Gracias por tu respuesta {{NAME}} . Vuelve pronto",
+                "language": "es"
+            },
+            {
+                "text": "شكرًا لإجابتك {{NAME}} . عد قريبا",
+                "language": "ar"
+            },
+            {
+                "text": "از پاسخ شما برای {{NAME}} متشکریم به زودی بیا",
+                "language": "fa"
+            },
+            {
+                "text": "{{NAME}} cevabınız için teşekkürler. Yakında geri dön.",
+                "language": "tr"
+            },
+            {
+                "text": "Ευχαριστώ για την απάντησή σας {{NAME}} . Επιστρέψτε σύντομα.",
+                "language": "el"
+            },
+            {
+                "text": "ستاسو د ځواب {{NAME}} لپاره مننه. ژر ژر راشه.",
+                "language": "ps"
+            },
+            {
+                "text": "Спасибо за ваш ответ {{NAME}} . Возвращайся скорее.",
+                "language": "ru"
+            },
+            {
+                "text": "Дякуємо за вашу відповідь {{NAME}} . Поверніться найближчим часом.",
+                "language": "uk"
+            },
+            {
+                "text": "Vă mulțumim pentru răspunsul dvs. {{NAME}} . Vino în curând.",
+                "language": "ro"
+            },
+            {
+                "text": "Dziękujemy za odpowiedź {{NAME}} . Wróć wkrótce.",
+                "language": "pl"
+            },
+            {
+                "text": "Ji bo bersiva we ji kerema xwe {{NAME}} . Zû vegerin.",
+                "language": "ku"
+            }
+        ]
+    }
+]

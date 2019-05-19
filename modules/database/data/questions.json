@@ -1,111 +1,64 @@
 [
     {
-        "id": "10c7f450-7348-11e9-910c-5f6b9a2ef1c6",
-        "text": "Wie findest du diesen Platz?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo {{NAME}}, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
         "language": "de",
         "translations": [
             {
-                "text": "How do you like this place?",
+                "text": "Hello {{NAME}} , nice that you are there. What did you like to do outside?",
                 "language": "en"
             },
             {
-                "text": "Comment aimez-vous cet endroit?",
+                "text": "Bonjour {{NAME}} , bien que tu sois là. Qu&#39;aimiez-vous faire à l&#39;extérieur?",
                 "language": "fr"
             },
             {
-                "text": "¿Cómo te gusta este lugar?",
-                "language": "es"
-            },
-            {
-                "text": "Come ti piace questo posto?",
+                "text": "Ciao {{NAME}} , bello che tu sia lì. Cosa ti è piaciuto fare fuori?",
                 "language": "it"
             },
             {
-                "text": "Burayı nasıl buldun?",
-                "language": "tr"
-            },
-            {
-                "text": "كيف تحب هذا المكان؟",
-                "language": "ar"
-            },
-            {
-                "text": "Πώς σας αρέσει αυτό το μέρος;",
-                "language": "el"
-            },
-            {
-                "text": "Jak ci się podoba to miejsce?",
-                "language": "pl"
-            },
-            {
-                "text": "Bạn thích nơi này như thế nào?",
-                "language": "vi"
-            },
-            {
-                "text": "چطور این مکان را دوست دارید؟",
-                "language": "fa"
-            },
-            {
-                "text": "Cum vă place acest loc?",
-                "language": "ro"
-            },
-            {
-                "text": "आपको यह जगह कैसी लगी?",
-                "language": "hi"
-            }
-        ]
-    },
-    {
-        "id": "fe34b490-7347-11e9-b66f-a557f806aa6b",
-        "text": "Was machst du heute so?",
-        "language": "de",
-        "translations": [
-            {
-                "text": "What are you doing today?",
-                "language": "en"
-            },
-            {
-                "text": "Tu fais quoi aujourd'hui",
-                "language": "fr"
-            },
-            {
-                "text": "Que haces hoy",
+                "text": "Hola {{NAME}} , bueno que estés ahí. ¿Qué te gustaba hacer afuera?",
                 "language": "es"
             },
             {
-                "text": "Cosa stai facendo oggi?",
-                "language": "it"
-            },
-            {
-                "text": "Bugün ne yapıyorsun",
-                "language": "tr"
-            },
-            {
-                "text": "ماذا تفعل اليوم",
+                "text": "مرحبا {{NAME}} ، جميل أنك هناك. ماذا تحب أن تفعل في الخارج؟",
                 "language": "ar"
             },
             {
-                "text": "Τι κάνεις σήμερα;",
-                "language": "el"
-            },
-            {
-                "text": "Co dzisiaj robisz",
-                "language": "pl"
-            },
-            {
-                "text": "Bạn đang làm gì hôm nay",
-                "language": "vi"
-            },
-            {
-                "text": "امروز چه کار میکنی؟",
+                "text": "سلام {{NAME}} ، خوب است که آنجا هستی چه چیزی دوست داری در خارج انجام دهی؟",
                 "language": "fa"
             },
             {
-                "text": "Ce faci azi?",
+                "text": "Merhaba {{NAME}} , orada olmana sevindim. Dışarıda ne yapmak istersin?",
+                "language": "tr"
+            },
+            {
+                "text": "Γεια σας {{NAME}} , ωραία ότι είστε εκεί. Τι σας άρεσε να κάνετε έξω;",
+                "language": "el"
+            },
+            {
+                "text": "سلام {{NAME}} ، ښه چې تاسو هلته یاست. تاسو بهر څه وکړل؟",
+                "language": "ps"
+            },
+            {
+                "text": "Привет {{NAME}} , приятно, что ты там. Что ты любил делать на улице?",
+                "language": "ru"
+            },
+            {
+                "text": "Вітаємо, {{NAME}} , добре, що ви тут. Що ви хотіли робити поза?",
+                "language": "uk"
+            },
+            {
+                "text": "Bună ziua {{NAME}} , e bine că ești acolo. Ce ți-a plăcut să faci afară?",
                 "language": "ro"
             },
             {
-                "text": "आज क्या कर रहे हो",
-                "language": "hi"
+                "text": "Witaj {{NAME}} , miło, że tam jesteś. Co lubisz robić na zewnątrz?",
+                "language": "pl"
+            },
+            {
+                "text": "Hello {{NAME}} , ku hûn li wir hene. Hûn dixwazin li derve bikin?",
+                "language": "ku"
             }
         ]
     }

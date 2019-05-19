@@ -1,111 +1,64 @@
 [
     {
-        "id": "2093afa0-7348-11e9-bd57-5f2182811caa",
-        "text": "Hallo, wie heisst du?",
+        "id": "695e9630-7a11-11e9-8c44-6ba78b04e119",
+        "text": "Hallo, wer ist da?",
         "language": "de",
         "translations": [
             {
-                "text": "Hi what is your name?",
+                "text": "Hello who is there?",
                 "language": "en"
             },
             {
-                "text": "Bonjour, comment t'appelles-tu?",
+                "text": "Bonjour, qui est là?",
                 "language": "fr"
             },
             {
-                "text": "Hola como te llamas",
-                "language": "es"
-            },
-            {
-                "text": "Ciao, come ti chiami?",
+                "text": "Ciao, chi c'è?",
                 "language": "it"
             },
             {
-                "text": "Merhaba, adın ne?",
-                "language": "tr"
-            },
-            {
-                "text": "مرحبا ما اسمك؟",
-                "language": "ar"
-            },
-            {
-                "text": "Γεια σας, ποιο είναι το όνομά σας;",
-                "language": "el"
-            },
-            {
-                "text": "Cześć, jak masz na imię?",
-                "language": "pl"
-            },
-            {
-                "text": "Xin chào, tên bạn là gì?",
-                "language": "vi"
-            },
-            {
-                "text": "سلام، نام شما چیست؟",
-                "language": "fa"
-            },
-            {
-                "text": "Bună, care-ți este numele?",
-                "language": "ro"
-            },
-            {
-                "text": "नमस्ते, आपका नाम क्या है?",
-                "language": "hi"
-            }
-        ]
-    },
-    {
-        "id": "68018280-7353-11e9-8b8f-df8058f7a361",
-        "text": "Hello, tell me your name, please",
-        "language": "en",
-        "translations": [
-            {
-                "text": "Hallo, sag mir bitte deinen Namen",
-                "language": "de"
-            },
-            {
-                "text": "Bonjour, dites moi votre nom s'il vous plait",
-                "language": "fr"
-            },
-            {
-                "text": "Hola dime tu nombre por favor",
+                "text": "Hola quien esta ahi",
                 "language": "es"
             },
             {
-                "text": "Ciao, dimmi il tuo nome, per favore",
-                "language": "it"
-            },
-            {
-                "text": "Merhaba, bana adını söyle lütfen",
-                "language": "tr"
-            },
-            {
-                "text": "مرحبا ، أخبرني اسمك ، من فضلك",
+                "text": "مرحبا ، من هناك؟",
                 "language": "ar"
             },
             {
-                "text": "Γεια σας, πείτε μου το όνομά σας, παρακαλώ",
-                "language": "el"
-            },
-            {
-                "text": "Witaj, proszę, podaj swoje imię",
-                "language": "pl"
-            },
-            {
-                "text": "Xin chào, cho tôi biết tên của bạn, xin vui lòng",
-                "language": "vi"
-            },
-            {
-                "text": "سلام، اسمت را به من بگو",
+                "text": "سلام، کجاست؟",
                 "language": "fa"
             },
             {
-                "text": "Bună, spune-mi numele tău, te rog",
+                "text": "Merhaba kim var orda",
+                "language": "tr"
+            },
+            {
+                "text": "Γεια σας, ποιος είναι εκεί;",
+                "language": "el"
+            },
+            {
+                "text": "سلام، څوک هلته دی؟",
+                "language": "ps"
+            },
+            {
+                "text": "Привет, кто там?",
+                "language": "ru"
+            },
+            {
+                "text": "Привіт, хто є?",
+                "language": "uk"
+            },
+            {
+                "text": "Bună, cine e acolo?",
                 "language": "ro"
             },
             {
-                "text": "नमस्कार, कृपया अपना नाम बताएं",
-                "language": "hi"
+                "text": "Witam, kto tam jest?",
+                "language": "pl"
+            },
+            {
+                "text": "Hello, kî heye?",
+                "language": "ku"
             }
         ]
     }

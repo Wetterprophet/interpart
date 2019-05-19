@@ -1,5 +1,5 @@
 module.exports = {
     databaseFile : 'data/db.json',
     port: 3030,
-    languages : [ "de", "en", "fr", "es", "it", "tr", "ar", "el", "pl", "vi", "fa", "ro", "hi" ]
+    languages : [ "de", "en", "fr", "it", "es", "ar", "fa", "tr", "el", "ps", "ru", "uk", "ro", "pl", "ku" ]
 }

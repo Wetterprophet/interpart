@@ -7,7 +7,9 @@ const { exec } = require('child_process');
 const _ = require('lodash')
 const commandLineArgs = require('command-line-args')
 const commandLineUsage = require('command-line-usage')
+const util = require('util')
 
+const asyncExec = util.promisify(exec);
 
 const optionDefinitions = [
     { 
@@ -101,25 +103,8 @@ async function run(options) {
 
     fs.writeFileSync(outputPathHtml, html);
 
-    exec(`weasyprint ${outputPathHtml} ${outputPathPdf}`) 
-
-    // const pdfOptions = {
-    //     htmlTemplatePath: path.resolve(__dirname, 'templates/template.pug'),
-    //     styleOptions: {
-    //         file: path.resolve(__dirname, 'templates/template.scss')
-    //     },
-    //     htmlTemplateOptions: {
-    //         submission: submission
-    //     },
-    //     pdfOptions: {
-    //         // Omit to get output as buffer solely
-    //         path: outputPath,
-    //         format: 'A5',
-    //         printBackground: true
-    //     }
-    // }
-
-    // const pdfBuffer = await generatePdf(pdfOptions);
+    //convert pdf
+    await asyncExec(`weasyprint ${outputPathHtml} ${outputPathPdf}`) 
     
     //output filename
     console.log(outputPathPdf)

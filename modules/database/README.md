@@ -14,11 +14,12 @@ Holds question ands submission, provides translation service.
 
 * run `npm start` or run `npm run watch` for auto reload development mode
 
-## Add new questions
+## Add new questions/goodbyes/name-questions
 
 * change desired languaged in *config.js* by editing the lanuage array
-* run `./create-question.js "Wie geht es dir" --lang de`
-* copy output and add it to the file *data/questions.json*:
+* run `./create-question.js "Wie geht es dir {{NAME}}?" --lang de`
+* `{{NAME}}` will be replaced by the authors name. if asked for it before. 
+* copy output and add it to the file *data/questions.json* or *data/questions-name.json* or *data/goodbye.json*:
     ```
     [
         {
