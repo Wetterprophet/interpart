@@ -5,7 +5,7 @@ Speech and Keyboard Input Module for installation
 ## Prerequisites
 
 * enable speech-to-text feature in your google cloud api project: [https://console.developers.google.com/apis/api/speech.googleapis.com/]
-* download json file of project and set your $GOOGLE_APPLICATION_CREDENTIALS to its path: osx: `export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"`
+* download json file of project and set your $GOOGLE_APPLICATION_CREDENTIALS to its path: osx: `export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"` (add to *.bashrc*)
 
 ## Setup
 
@@ -19,13 +19,13 @@ Speech and Keyboard Input Module for installation
 
 ### Setup locale on raspberry pi
 
-* add these 3 lines to ~/.bash_profile:
+* add these 3 lines to ~/.bashrc:
     ```
     export LANGUAGE=en_US.UTF-8
     export LANG=en_US.UTF-8
     export LC_ALL=en_US.UTF-8
     ```
-* run `source ~/.bash_profile`
+* run `source ~/.bashrc`
 * run `dpkg-reconfigure locales` and generate lang files and set language to *en_US.UTF-8*
     
 

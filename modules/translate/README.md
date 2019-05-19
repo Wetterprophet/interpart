@@ -13,7 +13,7 @@
 
 * go to [https://cloud.google.com/translate/docs/quickstart-client-libraries] and setup a translate project
 * enable *Cloud Text-to-Speech API* and *Cloud Translation API* for your project
-* download json file of project and set your $GOOGLE_APPLICATION_CREDENTIALS to its path: osx: `export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"`
+* download json file of project and set your $GOOGLE_APPLICATION_CREDENTIALS to its path: osx: `export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"` (add to *.bashrc*)
 * change googleApiProjectId in config.js to the projectId
 
 ## Usage
