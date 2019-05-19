@@ -3,13 +3,22 @@ from curses import wrapper
 
 # num buttons starting from 1(=49), 2(=50), ...
 KEY_MAP = {
-    "1" : "de",
-    "2" : "en",
-    "3" : "es",
-    "4" : "it",
-    "5" : "ar",
-    "6" : "ro",
-    "7" : "fr"
+    "1" : "de", 
+    "2" : "en", 
+    "3" : "fr", 
+    "4" : "it", 
+    "5" :  "es", 
+    "6" : "ar", 
+    #"7" : "fa", 
+    "8" : "tr", 
+    "9" : "el", 
+    #"0" : "ps", 
+    "q" : "ru", 
+    "w" : "uk", 
+    #"e" : "ro", 
+    "r" : "pl" 
+    #"t" : "ku"
+
 }
 
 class KeyGrabber: 

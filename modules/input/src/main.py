@@ -37,7 +37,10 @@ def run(config):
             keyInput = KeyGrabber()
             language = keyInput.read()
 
-            state.consumeAction(Action.SET_LANGUAGE, language = language)
+            if language == None:
+                state.consumeAction(Action.THROW_ERROR, error = "Key is not mapped to a language")
+            else:
+                state.consumeAction(Action.SET_LANGUAGE, language = language)
 
         elif state.status == State.ASKING_FOR_NAME:
             logging.info("fetching name question...")
