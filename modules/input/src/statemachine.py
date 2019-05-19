@@ -8,7 +8,7 @@ class State(AutoNumberEnum):
     ASKING_QUESTION = (),
     LISTENING = (),
     SENDING = (),
-    OUTPUT = (),
+    SAY_GOODBYE = (),
     ERROR = ()
 
 class Action(AutoNumberEnum):
@@ -68,15 +68,16 @@ class StateMachine:
         elif self.status == State.LISTENING:
             if action == Action.SET_ANSWER:
                 self.answer = args.get("answer")
-                self.status = State.OUTPUT
+                self.status = State.SAY_GOODBYE
+        
+        elif self.status == State.SAY_GOODBYE:
+            if action == Action.DONE:
+                self.status = State.SENDING
 
         elif self.status == State.SENDING:
             if action == Action.DONE:
                 self.reset()
 
-        elif self.status == State.OUTPUT:
-            if action == Action.DONE:
-                self.status = State.SENDING
 
         elif self.status == State.ERROR:
             if action == Action.TIMEOUT:

@@ -109,10 +109,7 @@ class VoiceInput:
             thread = TranscribeThread(responses)
             thread.start()
             if silenceTimeout > 0.0:
-                while len(thread.result) < 1:
-                    if thread.checkTranscript(silenceTimeout):
-                        thread.result = thread.transcript
-                        break
+                while not thread.checkTranscript(silenceTimeout):
                     time.sleep(0.01)
                 thread.stop()
             else:
@@ -121,12 +118,10 @@ class VoiceInput:
                 thread.stop()
                 
         # wait for thread to end & read result
-        if silenceTimeout > 0.0:
-            result = thread.result
-            thread.join()
-        else:
-            thread.join()
-            result = thread.result
+        logging.info("stopping recording thread")
+
+        thread.join()
+        result = thread.result
             
         logging.info("finished speech detection")
 
@@ -223,7 +218,7 @@ class TranscribeThread (threading.Thread):
         self.running = False
 
     def checkTranscript(self, timeout):
-        return len(self.transcript) > 0 and time.time() - self.lastChange > timeout
+        return (len(self.transcript) > 0 or len(self.result) > 0) and time.time() > self.lastChange + timeout
 
     def setTranscript(self, transcript):
         self.lastChange = time.time()

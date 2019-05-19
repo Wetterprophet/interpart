@@ -77,7 +77,7 @@ def run(config):
         elif state.status == State.ASKING_QUESTION:
             logging.info("asking question: " + str(state.question))
             led.update(Leds.rgb_on(Color.BLUE))
-            speakText(state.question["text"], state.language)
+            speakText(state.question["text"].replace("{{NAME}}", state.author), state.language)
             led.update(Leds.rgb_off())
             state.consumeAction(Action.DONE)
 
@@ -93,12 +93,17 @@ def run(config):
             except Exception as error:
                 state.consumeAction(Action.THROW_ERROR, error = str(error))
             
-        elif state.status == State.OUTPUT:
+        elif state.status == State.SAY_GOODBYE:
             if not state.answer:
                 state.consumeAction(Action.THROW_ERROR, error = "Answer is empty")
             else:
+                # pick randim goodbye sentence
+                goodbyes = restClient.getGoodbye(state.language)
+                goodbye = goodbyes[random.randint(0, len(goodbyes) - 1)]
+
+                # speak goodbye
                 led.update(Leds.rgb_on(Color.BLUE))
-                speakText(state.answer, state.language)
+                speakText( goodbye["text"].replace("{{NAME}}", state.author), state.language )
                 led.update(Leds.rgb_off())
                 state.consumeAction(Action.DONE)
 
