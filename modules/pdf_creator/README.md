@@ -2,7 +2,7 @@
 
 ## Setup
 
-* install weasyprint: `sudo pip3 install WeasyPring`
+* install weasyprint: `sudo pip3 install WeasyPrint`
     * weasyprint might need additional dependencies: https://weasyprint.readthedocs.io/en/stable/install.html
 
 * istall dependencies with `npm install`
