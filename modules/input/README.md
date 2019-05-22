@@ -33,3 +33,7 @@ Speech and Keyboard Input Module for installation
 
 * load virtualenvironment: `source .venv/bin/activate`
 * run script with `python run.py`
+
+## Configure
+
+* select printed out languages in config.py
