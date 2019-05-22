@@ -9,6 +9,9 @@ const commandLineArgs = require('command-line-args')
 const commandLineUsage = require('command-line-usage')
 const util = require('util')
 
+const { SubmissionModel } = require('./models/SubmissionModel') 
+const { QuestionModel } = require('./models/QuestionModel') 
+
 const asyncExec = util.promisify(exec);
 
 const optionDefinitions = [
@@ -18,6 +21,13 @@ const optionDefinitions = [
         defaultOption: "{}",
         typeLabel: 'string',
         description: 'Submission to generate pdf from (JSON Object)'
+    },
+    { 
+        name: 'question',
+        type: String, 
+        defaultValue: "{}",
+        typeLabel: 'string',
+        description: 'Questions to to generate pdf from (JSON Object)'
     },
     { 
         name: 'languages',
@@ -78,28 +88,30 @@ run(options).catch( (err) => {
 async function run(options) {
 
     options.submission = JSON.parse(options.submission); 
+    options.question = JSON.parse(options.question);
 
-    const submissionTemplate = {
-        id : "1",
-        createdAt : "xx.xx.xxxx",
-        author : "unnamed",
-        question : "no question",
-        text: "no text",
-        language: "de",
-        translations: [
-            { text: "no translation", language: "en" }
-        ]
-    }
+    const submission = new SubmissionModel(options.submission);
+    const question = new QuestionModel(options.question);
 
-    const submission = _.extend(submissionTemplate, options.submission);
+    // create translations array
+    const translations = _.map( _.without(options.languages, submission.data.language), (language) => {
+        return { submission: submission.getLanguage(language) , question: question.getLanguage(language) }
+    });
 
-    const outputPathHtml = path.resolve(__dirname, 'output', submission.id + '.html');
-    const outputPathPdf = path.resolve(__dirname, 'output', submission.id + '.pdf');
+    //filter out not defined translations
+    const filtered_translations = _.filter(translations, (entry) => {
+        return _.has(entry.submission,"text") /*&& _.has(entry.question,"text")*/
+    })
+
+    //add questions
+
+    const outputPathHtml = path.resolve(__dirname, 'output', submission.data.id + '.html');
+    const outputPathPdf = path.resolve(__dirname, 'output', submission.data.id + '.pdf');
     const templatePath = path.resolve(__dirname, 'templates', 'template.pug');
 
     const compiledTemplate = pug.compileFile(templatePath);
 
-    const html = compiledTemplate({ submission : submission })
+    const html = compiledTemplate({ submission : submission.data, translations : filtered_translations })
 
     fs.writeFileSync(outputPathHtml, html);
 

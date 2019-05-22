@@ -22,12 +22,13 @@ html
             |Created at #{submission.createdAt} in Berlin Moabit from 
             |<i>#{submission.author}</i>.
 
+
+        h3 #{submission.question.text}
         ul
           li
-            h3 #{submission.question.text}
             p #{submission.text}
           
-          each translation in submission.translations
+          each translation in translations
             li
-              h3 #{submission.question.text}
-              p #{translation.text}
+              //h3 #{translation.question.text}
+              p #{translation.submission.text}

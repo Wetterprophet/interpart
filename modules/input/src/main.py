@@ -73,6 +73,9 @@ def run(config):
                 questions = restClient.getQuestions(state.language)
                 # pick random questions
                 question = questions[random.randint(0, len(questions) - 1)]
+
+                # put in name
+                question["text"] = question["text"].replace("{{NAME}}", state.author)
                 state.consumeAction(Action.SET_QUESTION, question = question)
             except:
                 state.consumeAction(Action.THROW_ERROR, error = "Could not fetch question")
@@ -80,7 +83,7 @@ def run(config):
         elif state.status == State.ASKING_QUESTION:
             logging.info("asking question: " + str(state.question))
             led.update(Leds.rgb_on(Color.BLUE))
-            speakText(state.question["text"].replace("{{NAME}}", state.author), state.language)
+            speakText(state.question["text"], state.language)
             led.update(Leds.rgb_off())
             state.consumeAction(Action.DONE)
 
@@ -100,6 +103,7 @@ def run(config):
             if not state.answer:
                 state.consumeAction(Action.THROW_ERROR, error = "Answer is empty")
             else:
+                #speakText(state.answer, state.language)
                 # pick randim goodbye sentence
                 goodbyes = restClient.getGoodbye(state.language)
                 goodbye = goodbyes[random.randint(0, len(goodbyes) - 1)]
@@ -122,8 +126,12 @@ def run(config):
 
                 response = restClient.postAnswer(submission)
                 logging.info("answer got posted to server. ")
+ 
+                #fetch question
+                question = restClient.getQuestion(state.question["id"])
 
-                printSubmission(response['data'], "en, de")
+                # print answer
+                printSubmission(response['data'], question, config["PRINTED_LANGUAGES"])
                 logging.info("answer got printed. ")
                 
                 time.sleep(3.0)
@@ -150,10 +158,12 @@ def speakText(text, language):
 def toAscii(string):
     return str(string.encode('ascii', 'backslashreplace'))
 
-def printSubmission(submission, languages):
+def printSubmission(submission, question, languages = []):
     # generate pdf
     jsonString = json.dumps(submission, separators=(',', ':')).replace('"', '\\"')
-    filePath = check_output(['interpart-pdf --submission "{}\"'.format(jsonString)], shell=True)
+    questionString = json.dumps(question, separators=(',', ':')).replace('"', '\\"')
+    languages = ",".join(languages) 
+    filePath = check_output(['interpart-pdf --submission \"{}\" --question \"{}\" --languages \"{}\"'.format(jsonString, questionString, languages)], shell=True)
 
     #encode as string and remove line ending
     filePath = filePath.decode("utf-8").rstrip("\n\r")

@@ -2,7 +2,7 @@
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-29 19:20:39 
  * @Last Modified by: Lutz Reiter - http://lu-re.de
- * @Last Modified time: 2019-05-19 10:10:09
+ * @Last Modified time: 2019-05-22 23:17:35
  */
 
  const low = require('lowdb')
@@ -93,6 +93,24 @@ function setupRoutes(app) {
                 res.send({ data: _.compact(translations) })
             } else
                 res.send({ data: _.map(questions, (q) => q.data) })
+        } catch (err) {
+            console.log(err)
+            res.status(400).send({error: err})
+        }
+    })
+
+    app.get('/questions/get/:id', async (req, res) => {
+        try {
+            var questions = _.map(require('./data/questions.json'), (data) => {
+                let question = new QuestionModel(data)
+                return question
+            })
+
+            questions = _.filter(questions, (question) => {
+                return question.data.id == req.params.id;
+            });
+            
+            res.send({ data: _.isEmpty(questions) ? {} : questions[0].data })
         } catch (err) {
             console.log(err)
             res.status(400).send({error: err})
