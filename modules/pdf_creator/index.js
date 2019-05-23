@@ -8,6 +8,7 @@ const _ = require('lodash')
 const commandLineArgs = require('command-line-args')
 const commandLineUsage = require('command-line-usage')
 const util = require('util')
+const moment = require('moment')
 
 const { SubmissionModel } = require('./models/SubmissionModel') 
 const { QuestionModel } = require('./models/QuestionModel') 
@@ -103,7 +104,9 @@ async function run(options) {
         return _.has(entry.submission,"text") /*&& _.has(entry.question,"text")*/
     })
 
-    //add questions
+    //format date
+    const date = moment(new Date(submission.data.createdAt));
+    submission.data.createdAt = date.format('D.M.YY HH:mm')
 
     const outputPathHtml = path.resolve(__dirname, 'output', submission.data.id + '.html');
     const outputPathPdf = path.resolve(__dirname, 'output', submission.data.id + '.pdf');

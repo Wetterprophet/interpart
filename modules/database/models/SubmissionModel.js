@@ -2,7 +2,7 @@
  * @Author: Lutz Reiter - http://lu-re.de 
  * @Date: 2019-03-29 19:20:29 
  * @Last Modified by: Lutz Reiter - http://lu-re.de
- * @Last Modified time: 2019-04-13 18:21:57
+ * @Last Modified time: 2019-05-23 23:37:56
  */
 
 const _ = require('lodash')
@@ -21,6 +21,7 @@ class SubmissionModel {
             text : "",
             language : "de",
             author: null,
+            createdAt: Date.now(),
             translations : []
         }, data)
     }
