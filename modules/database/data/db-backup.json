@@ -1,0 +1,6608 @@
+{
+  "submissions": [
+    {
+      "id": "e82f6420-6d97-11e9-9bf3-dfa2fae6f285",
+      "question": "dsjkls",
+      "text": "Ich möchte ein Eis.",
+      "language": "de",
+      "author": "Peter",
+      "translations": [
+        {
+          "text": "I want an ice cream.",
+          "language": "en"
+        },
+        {
+          "text": "Je veux une glace.",
+          "language": "fr"
+        },
+        {
+          "text": "Quiero un helado",
+          "language": "es"
+        },
+        {
+          "text": "Voglio un gelato.",
+          "language": "it"
+        },
+        {
+          "text": "Dondurma istiyorum.",
+          "language": "tr"
+        },
+        {
+          "text": "اريد ايس كريم",
+          "language": "ar"
+        },
+        {
+          "text": "Θέλω παγωτό.",
+          "language": "el"
+        },
+        {
+          "text": "Chcę lody.",
+          "language": "pl"
+        },
+        {
+          "text": "Tôi muốn một cây kem.",
+          "language": "vi"
+        },
+        {
+          "text": "من یک بستنی می خواهم",
+          "language": "fa"
+        },
+        {
+          "text": "Vreau o înghețată.",
+          "language": "ro"
+        },
+        {
+          "text": "میں ایک آئس کریم چاہتا ہوں.",
+          "language": "ur"
+        }
+      ]
+    },
+    {
+      "id": "e824b6f0-6db1-11e9-80a8-bf9086f3ffcc",
+      "question": "dsjkls",
+      "text": "Ich möchte ein Eis.",
+      "language": "de",
+      "author": "Peter",
+      "translations": [
+        {
+          "text": "I want an ice cream.",
+          "language": "en"
+        },
+        {
+          "text": "Je veux une glace.",
+          "language": "fr"
+        },
+        {
+          "text": "Quiero un helado",
+          "language": "es"
+        },
+        {
+          "text": "Voglio un gelato.",
+          "language": "it"
+        },
+        {
+          "text": "Dondurma istiyorum.",
+          "language": "tr"
+        },
+        {
+          "text": "اريد ايس كريم",
+          "language": "ar"
+        },
+        {
+          "text": "Θέλω παγωτό.",
+          "language": "el"
+        },
+        {
+          "text": "Chcę lody.",
+          "language": "pl"
+        },
+        {
+          "text": "Tôi muốn một cây kem.",
+          "language": "vi"
+        },
+        {
+          "text": "من یک بستنی می خواهم",
+          "language": "fa"
+        },
+        {
+          "text": "Vreau o înghețată.",
+          "language": "ro"
+        },
+        {
+          "text": "میں ایک آئس کریم چاہتا ہوں.",
+          "language": "ur"
+        }
+      ]
+    },
+    {
+      "id": "df971eb0-71d0-11e9-a190-d10e6fdba352",
+      "question": null,
+      "text": "",
+      "language": "en",
+      "author": null,
+      "translations": [
+        {
+          "text": "",
+          "language": "de"
+        },
+        {
+          "text": "",
+          "language": "fr"
+        },
+        {
+          "text": "",
+          "language": "es"
+        },
+        {
+          "text": "",
+          "language": "it"
+        },
+        {
+          "text": "",
+          "language": "tr"
+        },
+        {
+          "text": "",
+          "language": "ar"
+        },
+        {
+          "text": "",
+          "language": "el"
+        },
+        {
+          "text": "",
+          "language": "pl"
+        },
+        {
+          "text": "",
+          "language": "vi"
+        },
+        {
+          "text": "",
+          "language": "fa"
+        },
+        {
+          "text": "",
+          "language": "ro"
+        },
+        {
+          "text": "",
+          "language": "ur"
+        }
+      ]
+    },
+    {
+      "id": "9b606a20-7898-11e9-a078-65c1de52175d",
+      "question": null,
+      "text": "Ian",
+      "language": "en",
+      "author": null,
+      "translations": [
+        {
+          "text": "Ian",
+          "language": "de"
+        },
+        {
+          "text": "Ian",
+          "language": "fr"
+        },
+        {
+          "text": "Ian",
+          "language": "es"
+        },
+        {
+          "text": "Ian",
+          "language": "it"
+        },
+        {
+          "text": "Ian",
+          "language": "tr"
+        },
+        {
+          "text": "ايان",
+          "language": "ar"
+        },
+        {
+          "text": "Ιάν",
+          "language": "el"
+        },
+        {
+          "text": "Ian",
+          "language": "pl"
+        },
+        {
+          "text": "Ian",
+          "language": "vi"
+        },
+        {
+          "text": "یان",
+          "language": "fa"
+        },
+        {
+          "text": "Ian",
+          "language": "ro"
+        },
+        {
+          "text": "ایان",
+          "language": "ur"
+        }
+      ]
+    },
+    {
+      "id": "af81eb00-7898-11e9-a078-65c1de52175d",
+      "question": null,
+      "text": "Lutz Lutz",
+      "language": "de",
+      "author": null,
+      "translations": [
+        {
+          "text": "Lutz Lutz",
+          "language": "en"
+        },
+        {
+          "text": "Lutz Lutz",
+          "language": "fr"
+        },
+        {
+          "text": "Lutz Lutz",
+          "language": "es"
+        },
+        {
+          "text": "Lutz Lutz",
+          "language": "it"
+        },
+        {
+          "text": "Lutz Lutz",
+          "language": "tr"
+        },
+        {
+          "text": "لوتز لوتز",
+          "language": "ar"
+        },
+        {
+          "text": "Λουτς Λουτς",
+          "language": "el"
+        },
+        {
+          "text": "Lutz Lutz",
+          "language": "pl"
+        },
+        {
+          "text": "Lutz Lutz",
+          "language": "vi"
+        },
+        {
+          "text": "لوتز لوتز",
+          "language": "fa"
+        },
+        {
+          "text": "Lutz Lutz",
+          "language": "ro"
+        },
+        {
+          "text": "لوٹز لوٹز",
+          "language": "ur"
+        }
+      ]
+    },
+    {
+      "id": "8bb25e10-789a-11e9-a7fe-a77b56e865d9",
+      "question": null,
+      "text": "ist ganz schön muss ich sagen na ja, auf jeden Fall",
+      "language": "de",
+      "author": null,
+      "translations": [
+        {
+          "text": "It's pretty good to say, well, definitely",
+          "language": "en"
+        },
+        {
+          "text": "C'est très bien de dire, bien, définitivement",
+          "language": "fr"
+        },
+        {
+          "text": "Es bastante bueno decir, bueno, definitivamente",
+          "language": "es"
+        },
+        {
+          "text": "È abbastanza buono da dire, bene, sicuramente",
+          "language": "it"
+        },
+        {
+          "text": "Söylemesi çok iyi, kesinlikle",
+          "language": "tr"
+        },
+        {
+          "text": "من الجيد أن نقول ، حسنًا ، بالتأكيد",
+          "language": "ar"
+        },
+        {
+          "text": "Είναι πολύ καλό να πω, καλά, σίγουρα",
+          "language": "el"
+        },
+        {
+          "text": "Dobrze jest powiedzieć, cóż, zdecydowanie",
+          "language": "pl"
+        },
+        {
+          "text": "Thật tốt khi nói, tốt, chắc chắn",
+          "language": "vi"
+        },
+        {
+          "text": "خیلی خوب است که بگویم، قطعا",
+          "language": "fa"
+        },
+        {
+          "text": "Este destul de bine să spun, bine, cu siguranță",
+          "language": "ro"
+        },
+        {
+          "text": "यह कहना अच्छा है, ठीक है, निश्चित रूप से",
+          "language": "hi"
+        }
+      ]
+    },
+    {
+      "id": "a887dd70-7b2a-11e9-a1e6-953c1db43b50",
+      "question": {
+        "language": "tr",
+        "text": "Merhaba {{NAME}} , orada olmana sevindim. Dışarıda ne yapmak istersin?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "teşekkür ederim",
+      "language": "tr",
+      "author": "Merhaba",
+      "translations": [
+        {
+          "text": "danke schön",
+          "language": "de"
+        },
+        {
+          "text": "thank you",
+          "language": "en"
+        },
+        {
+          "text": "merci",
+          "language": "fr"
+        },
+        {
+          "text": "grazie",
+          "language": "it"
+        },
+        {
+          "text": "gracias",
+          "language": "es"
+        },
+        {
+          "text": "شكرا",
+          "language": "ar"
+        },
+        {
+          "text": "ممنون",
+          "language": "fa"
+        },
+        {
+          "text": "ευχαριστώ",
+          "language": "el"
+        },
+        {
+          "text": "مننه",
+          "language": "ps"
+        },
+        {
+          "text": "спасибо тебе",
+          "language": "ru"
+        },
+        {
+          "text": "дякую вам",
+          "language": "uk"
+        },
+        {
+          "text": "mulțumesc",
+          "language": "ro"
+        },
+        {
+          "text": "dziękuję",
+          "language": "pl"
+        },
+        {
+          "text": "spas",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "f0877490-7b2b-11e9-a1e6-953c1db43b50",
+      "question": {
+        "text": "Hallo {{NAME}}, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "ich war ja immer am weißen habe gespielt",
+      "language": "de",
+      "author": "Lutz",
+      "translations": [
+        {
+          "text": "I've always played at the white",
+          "language": "en"
+        },
+        {
+          "text": "J'ai toujours joué au blanc",
+          "language": "fr"
+        },
+        {
+          "text": "Ho sempre giocato al bianco",
+          "language": "it"
+        },
+        {
+          "text": "Siempre he jugado en el blanco",
+          "language": "es"
+        },
+        {
+          "text": "لقد لعبت دائما في الأبيض",
+          "language": "ar"
+        },
+        {
+          "text": "من همیشه در سفید بازی کردم",
+          "language": "fa"
+        },
+        {
+          "text": "Ben her zaman beyazda oynadım",
+          "language": "tr"
+        },
+        {
+          "text": "Έχω παίξει πάντα στο λευκό",
+          "language": "el"
+        },
+        {
+          "text": "ما تل په سپینه کې لوبغالی دی",
+          "language": "ps"
+        },
+        {
+          "text": "Я всегда играл на белом",
+          "language": "ru"
+        },
+        {
+          "text": "Я завжди грав на білому",
+          "language": "uk"
+        },
+        {
+          "text": "Întotdeauna am jucat la alb",
+          "language": "ro"
+        },
+        {
+          "text": "Zawsze grałem na białych",
+          "language": "pl"
+        },
+        {
+          "text": "Min her tim li spî vekirî",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "0b72c0e0-7da0-11e9-9ebc-2bf48d146901",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo Gudrun, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de"
+      },
+      "text": "Minigolf",
+      "language": "de",
+      "author": "Gudrun",
+      "translations": [
+        {
+          "text": "miniature golf",
+          "language": "en"
+        },
+        {
+          "text": "mini-golf",
+          "language": "fr"
+        },
+        {
+          "text": "golf in miniatura",
+          "language": "it"
+        },
+        {
+          "text": "golf miniatura",
+          "language": "es"
+        },
+        {
+          "text": "لعبة غولف مصغرة",
+          "language": "ar"
+        },
+        {
+          "text": "گلف مینیاتوری",
+          "language": "fa"
+        },
+        {
+          "text": "minyatür golf",
+          "language": "tr"
+        },
+        {
+          "text": "μίνι γκολφ",
+          "language": "el"
+        },
+        {
+          "text": "میناتوری ګالف",
+          "language": "ps"
+        },
+        {
+          "text": "мини-гольф",
+          "language": "ru"
+        },
+        {
+          "text": "міні-гольф",
+          "language": "uk"
+        },
+        {
+          "text": "mini-golf",
+          "language": "ro"
+        },
+        {
+          "text": "minigolf",
+          "language": "pl"
+        },
+        {
+          "text": "golf xwebixwe",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "ae2113f0-7da5-11e9-9ebc-2bf48d146901",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Вітаємо, Карамба рагу , добре, що ви тут. Що ви хотіли робити поза?",
+        "language": "uk"
+      },
+      "text": "поно",
+      "language": "uk",
+      "author": "Карамба рагу",
+      "translations": [
+        {
+          "text": "pono",
+          "language": "de"
+        },
+        {
+          "text": "pono",
+          "language": "en"
+        },
+        {
+          "text": "pono",
+          "language": "fr"
+        },
+        {
+          "text": "Ponoi",
+          "language": "it"
+        },
+        {
+          "text": "pono",
+          "language": "es"
+        },
+        {
+          "text": "Ponoi",
+          "language": "ar"
+        },
+        {
+          "text": "پونو",
+          "language": "fa"
+        },
+        {
+          "text": "Ponoi",
+          "language": "tr"
+        },
+        {
+          "text": "pono",
+          "language": "el"
+        },
+        {
+          "text": "پون",
+          "language": "ps"
+        },
+        {
+          "text": "поно",
+          "language": "ru"
+        },
+        {
+          "text": "Ponoi",
+          "language": "ro"
+        },
+        {
+          "text": "pono",
+          "language": "pl"
+        },
+        {
+          "text": "pono",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "c3855b20-8070-11e9-ac7b-9f6d94bc9231",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo Gudrun, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de"
+      },
+      "text": "herum getobt von mir weh getan",
+      "language": "de",
+      "author": "Gudrun",
+      "createdAt": 1558955741650,
+      "translations": [
+        {
+          "text": "raged around by me hurt",
+          "language": "en"
+        },
+        {
+          "text": "fait rage autour de moi blessé",
+          "language": "fr"
+        },
+        {
+          "text": "infuriato intorno a me ferito",
+          "language": "it"
+        },
+        {
+          "text": "rabiaba por mi dolor",
+          "language": "es"
+        },
+        {
+          "text": "احتدم من جانبي يصب بأذى",
+          "language": "ar"
+        },
+        {
+          "text": "به من آسیب زد",
+          "language": "fa"
+        },
+        {
+          "text": "Çevremdeki öfkeli incinmiş",
+          "language": "tr"
+        },
+        {
+          "text": "έτρεξε γύρω από με κακό",
+          "language": "el"
+        },
+        {
+          "text": "زما په شاوخوا کې تیری شوی",
+          "language": "ps"
+        },
+        {
+          "text": "вокруг меня бушует больно",
+          "language": "ru"
+        },
+        {
+          "text": "бушували навколо мене боляче",
+          "language": "uk"
+        },
+        {
+          "text": "rănit în jurul meu de rănit",
+          "language": "ro"
+        },
+        {
+          "text": "szalał wokół mnie zraniony",
+          "language": "pl"
+        },
+        {
+          "text": "li hember min xemgîn kir",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "54f9d530-807c-11e9-aca1-87c420d70fae",
+      "question": {
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo Hans-jürgen, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "rumgesessen und Drogen genommen",
+      "language": "de",
+      "author": "Hans-jürgen",
+      "createdAt": 1558960710147,
+      "translations": [
+        {
+          "text": "sat around and taken drugs",
+          "language": "en"
+        },
+        {
+          "text": "assis autour et pris de la drogue",
+          "language": "fr"
+        },
+        {
+          "text": "si sedette e prese droghe",
+          "language": "it"
+        },
+        {
+          "text": "se sentó y tomó drogas",
+          "language": "es"
+        },
+        {
+          "text": "جلس حول وتعاطي المخدرات",
+          "language": "ar"
+        },
+        {
+          "text": "نشسته و مواد مخدر مصرف کرده است",
+          "language": "fa"
+        },
+        {
+          "text": "oturdum ve uyuşturucu kullandım",
+          "language": "tr"
+        },
+        {
+          "text": "κάθισε γύρω και πήρε ναρκωτικά",
+          "language": "el"
+        },
+        {
+          "text": "شاوخوا کښینې او نیشه يي توکي اخیستل",
+          "language": "ps"
+        },
+        {
+          "text": "сидели и принимали наркотики",
+          "language": "ru"
+        },
+        {
+          "text": "сиділи і брали наркотики",
+          "language": "uk"
+        },
+        {
+          "text": "s-au așezat și au luat droguri",
+          "language": "ro"
+        },
+        {
+          "text": "usiadłem i zażyłem narkotyki",
+          "language": "pl"
+        },
+        {
+          "text": "dora rûniştin û derman kirin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "8256cf80-807f-11e9-aca1-87c420d70fae",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en",
+        "text": "Hello  , nice that you are there. What did you like to do outside?"
+      },
+      "text": "I've said around the drilling around whatever you think just write something down at the printer",
+      "language": "en",
+      "author": "",
+      "createdAt": 1558962074745,
+      "translations": [
+        {
+          "text": "Ich habe gesagt, um das Bohren um was auch immer Sie denken, schreiben Sie einfach etwas an den Drucker",
+          "language": "de"
+        },
+        {
+          "text": "J'ai dit autour du forage autour de tout ce que vous pensez juste écrire quelque chose à l'imprimante",
+          "language": "fr"
+        },
+        {
+          "text": "Ho detto intorno alla perforazione attorno a qualsiasi cosa tu pensi di scrivere qualcosa alla stampante",
+          "language": "it"
+        },
+        {
+          "text": "He dicho alrededor del taladrado alrededor de lo que creas, simplemente escribe algo en la impresora",
+          "language": "es"
+        },
+        {
+          "text": "لقد قلت حول الحفر حول أي شيء تعتقد أنه مجرد كتابة شيء ما على الطابعة",
+          "language": "ar"
+        },
+        {
+          "text": "من در مورد حفاری در اطراف هر چیزی فکر می کنم فقط چیزی را در چاپگر بنویسید",
+          "language": "fa"
+        },
+        {
+          "text": "Sadece yazıcıda bir şeyler yazdığını düşündüğünüz her şeyin etrafındaki sondajın çevresinde söyledim",
+          "language": "tr"
+        },
+        {
+          "text": "Έχω πει γύρω από τη γεώτρηση γύρω από ό, τι νομίζετε απλά γράψτε κάτι κάτω στον εκτυπωτή",
+          "language": "el"
+        },
+        {
+          "text": "زه د هغه څه شاوخوا چې تاسو فکر کوئ د چاپیریال په شاوخوا کې یې وویل چې په پرنټر کې یو څه ولیکئ",
+          "language": "ps"
+        },
+        {
+          "text": "Я говорил о бурении вокруг того, что вы думаете, просто запишите что-нибудь на принтере",
+          "language": "ru"
+        },
+        {
+          "text": "Я сказав навколо буріння все, що ви думаєте просто написати щось на принтері",
+          "language": "uk"
+        },
+        {
+          "text": "Am spus în jurul forajului în jurul valorii de orice credeți că scrieți ceva la imprimantă",
+          "language": "ro"
+        },
+        {
+          "text": "Powiedziałem dookoła wiercenia wokół tego, co myślisz, że coś napiszesz na drukarce",
+          "language": "pl"
+        },
+        {
+          "text": "Ez li ser dorpêçê li ser her tiştê ku hûn difikirin, li ser printer tiştek dinivîse",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "97a41440-8081-11e9-aca1-87c420d70fae",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en",
+        "text": "Hello Kevin , nice that you are there. What did you like to do outside?"
+      },
+      "text": "nothing",
+      "language": "en",
+      "author": "Kevin",
+      "createdAt": 1558962969477,
+      "translations": [
+        {
+          "text": "nichts",
+          "language": "de"
+        },
+        {
+          "text": "rien",
+          "language": "fr"
+        },
+        {
+          "text": "Niente",
+          "language": "it"
+        },
+        {
+          "text": "nada",
+          "language": "es"
+        },
+        {
+          "text": "لا شيئ",
+          "language": "ar"
+        },
+        {
+          "text": "هیچ چی",
+          "language": "fa"
+        },
+        {
+          "text": "hiçbir şey değil",
+          "language": "tr"
+        },
+        {
+          "text": "τίποτα",
+          "language": "el"
+        },
+        {
+          "text": "هیڅ شی نه",
+          "language": "ps"
+        },
+        {
+          "text": "ничего такого",
+          "language": "ru"
+        },
+        {
+          "text": "нічого",
+          "language": "uk"
+        },
+        {
+          "text": "nimic",
+          "language": "ro"
+        },
+        {
+          "text": "nic",
+          "language": "pl"
+        },
+        {
+          "text": "netişt",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "f0dd3540-8087-11e9-aca1-87c420d70fae",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo na Sandra, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "ich habe mit meinen Freunden auf dem Dorfplatz gespielt",
+      "language": "de",
+      "author": "na Sandra",
+      "createdAt": 1558965696148,
+      "translations": [
+        {
+          "text": "I played with my friends in the village square",
+          "language": "en"
+        },
+        {
+          "text": "J'ai joué avec mes amis sur la place du village",
+          "language": "fr"
+        },
+        {
+          "text": "Ho giocato con i miei amici nella piazza del paese",
+          "language": "it"
+        },
+        {
+          "text": "Jugué con mis amigos en la plaza del pueblo.",
+          "language": "es"
+        },
+        {
+          "text": "لقد لعبت مع أصدقائي في ساحة القرية",
+          "language": "ar"
+        },
+        {
+          "text": "من با دوستانم در میدان روستا بازی کردم",
+          "language": "fa"
+        },
+        {
+          "text": "Köy meydanında arkadaşlarımla oynadım",
+          "language": "tr"
+        },
+        {
+          "text": "Παίξα με τους φίλους μου στην πλατεία του χωριού",
+          "language": "el"
+        },
+        {
+          "text": "ما د خپلو ملګرو سره د کلي په مربع کې لوبې کولې",
+          "language": "ps"
+        },
+        {
+          "text": "Я играл со своими друзьями на деревенской площади",
+          "language": "ru"
+        },
+        {
+          "text": "Я грав зі своїми друзями на сільській площі",
+          "language": "uk"
+        },
+        {
+          "text": "Am jucat cu prietenii mei în piața satului",
+          "language": "ro"
+        },
+        {
+          "text": "Grałem z przyjaciółmi na placu w wiosce",
+          "language": "pl"
+        },
+        {
+          "text": "Min bi hevalên xwe re li qada gundê min re lîstin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "d111a460-8089-11e9-aca1-87c420d70fae",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo Hans-jürgen, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "rum gesessen und gewartet bis die Sonne untergeht deine kluge Antworten dokumentiert",
+      "language": "de",
+      "author": "Hans-jürgen",
+      "createdAt": 1558966501798,
+      "translations": [
+        {
+          "text": "sat around and waited until the sun goes down to document your wise answers",
+          "language": "en"
+        },
+        {
+          "text": "assis autour et attendit que le soleil se couche pour documenter vos réponses sages",
+          "language": "fr"
+        },
+        {
+          "text": "si sedette e aspettò che il sole tramasse per documentare le tue sagge risposte",
+          "language": "it"
+        },
+        {
+          "text": "se sentó y esperó hasta que se pusiera el sol para documentar sus sabias respuestas",
+          "language": "es"
+        },
+        {
+          "text": "جلست وانتظرت حتى تغرب الشمس لتوثيق إجاباتك الحكيمة",
+          "language": "ar"
+        },
+        {
+          "text": "اطراف نشسته و منتظر می مانیم تا زمانی که خورشید به سوالات شما پاسخ دهد",
+          "language": "fa"
+        },
+        {
+          "text": "akıllıca cevaplarınızı belgelemek için güneş batıncaya kadar bekleyin ve bekleyin",
+          "language": "tr"
+        },
+        {
+          "text": "κάθισε γύρω και περίμενε μέχρι να πέσει ο ήλιος για να τεκμηριώσει τις σοφές απαντήσεις σου",
+          "language": "el"
+        },
+        {
+          "text": "څنګ ته ناست او انتظار ته تر هغه پورې چې لمر راوتلی ترڅو ستاسو د سم ځواب ځوابونه وکړي",
+          "language": "ps"
+        },
+        {
+          "text": "сидели и ждали, пока солнце не сядет, чтобы задокументировать ваши мудрые ответы",
+          "language": "ru"
+        },
+        {
+          "text": "сиділи навколо і чекали, поки сонце зайде, щоб задокументувати ваші мудрі відповіді",
+          "language": "uk"
+        },
+        {
+          "text": "s-au așezat în jur și au așteptat până când soarele coboară pentru a documenta răspunsurile înțelepte",
+          "language": "ro"
+        },
+        {
+          "text": "usiadłem i zaczekałem, aż słońce zachodzi, by udokumentować twoje mądre odpowiedzi",
+          "language": "pl"
+        },
+        {
+          "text": "li dora rûniştin û heta ku ez diçim ku bersivên xwe yên şehrez belge belaş bikim",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "1b13b7b0-808a-11e9-aca1-87c420d70fae",
+      "question": {
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo Jochen von der Vogelweide, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "nix ich durfte nicht raus",
+      "language": "de",
+      "author": "Jochen von der Vogelweide",
+      "createdAt": 1558966625963,
+      "translations": [
+        {
+          "text": "nothing I could not get out",
+          "language": "en"
+        },
+        {
+          "text": "rien je ne pourrais pas sortir",
+          "language": "fr"
+        },
+        {
+          "text": "niente che non potessi uscire",
+          "language": "it"
+        },
+        {
+          "text": "nada de lo que no pude salir",
+          "language": "es"
+        },
+        {
+          "text": "لا شيء لم أستطع الخروج",
+          "language": "ar"
+        },
+        {
+          "text": "هیچ چیز نمیتوانست بیرون بیاید",
+          "language": "fa"
+        },
+        {
+          "text": "hiçbir şey çıkamadım",
+          "language": "tr"
+        },
+        {
+          "text": "τίποτα δεν μπορούσα να βγούμε",
+          "language": "el"
+        },
+        {
+          "text": "هیڅ شی چې ما نشو ترلاسه کولی",
+          "language": "ps"
+        },
+        {
+          "text": "ничего я не мог выбраться",
+          "language": "ru"
+        },
+        {
+          "text": "нічого я не міг вийти",
+          "language": "uk"
+        },
+        {
+          "text": "nimic nu am putut ieși",
+          "language": "ro"
+        },
+        {
+          "text": "nic nie mogłem wydostać się",
+          "language": "pl"
+        },
+        {
+          "text": "tiştek ku ez nikarim",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "cc5b04b0-808a-11e9-aca1-87c420d70fae",
+      "question": {
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo Bäcker, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "hauptsache du drückst jetzt hier irgendwas Schönes aus",
+      "language": "de",
+      "author": "Bäcker",
+      "createdAt": 1558966923387,
+      "translations": [
+        {
+          "text": "the main thing you are now expressing something nice here",
+          "language": "en"
+        },
+        {
+          "text": "la principale chose que vous exprimez maintenant quelque chose de gentil ici",
+          "language": "fr"
+        },
+        {
+          "text": "la cosa principale che ora stai esprimendo qualcosa di bello qui",
+          "language": "it"
+        },
+        {
+          "text": "Lo más importante ahora estás expresando algo bueno aquí.",
+          "language": "es"
+        },
+        {
+          "text": "الشيء الرئيسي الذي تعبر عنه الآن شيء لطيف هنا",
+          "language": "ar"
+        },
+        {
+          "text": "مهمترین چیز شما در حال حاضر بیان چیزی خوب اینجا",
+          "language": "fa"
+        },
+        {
+          "text": "şimdi burada güzel bir şeyi ifade ettiğin en önemli şey",
+          "language": "tr"
+        },
+        {
+          "text": "το κύριο πράγμα που εκφράζετε τώρα κάτι όμορφο εδώ",
+          "language": "el"
+        },
+        {
+          "text": "هغه مهم شی چې تاسو یې اوس اوس دلته یو څه بیان کړئ دلته دلته ښایسته",
+          "language": "ps"
+        },
+        {
+          "text": "Главное, что вы сейчас выражаете здесь что-то приятное",
+          "language": "ru"
+        },
+        {
+          "text": "головне, що ви тут висловлюєте щось приємне",
+          "language": "uk"
+        },
+        {
+          "text": "principalul lucru pe care acum îl exprimați ceva frumos aici",
+          "language": "ro"
+        },
+        {
+          "text": "najważniejsze, że teraz wyrażasz tutaj coś miłego",
+          "language": "pl"
+        },
+        {
+          "text": "tiştek sereke ku hûn niha li vir têne xuya kirin tiştek xweş e",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "28ed1c10-808e-11e9-97e9-1567e90cf97b",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo Jochen von der Vogelweide, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de"
+      },
+      "text": "nix. Ich war immer nur drin",
+      "language": "de",
+      "author": "Jochen von der Vogelweide",
+      "createdAt": 1558968367185,
+      "translations": [
+        {
+          "text": "nothing. I was always in it",
+          "language": "en"
+        },
+        {
+          "text": "rien. Je n'étais là-bas",
+          "language": "fr"
+        },
+        {
+          "text": "nulla. Ci sono sempre stato",
+          "language": "it"
+        },
+        {
+          "text": "nada. Siempre estuve en eso",
+          "language": "es"
+        },
+        {
+          "text": "لا شيء. كنت دائما في ذلك",
+          "language": "ar"
+        },
+        {
+          "text": "هیچ چیز. من همیشه در آن بودم",
+          "language": "fa"
+        },
+        {
+          "text": "hiçbir şey. Ben her zaman onun içindeydim.",
+          "language": "tr"
+        },
+        {
+          "text": "τίποτα. Ήμουν πάντα σε αυτό",
+          "language": "el"
+        },
+        {
+          "text": "هيڅ. زه تل په هغې کې وم",
+          "language": "ps"
+        },
+        {
+          "text": "нет ничего. Я всегда был в этом",
+          "language": "ru"
+        },
+        {
+          "text": "немає нічого. Я завжди був у ньому",
+          "language": "uk"
+        },
+        {
+          "text": "nimic. Întotdeauna am fost în ea",
+          "language": "ro"
+        },
+        {
+          "text": "nic. Zawsze w tym byłem",
+          "language": "pl"
+        },
+        {
+          "text": "tiştek. Ez herdem di wê de bû",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "63d02ed0-808e-11e9-97e9-1567e90cf97b",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo Adler, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de"
+      },
+      "text": "blablabla blablabla",
+      "language": "de",
+      "author": "Adler",
+      "createdAt": 1558968465981,
+      "translations": [
+        {
+          "text": "blablabla blablabla",
+          "language": "en"
+        },
+        {
+          "text": "blablabla blablabla",
+          "language": "fr"
+        },
+        {
+          "text": "blablabla blablabla",
+          "language": "it"
+        },
+        {
+          "text": "blablabla blablabla",
+          "language": "es"
+        },
+        {
+          "text": "بلابلابلا بلابلابلا",
+          "language": "ar"
+        },
+        {
+          "text": "blablabla blablabla",
+          "language": "fa"
+        },
+        {
+          "text": "blablabla blablabla",
+          "language": "tr"
+        },
+        {
+          "text": "blablabla blablabla",
+          "language": "el"
+        },
+        {
+          "text": "بلابیللا بلابلالا",
+          "language": "ps"
+        },
+        {
+          "text": "блаблабла блаблабла",
+          "language": "ru"
+        },
+        {
+          "text": "blablabla blablabla",
+          "language": "uk"
+        },
+        {
+          "text": "blablabla blablabla",
+          "language": "ro"
+        },
+        {
+          "text": "blablabla blablabla",
+          "language": "pl"
+        },
+        {
+          "text": "blablabla blablabla",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "f5f61f90-808e-11e9-97e9-1567e90cf97b",
+      "question": {
+        "text": "Hallo jemand richtig genervt ist, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "blablabla",
+      "language": "de",
+      "author": "jemand richtig genervt ist",
+      "createdAt": 1558968711177,
+      "translations": [
+        {
+          "text": "bla bla bla",
+          "language": "en"
+        },
+        {
+          "text": "blablabla",
+          "language": "fr"
+        },
+        {
+          "text": "blablabla",
+          "language": "it"
+        },
+        {
+          "text": "blablabla",
+          "language": "es"
+        },
+        {
+          "text": "blablabla",
+          "language": "ar"
+        },
+        {
+          "text": "blablabla",
+          "language": "fa"
+        },
+        {
+          "text": "blablabla",
+          "language": "tr"
+        },
+        {
+          "text": "blablabla",
+          "language": "el"
+        },
+        {
+          "text": "blablabla",
+          "language": "ps"
+        },
+        {
+          "text": "бла бла бла",
+          "language": "ru"
+        },
+        {
+          "text": "блаблабла",
+          "language": "uk"
+        },
+        {
+          "text": "blablabla",
+          "language": "ro"
+        },
+        {
+          "text": "blablabla",
+          "language": "pl"
+        },
+        {
+          "text": "blablabla",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "a08a7d20-808f-11e9-97e9-1567e90cf97b",
+      "question": {
+        "language": "de",
+        "text": "Hallo Christian, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "ich bin rumgerannt wie ein wilder",
+      "language": "de",
+      "author": "Christian",
+      "createdAt": 1558968997362,
+      "translations": [
+        {
+          "text": "I ran around like a wild man",
+          "language": "en"
+        },
+        {
+          "text": "J'ai couru comme un homme sauvage",
+          "language": "fr"
+        },
+        {
+          "text": "Sono corso in giro come un uomo selvaggio",
+          "language": "it"
+        },
+        {
+          "text": "Corrí como un hombre salvaje",
+          "language": "es"
+        },
+        {
+          "text": "ركضت مثل رجل وحشي",
+          "language": "ar"
+        },
+        {
+          "text": "من مثل یک مرد وحشی فرار کردم",
+          "language": "fa"
+        },
+        {
+          "text": "Etrafta vahşi bir adam gibi koştum",
+          "language": "tr"
+        },
+        {
+          "text": "Έτρεξα σαν ένας άγριος άνθρωπος",
+          "language": "el"
+        },
+        {
+          "text": "ما د وحشي سړي په څیر وتښتیده",
+          "language": "ps"
+        },
+        {
+          "text": "Я бегал как дикий человек",
+          "language": "ru"
+        },
+        {
+          "text": "Я бігав, як дика людина",
+          "language": "uk"
+        },
+        {
+          "text": "Am alergat ca un om sălbatic",
+          "language": "ro"
+        },
+        {
+          "text": "Pobiegłem jak dziki człowiek",
+          "language": "pl"
+        },
+        {
+          "text": "Ez diçim mîna mirovê cinan",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "e3d9a100-808f-11e9-97e9-1567e90cf97b",
+      "question": {
+        "language": "de",
+        "text": "Hallo Margrit, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "Wiese gepflückt",
+      "language": "de",
+      "author": "Margrit",
+      "createdAt": 1558969110288,
+      "translations": [
+        {
+          "text": "Meadow picked",
+          "language": "en"
+        },
+        {
+          "text": "Prairie cueillie",
+          "language": "fr"
+        },
+        {
+          "text": "Prato raccolto",
+          "language": "it"
+        },
+        {
+          "text": "Pradera escogida",
+          "language": "es"
+        },
+        {
+          "text": "اختار المرج",
+          "language": "ar"
+        },
+        {
+          "text": "چمنزار برداشت",
+          "language": "fa"
+        },
+        {
+          "text": "Çayır aldı",
+          "language": "tr"
+        },
+        {
+          "text": "Το λιβάδι πήρε",
+          "language": "el"
+        },
+        {
+          "text": "میډیا راټولیږي",
+          "language": "ps"
+        },
+        {
+          "text": "Луг выбран",
+          "language": "ru"
+        },
+        {
+          "text": "Луг вибрав",
+          "language": "uk"
+        },
+        {
+          "text": "Meadow a ales",
+          "language": "ro"
+        },
+        {
+          "text": "Wybrana łąka",
+          "language": "pl"
+        },
+        {
+          "text": "Meadow picked",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "b63eaf20-8093-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo Nadia, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "Ping Pong gespielt",
+      "language": "de",
+      "author": "Nadia",
+      "createdAt": 1558970751762,
+      "translations": [
+        {
+          "text": "Ping Pong played",
+          "language": "en"
+        },
+        {
+          "text": "Ping Pong a joué",
+          "language": "fr"
+        },
+        {
+          "text": "Suonò Ping Pong",
+          "language": "it"
+        },
+        {
+          "text": "Ping Pong jugó",
+          "language": "es"
+        },
+        {
+          "text": "لعبت بينغ بونغ",
+          "language": "ar"
+        },
+        {
+          "text": "پینگ پنگ بازی کرد",
+          "language": "fa"
+        },
+        {
+          "text": "Ping Pong oynadı",
+          "language": "tr"
+        },
+        {
+          "text": "Το Ping Pong έπαιξε",
+          "language": "el"
+        },
+        {
+          "text": "پنگ پون لوبه وکړه",
+          "language": "ps"
+        },
+        {
+          "text": "Пинг-понг играл",
+          "language": "ru"
+        },
+        {
+          "text": "Пінг-понг грав",
+          "language": "uk"
+        },
+        {
+          "text": "Ping Pong a jucat",
+          "language": "ro"
+        },
+        {
+          "text": "Ping Pong grał",
+          "language": "pl"
+        },
+        {
+          "text": "Ping Pong lîstin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "cdf436c0-8094-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo Hanna, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "Ping Pong gespielt",
+      "language": "de",
+      "author": "Hanna",
+      "createdAt": 1558971221036,
+      "translations": [
+        {
+          "text": "Ping Pong played",
+          "language": "en"
+        },
+        {
+          "text": "Ping Pong a joué",
+          "language": "fr"
+        },
+        {
+          "text": "Suonò Ping Pong",
+          "language": "it"
+        },
+        {
+          "text": "Ping Pong jugó",
+          "language": "es"
+        },
+        {
+          "text": "لعبت بينغ بونغ",
+          "language": "ar"
+        },
+        {
+          "text": "پینگ پنگ بازی کرد",
+          "language": "fa"
+        },
+        {
+          "text": "Ping Pong oynadı",
+          "language": "tr"
+        },
+        {
+          "text": "Το Ping Pong έπαιξε",
+          "language": "el"
+        },
+        {
+          "text": "پنگ پون لوبه وکړه",
+          "language": "ps"
+        },
+        {
+          "text": "Пинг-понг играл",
+          "language": "ru"
+        },
+        {
+          "text": "Пінг-понг грав",
+          "language": "uk"
+        },
+        {
+          "text": "Ping Pong a jucat",
+          "language": "ro"
+        },
+        {
+          "text": "Ping Pong grał",
+          "language": "pl"
+        },
+        {
+          "text": "Ping Pong lîstin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "1cb92950-8095-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo Hanna, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "gepflückt",
+      "language": "de",
+      "author": "Hanna",
+      "createdAt": 1558971353189,
+      "translations": [
+        {
+          "text": "plucked",
+          "language": "en"
+        },
+        {
+          "text": "pincées",
+          "language": "fr"
+        },
+        {
+          "text": "pizzicate",
+          "language": "it"
+        },
+        {
+          "text": "desplumado",
+          "language": "es"
+        },
+        {
+          "text": "التقطه",
+          "language": "ar"
+        },
+        {
+          "text": "کنده",
+          "language": "fa"
+        },
+        {
+          "text": "koparılan",
+          "language": "tr"
+        },
+        {
+          "text": "βγαλμένα",
+          "language": "el"
+        },
+        {
+          "text": "د قایمیدو",
+          "language": "ps"
+        },
+        {
+          "text": "щипковые",
+          "language": "ru"
+        },
+        {
+          "text": "щипкові",
+          "language": "uk"
+        },
+        {
+          "text": "smulsă",
+          "language": "ro"
+        },
+        {
+          "text": "oskubane",
+          "language": "pl"
+        },
+        {
+          "text": "hirçê",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "a9c2d030-8095-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo Oma, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "Blumen gepflückt",
+      "language": "de",
+      "author": "Oma",
+      "createdAt": 1558971589812,
+      "translations": [
+        {
+          "text": "Flowers picked",
+          "language": "en"
+        },
+        {
+          "text": "Fleurs cueillies",
+          "language": "fr"
+        },
+        {
+          "text": "I fiori raccolti",
+          "language": "it"
+        },
+        {
+          "text": "Flores recogidas",
+          "language": "es"
+        },
+        {
+          "text": "اختار الزهور",
+          "language": "ar"
+        },
+        {
+          "text": "گل برداشت شد",
+          "language": "fa"
+        },
+        {
+          "text": "Çiçekler toplandı",
+          "language": "tr"
+        },
+        {
+          "text": "Τα λουλούδια πήραν",
+          "language": "el"
+        },
+        {
+          "text": "ګلونه پورته شوي",
+          "language": "ps"
+        },
+        {
+          "text": "Цветы собраны",
+          "language": "ru"
+        },
+        {
+          "text": "Квіти зібрані",
+          "language": "uk"
+        },
+        {
+          "text": "Flori alese",
+          "language": "ro"
+        },
+        {
+          "text": "Zrywane kwiaty",
+          "language": "pl"
+        },
+        {
+          "text": "Flowers picked",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "e2658fe0-8095-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Ciao Sandra , bello che tu sia lì. Cosa ti è piaciuto fare fuori?",
+        "language": "it",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "prosciutto e funghi",
+      "language": "it",
+      "author": "Sandra",
+      "createdAt": 1558971684830,
+      "translations": [
+        {
+          "text": "Schinken und Pilze",
+          "language": "de"
+        },
+        {
+          "text": "Ham and mushrooms",
+          "language": "en"
+        },
+        {
+          "text": "jambon et champignons",
+          "language": "fr"
+        },
+        {
+          "text": "jamon y champiñones",
+          "language": "es"
+        },
+        {
+          "text": "لحم الخنزير والفطر",
+          "language": "ar"
+        },
+        {
+          "text": "ژامبون و قارچ",
+          "language": "fa"
+        },
+        {
+          "text": "jambon ve mantar",
+          "language": "tr"
+        },
+        {
+          "text": "ζαμπόν και μανιτάρια",
+          "language": "el"
+        },
+        {
+          "text": "هام او پوزې",
+          "language": "ps"
+        },
+        {
+          "text": "ветчина и грибы",
+          "language": "ru"
+        },
+        {
+          "text": "шинка і гриби",
+          "language": "uk"
+        },
+        {
+          "text": "șuncă și ciuperci",
+          "language": "ro"
+        },
+        {
+          "text": "szynka i grzyby",
+          "language": "pl"
+        },
+        {
+          "text": "ham û zeviyan",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "0809a3d0-8096-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo ok, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "Artischocken",
+      "language": "de",
+      "author": "ok",
+      "createdAt": 1558971747981,
+      "translations": [
+        {
+          "text": "artichokes",
+          "language": "en"
+        },
+        {
+          "text": "artichauts",
+          "language": "fr"
+        },
+        {
+          "text": "carciofi",
+          "language": "it"
+        },
+        {
+          "text": "alcachofa",
+          "language": "es"
+        },
+        {
+          "text": "خرشوف",
+          "language": "ar"
+        },
+        {
+          "text": "کنگر فرنگی",
+          "language": "fa"
+        },
+        {
+          "text": "enginar",
+          "language": "tr"
+        },
+        {
+          "text": "αγκινάρες",
+          "language": "el"
+        },
+        {
+          "text": "artichokes",
+          "language": "ps"
+        },
+        {
+          "text": "артишоки",
+          "language": "ru"
+        },
+        {
+          "text": "артишоки",
+          "language": "uk"
+        },
+        {
+          "text": "anghinare",
+          "language": "ro"
+        },
+        {
+          "text": "karczochy",
+          "language": "pl"
+        },
+        {
+          "text": "artichokes",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "3b65ae40-8096-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo Eva, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "blablabla",
+      "language": "de",
+      "author": "Eva",
+      "createdAt": 1558971834148,
+      "translations": [
+        {
+          "text": "bla bla bla",
+          "language": "en"
+        },
+        {
+          "text": "blablabla",
+          "language": "fr"
+        },
+        {
+          "text": "blablabla",
+          "language": "it"
+        },
+        {
+          "text": "blablabla",
+          "language": "es"
+        },
+        {
+          "text": "blablabla",
+          "language": "ar"
+        },
+        {
+          "text": "blablabla",
+          "language": "fa"
+        },
+        {
+          "text": "blablabla",
+          "language": "tr"
+        },
+        {
+          "text": "blablabla",
+          "language": "el"
+        },
+        {
+          "text": "blablabla",
+          "language": "ps"
+        },
+        {
+          "text": "бла бла бла",
+          "language": "ru"
+        },
+        {
+          "text": "блаблабла",
+          "language": "uk"
+        },
+        {
+          "text": "blablabla",
+          "language": "ro"
+        },
+        {
+          "text": "blablabla",
+          "language": "pl"
+        },
+        {
+          "text": "blablabla",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "f54377c0-8096-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo Oma, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "la",
+      "language": "de",
+      "author": "Oma",
+      "createdAt": 1558972145981,
+      "translations": [
+        {
+          "text": "la",
+          "language": "en"
+        },
+        {
+          "text": "la",
+          "language": "fr"
+        },
+        {
+          "text": "la",
+          "language": "it"
+        },
+        {
+          "text": "la",
+          "language": "es"
+        },
+        {
+          "text": "لا",
+          "language": "ar"
+        },
+        {
+          "text": "لا",
+          "language": "fa"
+        },
+        {
+          "text": "la",
+          "language": "tr"
+        },
+        {
+          "text": "λα",
+          "language": "el"
+        },
+        {
+          "text": "la",
+          "language": "ps"
+        },
+        {
+          "text": "ля",
+          "language": "ru"
+        },
+        {
+          "text": "ля",
+          "language": "uk"
+        },
+        {
+          "text": "la",
+          "language": "ro"
+        },
+        {
+          "text": "la",
+          "language": "pl"
+        },
+        {
+          "text": "la",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "850e8890-8097-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Ciao  , bello che tu sia lì. Cosa ti è piaciuto fare fuori?",
+        "language": "it",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "prosciutto e funghi",
+      "language": "it",
+      "author": "",
+      "createdAt": 1558972387225,
+      "translations": [
+        {
+          "text": "Schinken und Pilze",
+          "language": "de"
+        },
+        {
+          "text": "Ham and mushrooms",
+          "language": "en"
+        },
+        {
+          "text": "jambon et champignons",
+          "language": "fr"
+        },
+        {
+          "text": "jamon y champiñones",
+          "language": "es"
+        },
+        {
+          "text": "لحم الخنزير والفطر",
+          "language": "ar"
+        },
+        {
+          "text": "ژامبون و قارچ",
+          "language": "fa"
+        },
+        {
+          "text": "jambon ve mantar",
+          "language": "tr"
+        },
+        {
+          "text": "ζαμπόν και μανιτάρια",
+          "language": "el"
+        },
+        {
+          "text": "هام او پوزې",
+          "language": "ps"
+        },
+        {
+          "text": "ветчина и грибы",
+          "language": "ru"
+        },
+        {
+          "text": "шинка і гриби",
+          "language": "uk"
+        },
+        {
+          "text": "șuncă și ciuperci",
+          "language": "ro"
+        },
+        {
+          "text": "szynka i grzyby",
+          "language": "pl"
+        },
+        {
+          "text": "ham û zeviyan",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "442d13e0-8098-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo Puff Puff, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "gespielt",
+      "language": "de",
+      "author": "Puff Puff",
+      "createdAt": 1558972707870,
+      "translations": [
+        {
+          "text": "played",
+          "language": "en"
+        },
+        {
+          "text": "joué",
+          "language": "fr"
+        },
+        {
+          "text": "giocato",
+          "language": "it"
+        },
+        {
+          "text": "jugado",
+          "language": "es"
+        },
+        {
+          "text": "لعب",
+          "language": "ar"
+        },
+        {
+          "text": "بازی",
+          "language": "fa"
+        },
+        {
+          "text": "Oyunun",
+          "language": "tr"
+        },
+        {
+          "text": "έπαιξε",
+          "language": "el"
+        },
+        {
+          "text": "لوبه",
+          "language": "ps"
+        },
+        {
+          "text": "играл",
+          "language": "ru"
+        },
+        {
+          "text": "грав",
+          "language": "uk"
+        },
+        {
+          "text": "a jucat",
+          "language": "ro"
+        },
+        {
+          "text": "grał",
+          "language": "pl"
+        },
+        {
+          "text": "played",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "4f4319e0-8099-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo oh mein Gott, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "huhu",
+      "language": "de",
+      "author": "oh mein Gott",
+      "createdAt": 1558973155966,
+      "translations": [
+        {
+          "text": "huhu",
+          "language": "en"
+        },
+        {
+          "text": "huhu",
+          "language": "fr"
+        },
+        {
+          "text": "huhu",
+          "language": "it"
+        },
+        {
+          "text": "huhu",
+          "language": "es"
+        },
+        {
+          "text": "huhu",
+          "language": "ar"
+        },
+        {
+          "text": "huhu به",
+          "language": "fa"
+        },
+        {
+          "text": "huhu",
+          "language": "tr"
+        },
+        {
+          "text": "huhu",
+          "language": "el"
+        },
+        {
+          "text": "Huhu",
+          "language": "ps"
+        },
+        {
+          "text": "Хуху",
+          "language": "ru"
+        },
+        {
+          "text": "Хуху",
+          "language": "uk"
+        },
+        {
+          "text": "Huhu",
+          "language": "ro"
+        },
+        {
+          "text": "Huhu",
+          "language": "pl"
+        },
+        {
+          "text": "huhu",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "aebe00b0-8099-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo ja, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "glaube ich",
+      "language": "de",
+      "author": "ja",
+      "createdAt": 1558973316155,
+      "translations": [
+        {
+          "text": "I believe",
+          "language": "en"
+        },
+        {
+          "text": "Je crois",
+          "language": "fr"
+        },
+        {
+          "text": "Io credo",
+          "language": "it"
+        },
+        {
+          "text": "Yo creo",
+          "language": "es"
+        },
+        {
+          "text": "أعتقد",
+          "language": "ar"
+        },
+        {
+          "text": "من اعتقاد دارم",
+          "language": "fa"
+        },
+        {
+          "text": "İnanıyorum",
+          "language": "tr"
+        },
+        {
+          "text": "Πιστεύω",
+          "language": "el"
+        },
+        {
+          "text": "زه باور لرم",
+          "language": "ps"
+        },
+        {
+          "text": "я думаю",
+          "language": "ru"
+        },
+        {
+          "text": "Я вірю",
+          "language": "uk"
+        },
+        {
+          "text": "Cred",
+          "language": "ro"
+        },
+        {
+          "text": "Wierzę",
+          "language": "pl"
+        },
+        {
+          "text": "Ez bawer dikim",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "611006f0-809a-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo sombra, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "Fußball gespielt",
+      "language": "de",
+      "author": "sombra",
+      "createdAt": 1558973615327,
+      "translations": [
+        {
+          "text": "played football",
+          "language": "en"
+        },
+        {
+          "text": "Joué au football",
+          "language": "fr"
+        },
+        {
+          "text": "Giocava a calcio",
+          "language": "it"
+        },
+        {
+          "text": "Jugado futbol",
+          "language": "es"
+        },
+        {
+          "text": "لعب كرة القدم",
+          "language": "ar"
+        },
+        {
+          "text": "فوتبال بازی کرد",
+          "language": "fa"
+        },
+        {
+          "text": "Oynanan futbol",
+          "language": "tr"
+        },
+        {
+          "text": "Παίχθηκε ποδόσφαιρο",
+          "language": "el"
+        },
+        {
+          "text": "لوبغالی",
+          "language": "ps"
+        },
+        {
+          "text": "Играл в футбол",
+          "language": "ru"
+        },
+        {
+          "text": "Зіграли в футбол",
+          "language": "uk"
+        },
+        {
+          "text": "A jucat fotbal",
+          "language": "ro"
+        },
+        {
+          "text": "Grał w piłkę nożną",
+          "language": "pl"
+        },
+        {
+          "text": "Fûtbolê lîstin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "7f91c7d0-809a-11e9-ba72-d325ca0b9763",
+      "question": {
+        "text": "Hallo Sandra, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "vorgespielt",
+      "language": "de",
+      "author": "Sandra",
+      "createdAt": 1558973666509,
+      "translations": [
+        {
+          "text": "played",
+          "language": "en"
+        },
+        {
+          "text": "joué",
+          "language": "fr"
+        },
+        {
+          "text": "giocato",
+          "language": "it"
+        },
+        {
+          "text": "jugado",
+          "language": "es"
+        },
+        {
+          "text": "لعب",
+          "language": "ar"
+        },
+        {
+          "text": "بازی",
+          "language": "fa"
+        },
+        {
+          "text": "Oyunun",
+          "language": "tr"
+        },
+        {
+          "text": "έπαιξε",
+          "language": "el"
+        },
+        {
+          "text": "لوبه",
+          "language": "ps"
+        },
+        {
+          "text": "играл",
+          "language": "ru"
+        },
+        {
+          "text": "грав",
+          "language": "uk"
+        },
+        {
+          "text": "a jucat",
+          "language": "ro"
+        },
+        {
+          "text": "grał",
+          "language": "pl"
+        },
+        {
+          "text": "played",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "572e36c0-813f-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "it",
+        "text": "Ciao display S7 Edge , bello che tu sia lì. Cosa ti è piaciuto fare fuori?"
+      },
+      "text": "meccanici in Val di Zoldo",
+      "language": "it",
+      "author": "display S7 Edge",
+      "createdAt": 1559044465708
+    },
+    {
+      "id": "ef404480-813f-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo Sandra, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "Bäume gepflanzt Blumen gepflückt zu oben im Garten gespielt",
+      "language": "de",
+      "author": "Sandra",
+      "createdAt": 1559044720840,
+      "translations": [
+        {
+          "text": "Trees planted flowers picked to play up in the garden",
+          "language": "en"
+        },
+        {
+          "text": "Arbres plantés de fleurs cueillies pour jouer dans le jardin",
+          "language": "fr"
+        },
+        {
+          "text": "Alberi piantati fiori raccolti per giocare nel giardino",
+          "language": "it"
+        },
+        {
+          "text": "Árboles plantados flores recogidas para jugar en el jardín.",
+          "language": "es"
+        },
+        {
+          "text": "الأشجار زرعت الزهور التقطت للعب في الحديقة",
+          "language": "ar"
+        },
+        {
+          "text": "درختان کاشته شده گل ها را به بازی در باغ",
+          "language": "fa"
+        },
+        {
+          "text": "Bahçede oynamak için toplanan çiçekler",
+          "language": "tr"
+        },
+        {
+          "text": "Δέντρα φύτεψαν λουλούδια που πήραν για να παίξουν στον κήπο",
+          "language": "el"
+        },
+        {
+          "text": "وني په ګل کښينول شوي ګلونه په باغ کښي لوبوي",
+          "language": "ps"
+        },
+        {
+          "text": "Деревья посадили цветы, собранные в саду",
+          "language": "ru"
+        },
+        {
+          "text": "Дерева посадили квіти, зібрані, щоб грати в саду",
+          "language": "uk"
+        },
+        {
+          "text": "Copacii au plantat flori alese pentru a se juca în grădină",
+          "language": "ro"
+        },
+        {
+          "text": "Drzewa posadziły kwiaty zebrane do zabawy w ogrodzie",
+          "language": "pl"
+        },
+        {
+          "text": "Dara ku dara berbelavê gulan firotin da ku li baxçe",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "0ed486d0-8140-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo sonder, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "Bäume gepflanzt Blumen gepflückt Gummitwist und gemobbt",
+      "language": "de",
+      "author": "sonder",
+      "createdAt": 1559044773822,
+      "translations": [
+        {
+          "text": "Trees planted flowers picked Gummitwist and bullied",
+          "language": "en"
+        },
+        {
+          "text": "Des arbres plantés de fleurs ramassés au Gummitwist et victimes d'intimidation",
+          "language": "fr"
+        },
+        {
+          "text": "Alberi piantati fiori raccolti Gummitwist e vittime di bullismo",
+          "language": "it"
+        },
+        {
+          "text": "Los árboles plantaron flores recogidas Gummitwist y intimidado",
+          "language": "es"
+        },
+        {
+          "text": "أشجار الزهور المزروعة التقطت Gummitwist وتخويف",
+          "language": "ar"
+        },
+        {
+          "text": "درختان گل کاشته گل و گیاه را گرفتند و مورد ضرب و شتم قرار گرفتند",
+          "language": "fa"
+        },
+        {
+          "text": "Ağaçlar ekili çiçekler Gummitwist aldı ve kabadayı",
+          "language": "tr"
+        },
+        {
+          "text": "Τα δέντρα που φυτεύτηκαν λουλούδια πήραν το Gummitwist και εκφοβίστηκαν",
+          "language": "el"
+        },
+        {
+          "text": "د ونو کښتونه ګلانټیسټ غوره کړل او ځورول",
+          "language": "ps"
+        },
+        {
+          "text": "Деревья посадили цветы, собрал Gummitwist и издевались",
+          "language": "ru"
+        },
+        {
+          "text": "Дерева посадили квітками, взяли Гуммітвіст і знущалися",
+          "language": "uk"
+        },
+        {
+          "text": "Copacii plantați flori au ales Gummitwist și agresați",
+          "language": "ro"
+        },
+        {
+          "text": "Drzewa posadzone kwiaty wybrały Gummitwist i zastraszone",
+          "language": "pl"
+        },
+        {
+          "text": "Gara ku çêdike firotin Gummitwist û birçî kirin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "cfc6e7c0-8140-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo Sandra, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "Kuchen gebacken blablablablablablabla",
+      "language": "de",
+      "author": "Sandra",
+      "createdAt": 1559045097532,
+      "translations": [
+        {
+          "text": "Cake baked blablablablablablabla",
+          "language": "en"
+        },
+        {
+          "text": "Gâteau cuit au four blablablablablablablabla",
+          "language": "fr"
+        },
+        {
+          "text": "Torta al forno blablablablablablablabla",
+          "language": "it"
+        },
+        {
+          "text": "Blablablablablablabla al horno",
+          "language": "es"
+        },
+        {
+          "text": "كيك مخبوز بلابلابلابلابلابل",
+          "language": "ar"
+        },
+        {
+          "text": "کیک پخته بلبلlablablablablabla",
+          "language": "fa"
+        },
+        {
+          "text": "Kek fırında blablablablablablabla",
+          "language": "tr"
+        },
+        {
+          "text": "Κέικ ψημένο blablablablablablabla",
+          "language": "el"
+        },
+        {
+          "text": "کیک پکښې بلابابابابابابابابابلا",
+          "language": "ps"
+        },
+        {
+          "text": "Торт запеченный блаблаблаблаблабла",
+          "language": "ru"
+        },
+        {
+          "text": "Торт запечений blablablablablablabla",
+          "language": "uk"
+        },
+        {
+          "text": "Tort coapte blablablablablablabla",
+          "language": "ro"
+        },
+        {
+          "text": "Ciasto zapiekane blablablablablablabla",
+          "language": "pl"
+        },
+        {
+          "text": "Celebek blobbablablablablabla",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "38b082a0-8141-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo Hanna, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "Blumen gepflückt Wiesen gemäht Bäume geklettert Tennis gespielt",
+      "language": "de",
+      "author": "Hanna",
+      "createdAt": 1559045273546,
+      "translations": [
+        {
+          "text": "Flowers picked meadows mowed trees climbed tennis played",
+          "language": "en"
+        },
+        {
+          "text": "Fleurs cueillies prés tondus arbres grimpés tennis joués",
+          "language": "fr"
+        },
+        {
+          "text": "Fiori raccolti prati falciati alberi arrampicati tennis giocato",
+          "language": "it"
+        },
+        {
+          "text": "Flores recogidas, prados, árboles cortados, escaladas, tenis jugado",
+          "language": "es"
+        },
+        {
+          "text": "التقطت الزهور المروج الأشجار قص الأشجار لعب التنس",
+          "language": "ar"
+        },
+        {
+          "text": "گل های برداشت چمنزارهای کاشته شده درختان صعود تنیس بازی کرد",
+          "language": "fa"
+        },
+        {
+          "text": "Çiçekler toplandı çayırlar biçildi ağaçlar tırmandı tenis oynadı",
+          "language": "tr"
+        },
+        {
+          "text": "Τα λουλούδια πήραν τα λιβάδια που κοκκοποίησαν τα δέντρα που ανέβαινε το τένις",
+          "language": "el"
+        },
+        {
+          "text": "ګلان د تیرو میاشتو په اوږدو کې د تیرو میاشتو راهیسې د ټیوټ لوبغالي راټول کړل",
+          "language": "ps"
+        },
+        {
+          "text": "Цветы собирали луга, косили деревья, лазили, играли в теннис",
+          "language": "ru"
+        },
+        {
+          "text": "Квіти, зібрані на луках, косять дерева, грають на теніс",
+          "language": "uk"
+        },
+        {
+          "text": "Flori culese pajiști care au tuns copacii care au urcat tenisul",
+          "language": "ro"
+        },
+        {
+          "text": "Kwiaty zebrane łąki skoszone drzewa wspiął tenis grał",
+          "language": "pl"
+        },
+        {
+          "text": "Flowers derxistin ku darên xwarinê lîstikên teyrikê çêdike",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "79200630-8141-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo honor, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "mit den Nachbarn noch Kindern gespielt Blumen gepflückt und auf Bäume geklettert",
+      "language": "de",
+      "author": "honor",
+      "createdAt": 1559045381651,
+      "translations": [
+        {
+          "text": "With the neighbors still playing children picked flowers and climbed trees",
+          "language": "en"
+        },
+        {
+          "text": "Les voisins jouant encore, les enfants cueillaient des fleurs et grimpaient aux arbres",
+          "language": "fr"
+        },
+        {
+          "text": "Con i vicini che giocavano ancora i bambini raccoglievano fiori e si arrampicavano sugli alberi",
+          "language": "it"
+        },
+        {
+          "text": "Con los vecinos aún jugando los niños recogieron flores y treparon a los árboles.",
+          "language": "es"
+        },
+        {
+          "text": "مع الجيران لا يزال يلعب الأطفال التقطت الزهور وتسلق الأشجار",
+          "language": "ar"
+        },
+        {
+          "text": "با همسایه ها هنوز بچه ها بازی می کردند گل ها را برداشتند و درختان را بالا گرفتند",
+          "language": "fa"
+        },
+        {
+          "text": "Komşuları hala oynayan çocuklar çiçek topladı ve ağaçlara tırmandı",
+          "language": "tr"
+        },
+        {
+          "text": "Με τους γείτονες που εξακολουθούν να παίζουν παιδιά, πήραν λουλούδια και ανέβαιναν δέντρα",
+          "language": "el"
+        },
+        {
+          "text": "د ګاونډیو سره چې لاهم ماشومان لوبې کوي ګلونه راټولي او ونې یې وړي",
+          "language": "ps"
+        },
+        {
+          "text": "С соседями все еще играющими детьми собирали цветы и лазили по деревьям",
+          "language": "ru"
+        },
+        {
+          "text": "З сусідами ще грали діти, збирали квіти і лазили по деревах",
+          "language": "uk"
+        },
+        {
+          "text": "Cu vecinii care încă mai jucau copii au luat flori și au urcat copaci",
+          "language": "ro"
+        },
+        {
+          "text": "Z sąsiadami wciąż bawiące się dzieci zbierały kwiaty i wspinały się na drzewa",
+          "language": "pl"
+        },
+        {
+          "text": "Bi cîranên ku hîn jî lîstin zarokan gulan hilkişandin û dara xwe çûn",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "bbb08640-8147-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo Hanna, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "ich war mit meinen Freunden auf dem Dorfplatz und habe dort Fußball gespielt",
+      "language": "de",
+      "author": "Hanna",
+      "createdAt": 1559048070308,
+      "translations": [
+        {
+          "text": "I was with my friends in the village square and played football there",
+          "language": "en"
+        },
+        {
+          "text": "J'étais avec mes amis sur la place du village et j'ai joué au football",
+          "language": "fr"
+        },
+        {
+          "text": "Ero con i miei amici nella piazza del paese e giocavo a calcio lì",
+          "language": "it"
+        },
+        {
+          "text": "Estaba con mis amigos en la plaza del pueblo y jugaba fútbol allí.",
+          "language": "es"
+        },
+        {
+          "text": "كنت مع أصدقائي في ساحة القرية ولعبت كرة القدم هناك",
+          "language": "ar"
+        },
+        {
+          "text": "من با دوستانم در میدان روستا بودم و آنجا آنجا فوتبال می کردم",
+          "language": "fa"
+        },
+        {
+          "text": "Köy meydanında arkadaşlarımla birlikteydim ve orada futbol oynadım",
+          "language": "tr"
+        },
+        {
+          "text": "Ήμουν με τους φίλους μου στην πλατεία του χωριού και έπαιζα ποδόσφαιρο εκεί",
+          "language": "el"
+        },
+        {
+          "text": "زه د خپلو ملګرو سره د کلي په مربع کې وم او هلته هلته فوټبال کاوه",
+          "language": "ps"
+        },
+        {
+          "text": "Я был со своими друзьями на деревенской площади и играл там в футбол",
+          "language": "ru"
+        },
+        {
+          "text": "Я був з друзями на сільській площі і там грав у футбол",
+          "language": "uk"
+        },
+        {
+          "text": "Am fost cu prietenii mei în piața satului și am jucat fotbal acolo",
+          "language": "ro"
+        },
+        {
+          "text": "Byłem z przyjaciółmi na placu wiejskim i grałem tam w piłkę nożną",
+          "language": "pl"
+        },
+        {
+          "text": "Ez bi hevalên xwe re di qada gundê de û li wir fûtbolê dikim",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "6cd2e620-8148-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo Hans, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "ich habe auf dem Dorfplatz mit meinen Freunden Fußball gespielt",
+      "language": "de",
+      "author": "Hans",
+      "createdAt": 1559048367490,
+      "translations": [
+        {
+          "text": "I played football with my friends on the village square",
+          "language": "en"
+        },
+        {
+          "text": "J'ai joué au football avec mes amis sur la place du village",
+          "language": "fr"
+        },
+        {
+          "text": "Ho giocato a calcio con i miei amici nella piazza del paese",
+          "language": "it"
+        },
+        {
+          "text": "Jugué fútbol con mis amigos en la plaza del pueblo.",
+          "language": "es"
+        },
+        {
+          "text": "لعبت كرة القدم مع أصدقائي في ساحة القرية",
+          "language": "ar"
+        },
+        {
+          "text": "من با دوستانم در میدان روستا بازی کردم",
+          "language": "fa"
+        },
+        {
+          "text": "Köy meydanında arkadaşlarımla futbol oynadım",
+          "language": "tr"
+        },
+        {
+          "text": "Παίξα ποδόσφαιρο με τους φίλους μου στην πλατεία του χωριού",
+          "language": "el"
+        },
+        {
+          "text": "ما د خپلو ملګرو سره فوټبال لوبه وکړه",
+          "language": "ps"
+        },
+        {
+          "text": "Я играл в футбол с друзьями на деревенской площади",
+          "language": "ru"
+        },
+        {
+          "text": "Я грав у футбол з друзями на сільській площі",
+          "language": "uk"
+        },
+        {
+          "text": "Am jucat fotbal cu prietenii mei în piața satului",
+          "language": "ro"
+        },
+        {
+          "text": "Grałem w piłkę nożną z przyjaciółmi na placu wiejskim",
+          "language": "pl"
+        },
+        {
+          "text": "Min bi hevalên xwe re li dora gundê fotbolê",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "e222a320-8148-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo Hans, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "Blumen gepflückt und den Kaninchen verfüttert",
+      "language": "de",
+      "author": "Hans",
+      "createdAt": 1559048564306,
+      "translations": [
+        {
+          "text": "Picked flowers and fed the rabbit",
+          "language": "en"
+        },
+        {
+          "text": "Cueilli des fleurs et nourri le lapin",
+          "language": "fr"
+        },
+        {
+          "text": "Raccogli fiori e nutri il coniglio",
+          "language": "it"
+        },
+        {
+          "text": "Recogió flores y alimentó al conejo.",
+          "language": "es"
+        },
+        {
+          "text": "إلتقط الزهور وأطعم الأرانب",
+          "language": "ar"
+        },
+        {
+          "text": "گلها را برداشت و خرگوش را تغذیه کرد",
+          "language": "fa"
+        },
+        {
+          "text": "Çiçekleri topladı ve tavşanı besledi",
+          "language": "tr"
+        },
+        {
+          "text": "Κοίταξε λουλούδια και τράφηκε το κουνέλι",
+          "language": "el"
+        },
+        {
+          "text": "ګل شوي ګلونه او د خرابي ډک شوي",
+          "language": "ps"
+        },
+        {
+          "text": "Собирала цветы и кормила кролика",
+          "language": "ru"
+        },
+        {
+          "text": "Збирали квіти і годували кроликом",
+          "language": "uk"
+        },
+        {
+          "text": "A luat flori și a hrănit iepurele",
+          "language": "ro"
+        },
+        {
+          "text": "Zbierane kwiaty i karmione królika",
+          "language": "pl"
+        },
+        {
+          "text": "Gulan veşartin û rabûn",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "bb3f3bf0-8149-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo Sandra, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "bitte noch bis Kindern auf die Bäume geklettert",
+      "language": "de",
+      "author": "Sandra",
+      "createdAt": 1559048928560,
+      "translations": [
+        {
+          "text": "Please climb up to trees on children",
+          "language": "en"
+        },
+        {
+          "text": "S'il vous plaît grimper aux arbres sur les enfants",
+          "language": "fr"
+        },
+        {
+          "text": "Per favore arrampicati sugli alberi sui bambini",
+          "language": "it"
+        },
+        {
+          "text": "Por favor sube a los árboles en los niños.",
+          "language": "es"
+        },
+        {
+          "text": "يرجى تسلق ما يصل إلى الأشجار على الأطفال",
+          "language": "ar"
+        },
+        {
+          "text": "لطفا به درختان بر روی کودکان صعود کنید",
+          "language": "fa"
+        },
+        {
+          "text": "Lütfen çocuklardaki ağaçlara tırman",
+          "language": "tr"
+        },
+        {
+          "text": "Παρακαλούμε σκαρφαλώστε στα δέντρα στα παιδιά",
+          "language": "el"
+        },
+        {
+          "text": "مهرباني وکړئ په ماشومانو باندې ونو ته ولاړوئ",
+          "language": "ps"
+        },
+        {
+          "text": "Пожалуйста, забирайтесь на деревья на детей",
+          "language": "ru"
+        },
+        {
+          "text": "Будь ласка, піднімайтеся на дерева на дітей",
+          "language": "uk"
+        },
+        {
+          "text": "Vă rugăm să urcați pe copaci la copii",
+          "language": "ro"
+        },
+        {
+          "text": "Wspinaj się na drzewa na dzieci",
+          "language": "pl"
+        },
+        {
+          "text": "Ji kerema xwe re darên li ser zarokên xwe bigire",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "2a4216f0-814d-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en",
+        "text": "Hello John , nice that you are there. What did you like to do outside?"
+      },
+      "text": "I used to play tennis with my neighbors in the afternoons and in the evenings I used to go to the square in the middle of my town",
+      "language": "en",
+      "author": "John",
+      "createdAt": 1559050403295,
+      "translations": [
+        {
+          "text": "Nachmittags spielte ich mit meinen Nachbarn Tennis und abends ging ich auf den Platz mitten in meiner Stadt",
+          "language": "de"
+        },
+        {
+          "text": "J'avais l'habitude de jouer au tennis avec mes voisins l'après-midi et le soir j'allais sur la place du milieu de ma ville",
+          "language": "fr"
+        },
+        {
+          "text": "Nel pomeriggio giocavo a tennis con i miei vicini e di sera andavo in piazza nel bel mezzo della mia città",
+          "language": "it"
+        },
+        {
+          "text": "Solía jugar al tenis con mis vecinos por las tardes y por las tardes solía ir a la plaza en medio de mi ciudad.",
+          "language": "es"
+        },
+        {
+          "text": "اعتدت أن ألعب التنس مع الجيران في فترة ما بعد الظهر وفي المساء اعتدت الذهاب إلى الميدان في وسط مدينتي",
+          "language": "ar"
+        },
+        {
+          "text": "من در بعد از ظهر برای تنیس با همسایگان بازی کردم و شبها در منزل به میدان رفتم و در وسط شهرم",
+          "language": "fa"
+        },
+        {
+          "text": "Öğleden sonraları komşumla tenis oynardım, akşamları ise kasabamın ortasındaki meydana giderdim.",
+          "language": "tr"
+        },
+        {
+          "text": "Παίζαμε τένις με τους γείτονές μου τα απογεύματα και τα βράδια πήγαινα στην πλατεία στο κέντρο της πόλης μου",
+          "language": "el"
+        },
+        {
+          "text": "ما د خپلو ګاونډیو سره ټانګونو ته په افریانو او د ماڼیو کې لوبې کولې چې زه د خپل ښار په منځ کې مربع ته لاړم",
+          "language": "ps"
+        },
+        {
+          "text": "Днем я играл в теннис с соседями, а по вечерам ходил на площадь в центре моего города.",
+          "language": "ru"
+        },
+        {
+          "text": "У другій половині дня я грала в теніс з моїми сусідами, а вечорами їздила на площу посеред мого міста",
+          "language": "uk"
+        },
+        {
+          "text": "Obișnuiam să joc tenis cu vecinii mei în după-amieze și în seara am plecat la piață în mijlocul orașului meu",
+          "language": "ro"
+        },
+        {
+          "text": "Popołudniami grałem w tenisa z sąsiadami, a wieczorami chodziłem na plac w środku mojego miasta",
+          "language": "pl"
+        },
+        {
+          "text": "Min teyrên bi cîranên cîranên xwe di nav afirîn û di êvên min de tê bikaranîn ku ez diçin nav çemê navîn bajêr.",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "ddee07e0-814d-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en",
+        "text": "Hello  , nice that you are there. What did you like to do outside?"
+      },
+      "text": "I used to go outside to 2 something blah blah",
+      "language": "en",
+      "author": "",
+      "createdAt": 1559050704734,
+      "translations": [
+        {
+          "text": "Ich ging nach draußen, um etwas Blah Blah zu machen",
+          "language": "de"
+        },
+        {
+          "text": "J'avais l'habitude d'aller à l'extérieur à 2 quelque chose bla bla",
+          "language": "fr"
+        },
+        {
+          "text": "Ero solito andare in 2 qualcosa, bla bla",
+          "language": "it"
+        },
+        {
+          "text": "Solía ir afuera a 2 algo bla bla",
+          "language": "es"
+        },
+        {
+          "text": "اعتدت أن أذهب خارج ل 2 شيء بلاه بلاه",
+          "language": "ar"
+        },
+        {
+          "text": "من 2 تا چیز دیگه بردم بیرون",
+          "language": "fa"
+        },
+        {
+          "text": "Eskiden 2'ye falan giderdim.",
+          "language": "tr"
+        },
+        {
+          "text": "Πέρασα έξω σε 2 κάτι blah blah",
+          "language": "el"
+        },
+        {
+          "text": "زه له 2 څخه بهر یو بل بل بلی بل ته تللی وم",
+          "language": "ps"
+        },
+        {
+          "text": "Я имел обыкновение выходить на улицу, чтобы что-то 2 бла бла",
+          "language": "ru"
+        },
+        {
+          "text": "Я звичайно виходив назовні до 2 щось blah blah",
+          "language": "uk"
+        },
+        {
+          "text": "Obișnuiam să merg afară la 2 ceva bla bla",
+          "language": "ro"
+        },
+        {
+          "text": "Kiedyś wychodziłam na dwór coś bla bla",
+          "language": "pl"
+        },
+        {
+          "text": "Ez ji bo bila blah blah derveyî 2 çûn",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "35ee1b60-814e-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en",
+        "text": "Hello tongue , nice that you are there. What did you like to do outside?"
+      },
+      "text": "I used to play tennis in the afternoon and in the evening I used to swim in my pool",
+      "language": "en",
+      "author": "tongue",
+      "createdAt": 1559050852374,
+      "translations": [
+        {
+          "text": "Nachmittags spielte ich Tennis und abends schwamm ich in meinem Pool",
+          "language": "de"
+        },
+        {
+          "text": "Je jouais au tennis l'après-midi et le soir je nageais dans ma piscine",
+          "language": "fr"
+        },
+        {
+          "text": "Giocavo a tennis nel pomeriggio e di sera andavo a nuotare nella mia piscina",
+          "language": "it"
+        },
+        {
+          "text": "Solía jugar al tenis por la tarde y por la noche solía nadar en mi piscina",
+          "language": "es"
+        },
+        {
+          "text": "اعتدت لعب التنس في فترة ما بعد الظهر وفي المساء اعتدت السباحة في حمام السباحة الخاص بي",
+          "language": "ar"
+        },
+        {
+          "text": "من بعد از ظهر بازی تنیس را انجام دادم و در شب به استخر رفتم",
+          "language": "fa"
+        },
+        {
+          "text": "Öğleden sonra tenis oynardım ve akşamları havuzumda yüzerdim",
+          "language": "tr"
+        },
+        {
+          "text": "Παίζαμε τένις το απόγευμα και το βράδυ κολυμπάκα στην πισίνα μου",
+          "language": "el"
+        },
+        {
+          "text": "ما په ماسپښین کې ټینس لوبه کوله او ماښام ما په خپل پول کې تیره کړه",
+          "language": "ps"
+        },
+        {
+          "text": "Днем я играл в теннис, а вечером плавал в бассейне",
+          "language": "ru"
+        },
+        {
+          "text": "Вдень я грала в теніс, а ввечері плавала в басейні",
+          "language": "uk"
+        },
+        {
+          "text": "Obișnuiam să joc tenis în după-amiaza, iar seara m-am înotat în piscina mea",
+          "language": "ro"
+        },
+        {
+          "text": "Grałem w tenisa po południu, a wieczorem pływałem w moim basenie",
+          "language": "pl"
+        },
+        {
+          "text": "Min di şevê tennis de dixwest û êvarê ez di hewzê min de çûn",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "8ccdcac0-814e-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo Franzi, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "ich habe mir Verstecke gebaut",
+      "language": "de",
+      "author": "Franzi",
+      "createdAt": 1559050998125,
+      "translations": [
+        {
+          "text": "I built hiding places",
+          "language": "en"
+        },
+        {
+          "text": "J'ai construit des cachettes",
+          "language": "fr"
+        },
+        {
+          "text": "Ho costruito nascondigli",
+          "language": "it"
+        },
+        {
+          "text": "Construí escondites",
+          "language": "es"
+        },
+        {
+          "text": "لقد بنيت أماكن للاختباء",
+          "language": "ar"
+        },
+        {
+          "text": "من مخفیگاه ها را ساختم",
+          "language": "fa"
+        },
+        {
+          "text": "Saklanma yerleri inşa ettim",
+          "language": "tr"
+        },
+        {
+          "text": "Έκανα κρησφύγετα",
+          "language": "el"
+        },
+        {
+          "text": "ما پټ پټ ځایونه جوړ کړل",
+          "language": "ps"
+        },
+        {
+          "text": "Я построил тайники",
+          "language": "ru"
+        },
+        {
+          "text": "Я будував укриття",
+          "language": "uk"
+        },
+        {
+          "text": "Am construit locuri ascunse",
+          "language": "ro"
+        },
+        {
+          "text": "Zbudowałem kryjówki",
+          "language": "pl"
+        },
+        {
+          "text": "Min cihan veşartin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "8e7638b0-8150-11e9-872b-5fc5e152cedd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "fr",
+        "text": "Bonjour Claude , bien que tu sois là. Qu'aimiez-vous faire à l'extérieur?"
+      },
+      "text": "je sais jouer au football avec les amis",
+      "language": "fr",
+      "author": "Claude",
+      "createdAt": 1559051859899,
+      "translations": [
+        {
+          "text": "Ich kann mit Freunden Fußball spielen",
+          "language": "de"
+        },
+        {
+          "text": "I know how to play football with friends",
+          "language": "en"
+        },
+        {
+          "text": "So giocare a calcio con gli amici",
+          "language": "it"
+        },
+        {
+          "text": "Sé jugar al fútbol con amigos.",
+          "language": "es"
+        },
+        {
+          "text": "أنا أعرف كيف ألعب كرة القدم مع الأصدقاء",
+          "language": "ar"
+        },
+        {
+          "text": "من می دانم چگونه با دوستانت بازی می کنم",
+          "language": "fa"
+        },
+        {
+          "text": "Arkadaşlarımla futbol oynamayı biliyorum",
+          "language": "tr"
+        },
+        {
+          "text": "Ξέρω πώς να παίζω ποδόσφαιρο με φίλους",
+          "language": "el"
+        },
+        {
+          "text": "زه پوهیږم څنګه د ملګرو سره د فوټبال لوبه کولی شم",
+          "language": "ps"
+        },
+        {
+          "text": "Я умею играть в футбол с друзьями",
+          "language": "ru"
+        },
+        {
+          "text": "Я знаю, як грати у футбол з друзями",
+          "language": "uk"
+        },
+        {
+          "text": "Știu cum să joace fotbal cu prietenii",
+          "language": "ro"
+        },
+        {
+          "text": "Wiem, jak grać w piłkę z przyjaciółmi",
+          "language": "pl"
+        },
+        {
+          "text": "Ez dizanim ka çawa bi hevalên xwe re fûtbolê play",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "925aa860-815c-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "language": "de",
+        "text": "Hallo scheint das ganz viel Wind immer noch aufnehmen kann, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "nichts",
+      "language": "de",
+      "author": "scheint das ganz viel Wind immer noch aufnehmen kann",
+      "createdAt": 1559057020391,
+      "translations": [
+        {
+          "text": "Nothing",
+          "language": "en"
+        },
+        {
+          "text": "rien",
+          "language": "fr"
+        },
+        {
+          "text": "niente",
+          "language": "it"
+        },
+        {
+          "text": "nada",
+          "language": "es"
+        },
+        {
+          "text": "لا شيء",
+          "language": "ar"
+        },
+        {
+          "text": "هیچ",
+          "language": "fa"
+        },
+        {
+          "text": "hiçbir şey",
+          "language": "tr"
+        },
+        {
+          "text": "τίποτα",
+          "language": "el"
+        },
+        {
+          "text": "هيڅ",
+          "language": "ps"
+        },
+        {
+          "text": "ничего",
+          "language": "ru"
+        },
+        {
+          "text": "нічого",
+          "language": "uk"
+        },
+        {
+          "text": "nimic",
+          "language": "ro"
+        },
+        {
+          "text": "nic",
+          "language": "pl"
+        },
+        {
+          "text": "tiştekî",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "b39065b0-815c-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "language": "de",
+        "text": "Hallo Horst, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "ganz viel ich wusste dass der Kreis direkt",
+      "language": "de",
+      "author": "Horst",
+      "createdAt": 1559057076107,
+      "translations": [
+        {
+          "text": "quite a lot I knew that the circle was direct",
+          "language": "en"
+        },
+        {
+          "text": "beaucoup je savais que le cercle était direct",
+          "language": "fr"
+        },
+        {
+          "text": "molto sapevo che il cerchio era diretto",
+          "language": "it"
+        },
+        {
+          "text": "Mucho sabía que el círculo era directo.",
+          "language": "es"
+        },
+        {
+          "text": "لقد عرفت أن الدائرة كانت مباشرة",
+          "language": "ar"
+        },
+        {
+          "text": "من کاملا می دانستم که دایره مستقیم بود",
+          "language": "fa"
+        },
+        {
+          "text": "epeyce çemberin doğrudan olduğunu biliyordum",
+          "language": "tr"
+        },
+        {
+          "text": "Πολύ ήξερα ότι ο κύκλος ήταν άμεσος",
+          "language": "el"
+        },
+        {
+          "text": "په ډیره اندازه زه پوهیږم چې دا الر مستقیمه وه",
+          "language": "ps"
+        },
+        {
+          "text": "довольно много я знал, что круг был прямым",
+          "language": "ru"
+        },
+        {
+          "text": "Дуже багато я знав, що коло було прямим",
+          "language": "uk"
+        },
+        {
+          "text": "destul de mult am știut că cercul a fost direct",
+          "language": "ro"
+        },
+        {
+          "text": "sporo wiedziałem, że krąg jest bezpośredni",
+          "language": "pl"
+        },
+        {
+          "text": "Gelek gelekî ez dizanim ku dora rasterast bû",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "bc0b0050-815d-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en",
+        "text": "Hello it's Dave , nice that you are there. What did you like to do outside?"
+      },
+      "text": "nothing much just taking drugs",
+      "language": "en",
+      "author": "it's Dave",
+      "createdAt": 1559057519830,
+      "translations": [
+        {
+          "text": "Nicht viel, nur Drogen zu nehmen",
+          "language": "de"
+        },
+        {
+          "text": "rien de plus que de se droguer",
+          "language": "fr"
+        },
+        {
+          "text": "niente più che prendere droghe",
+          "language": "it"
+        },
+        {
+          "text": "nada mucho solo tomar drogas",
+          "language": "es"
+        },
+        {
+          "text": "لا شيء مجرد تعاطي المخدرات",
+          "language": "ar"
+        },
+        {
+          "text": "چیزی جز مصرف دارو نیست",
+          "language": "fa"
+        },
+        {
+          "text": "sadece uyuşturucu almaktan başka bir şey yok",
+          "language": "tr"
+        },
+        {
+          "text": "τίποτα δεν παίρνει μόνο τα ναρκωτικά",
+          "language": "el"
+        },
+        {
+          "text": "د نشه یي توکو په اخیستلو کې هیڅ څه نه دي",
+          "language": "ps"
+        },
+        {
+          "text": "ничего особенного, просто принимать наркотики",
+          "language": "ru"
+        },
+        {
+          "text": "нічого особливого просто приймати наркотики",
+          "language": "uk"
+        },
+        {
+          "text": "nimic nu ia medicamente",
+          "language": "ro"
+        },
+        {
+          "text": "nic, tylko przyjmowanie narkotyków",
+          "language": "pl"
+        },
+        {
+          "text": "tiştek bêhtir dermanan digerin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "e063cf90-815d-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en",
+        "text": "Hello drawn , nice that you are there. What did you like to do outside?"
+      },
+      "text": "nothing much",
+      "language": "en",
+      "author": "drawn",
+      "createdAt": 1559057580809,
+      "translations": [
+        {
+          "text": "nicht viel",
+          "language": "de"
+        },
+        {
+          "text": "rien beaucoup",
+          "language": "fr"
+        },
+        {
+          "text": "non molto",
+          "language": "it"
+        },
+        {
+          "text": "no mucho",
+          "language": "es"
+        },
+        {
+          "text": "لا شىء اكثر",
+          "language": "ar"
+        },
+        {
+          "text": "هیچ چیز خیلی",
+          "language": "fa"
+        },
+        {
+          "text": "pek bir şey yok",
+          "language": "tr"
+        },
+        {
+          "text": "τίποτα ιδιαίτερο",
+          "language": "el"
+        },
+        {
+          "text": "هیڅ څه نه",
+          "language": "ps"
+        },
+        {
+          "text": "ничего особенного",
+          "language": "ru"
+        },
+        {
+          "text": "нічого важливого",
+          "language": "uk"
+        },
+        {
+          "text": "nimic mai mult",
+          "language": "ro"
+        },
+        {
+          "text": "niewiele",
+          "language": "pl"
+        },
+        {
+          "text": "tiştek bêtir",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "06ca7030-815e-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en",
+        "text": "Hello what is a tostada , nice that you are there. What did you like to do outside?"
+      },
+      "text": "just stop it",
+      "language": "en",
+      "author": "what is a tostada",
+      "createdAt": 1559057645235,
+      "translations": [
+        {
+          "text": "Hör einfach auf",
+          "language": "de"
+        },
+        {
+          "text": "arrête juste",
+          "language": "fr"
+        },
+        {
+          "text": "basta fermarlo",
+          "language": "it"
+        },
+        {
+          "text": "sólo detenerlo",
+          "language": "es"
+        },
+        {
+          "text": "توقف فقط عن ذلك",
+          "language": "ar"
+        },
+        {
+          "text": "فقط آن را متوقف کن",
+          "language": "fa"
+        },
+        {
+          "text": "sadece kes şunu",
+          "language": "tr"
+        },
+        {
+          "text": "απλά σταματήστε",
+          "language": "el"
+        },
+        {
+          "text": "بس یې ودروي",
+          "language": "ps"
+        },
+        {
+          "text": "просто прекрати это",
+          "language": "ru"
+        },
+        {
+          "text": "просто зупиніть це",
+          "language": "uk"
+        },
+        {
+          "text": "Opriți-l",
+          "language": "ro"
+        },
+        {
+          "text": "Po prostu przestań",
+          "language": "pl"
+        },
+        {
+          "text": "tenê raweste",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "9ae1d0b0-815e-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de",
+        "text": "Hallo Sandra, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "ich habe mit Kreide auf die Straße gezeichnet",
+      "language": "de",
+      "author": "Sandra",
+      "createdAt": 1559057893691,
+      "translations": [
+        {
+          "text": "I drew with chalk on the road",
+          "language": "en"
+        },
+        {
+          "text": "J'ai dessiné à la craie sur la route",
+          "language": "fr"
+        },
+        {
+          "text": "Ho disegnato con il gesso sulla strada",
+          "language": "it"
+        },
+        {
+          "text": "Dibujé con tiza en el camino.",
+          "language": "es"
+        },
+        {
+          "text": "وجهت مع الطباشير على الطريق",
+          "language": "ar"
+        },
+        {
+          "text": "من با گچ روی جاده متوسل شدم",
+          "language": "fa"
+        },
+        {
+          "text": "Yolda tebeşirle çizdim",
+          "language": "tr"
+        },
+        {
+          "text": "Έλαβα με κιμωλία στο δρόμο",
+          "language": "el"
+        },
+        {
+          "text": "ما په سړک کې د چاک سره مینه وکړه",
+          "language": "ps"
+        },
+        {
+          "text": "Я нарисовал мелом на дороге",
+          "language": "ru"
+        },
+        {
+          "text": "Я малював крейдою на дорозі",
+          "language": "uk"
+        },
+        {
+          "text": "Am tras cu creta pe drum",
+          "language": "ro"
+        },
+        {
+          "text": "Narysowałem kredą na drodze",
+          "language": "pl"
+        },
+        {
+          "text": "Min li ser rêçê li ser kolanê min derxist",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "62d80ac0-8160-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "el",
+        "text": "Γεια σας giannos , ωραία ότι είστε εκεί. Τι σας άρεσε να κάνετε έξω;"
+      },
+      "text": "ΣΕΥΔΑΠ Κίτσι έγκυος",
+      "language": "el",
+      "author": "giannos",
+      "createdAt": 1559058658668,
+      "translations": [
+        {
+          "text": "SEYDAP Kitsi schwanger",
+          "language": "de"
+        },
+        {
+          "text": "SEYDAP Kitsi pregnant",
+          "language": "en"
+        },
+        {
+          "text": "SEYDAP Kitsi enceinte",
+          "language": "fr"
+        },
+        {
+          "text": "SEYDAP Kitsi incinta",
+          "language": "it"
+        },
+        {
+          "text": "Kitsi SEYDAP embarazada",
+          "language": "es"
+        },
+        {
+          "text": "SEYDAP Kitsi حامل",
+          "language": "ar"
+        },
+        {
+          "text": "SEYDAP Kitsi باردار",
+          "language": "fa"
+        },
+        {
+          "text": "SEYDAP Kitsi hamile",
+          "language": "tr"
+        },
+        {
+          "text": "SEYDAP کټی حامله",
+          "language": "ps"
+        },
+        {
+          "text": "СЕЙДАП Китси беременна",
+          "language": "ru"
+        },
+        {
+          "text": "SEYDAP Kitsi вагітна",
+          "language": "uk"
+        },
+        {
+          "text": "SEYDAP Kitsi gravidă",
+          "language": "ro"
+        },
+        {
+          "text": "SEYDAP Kitsi w ciąży",
+          "language": "pl"
+        },
+        {
+          "text": "SEYDAP Kitsi ducanî",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "3bafab50-8161-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "ru",
+        "text": "Привет  , приятно, что ты там. Что ты любил делать на улице?"
+      },
+      "text": "бла-бла-бла",
+      "language": "ru",
+      "author": "",
+      "createdAt": 1559059022469,
+      "translations": [
+        {
+          "text": "bla bla bla",
+          "language": "de"
+        },
+        {
+          "text": "blah blah blah",
+          "language": "en"
+        },
+        {
+          "text": "bla bla bla",
+          "language": "fr"
+        },
+        {
+          "text": "bla bla bla",
+          "language": "it"
+        },
+        {
+          "text": "bla bla bla",
+          "language": "es"
+        },
+        {
+          "text": "بلاه بلاه بلاه",
+          "language": "ar"
+        },
+        {
+          "text": "بله بله بله",
+          "language": "fa"
+        },
+        {
+          "text": "falan filan",
+          "language": "tr"
+        },
+        {
+          "text": "blah blah blah",
+          "language": "el"
+        },
+        {
+          "text": "د بل بلا بلاھ",
+          "language": "ps"
+        },
+        {
+          "text": "бла бла бла",
+          "language": "uk"
+        },
+        {
+          "text": "bla bla bla",
+          "language": "ro"
+        },
+        {
+          "text": "bla bla bla",
+          "language": "pl"
+        },
+        {
+          "text": "blah blah blah",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "5bc356d0-8161-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "ru",
+        "text": "Привет Владимир Ильич швидко , приятно, что ты там. Что ты любил делать на улице?"
+      },
+      "text": "кататься на велосипеде",
+      "language": "ru",
+      "author": "Владимир Ильич швидко",
+      "createdAt": 1559059076285,
+      "translations": [
+        {
+          "text": "Radfahren",
+          "language": "de"
+        },
+        {
+          "text": "ride a bike",
+          "language": "en"
+        },
+        {
+          "text": "faire du vélo",
+          "language": "fr"
+        },
+        {
+          "text": "andare in bicicletta",
+          "language": "it"
+        },
+        {
+          "text": "andar en bicicleta",
+          "language": "es"
+        },
+        {
+          "text": "ركوب الدراجة",
+          "language": "ar"
+        },
+        {
+          "text": "دوچرخه سواری کنید",
+          "language": "fa"
+        },
+        {
+          "text": "bisiklet sür",
+          "language": "tr"
+        },
+        {
+          "text": "βόλτα με ποδήλατο",
+          "language": "el"
+        },
+        {
+          "text": "موټرسینټ چل کړئ",
+          "language": "ps"
+        },
+        {
+          "text": "кататися на велосипеді",
+          "language": "uk"
+        },
+        {
+          "text": "plimbare cu bicicleta",
+          "language": "ro"
+        },
+        {
+          "text": "jeździć na rowerze",
+          "language": "pl"
+        },
+        {
+          "text": "bike ride",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "72f59a20-8161-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "ru",
+        "text": "Привет почта , приятно, что ты там. Что ты любил делать на улице?"
+      },
+      "text": "лекарство",
+      "language": "ru",
+      "author": "почта",
+      "createdAt": 1559059115202,
+      "translations": [
+        {
+          "text": "Medizin",
+          "language": "de"
+        },
+        {
+          "text": "medicine",
+          "language": "en"
+        },
+        {
+          "text": "médecine",
+          "language": "fr"
+        },
+        {
+          "text": "medicina",
+          "language": "it"
+        },
+        {
+          "text": "medicina",
+          "language": "es"
+        },
+        {
+          "text": "دواء",
+          "language": "ar"
+        },
+        {
+          "text": "پزشکی",
+          "language": "fa"
+        },
+        {
+          "text": "tıp",
+          "language": "tr"
+        },
+        {
+          "text": "φάρμακο",
+          "language": "el"
+        },
+        {
+          "text": "درمل",
+          "language": "ps"
+        },
+        {
+          "text": "ліки",
+          "language": "uk"
+        },
+        {
+          "text": "medicină",
+          "language": "ro"
+        },
+        {
+          "text": "medycyna",
+          "language": "pl"
+        },
+        {
+          "text": "derman",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "8dd52e00-8161-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "ru",
+        "text": "Привет  , приятно, что ты там. Что ты любил делать на улице?"
+      },
+      "text": "водка вода Иркутска",
+      "language": "ru",
+      "author": "",
+      "createdAt": 1559059160289,
+      "translations": [
+        {
+          "text": "Wodka-Wasser von Irkutsk",
+          "language": "de"
+        },
+        {
+          "text": "vodka water of Irkutsk",
+          "language": "en"
+        },
+        {
+          "text": "eau de vodka d'Irkoutsk",
+          "language": "fr"
+        },
+        {
+          "text": "vodka water of Irkutsk",
+          "language": "it"
+        },
+        {
+          "text": "Agua de vodka de Irkutsk.",
+          "language": "es"
+        },
+        {
+          "text": "ماء الفودكا من ايركوتسك",
+          "language": "ar"
+        },
+        {
+          "text": "آب ودکا ایرکوتسک",
+          "language": "fa"
+        },
+        {
+          "text": "Irkutsk'un votka suyu",
+          "language": "tr"
+        },
+        {
+          "text": "βότκα νερό του Ιρκούτσκ",
+          "language": "el"
+        },
+        {
+          "text": "د ارکوټس د ودکا اوبه",
+          "language": "ps"
+        },
+        {
+          "text": "горілка вода Іркутська",
+          "language": "uk"
+        },
+        {
+          "text": "vodka vodka din Irkutsk",
+          "language": "ro"
+        },
+        {
+          "text": "woda z wódki Irkucka",
+          "language": "pl"
+        },
+        {
+          "text": "ava vodka ya Irkutskê",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "bdac7e80-8161-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hallo Denzel Hallo, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "ich war nicht draußen",
+      "language": "de",
+      "author": "Denzel Hallo",
+      "createdAt": 1559059240552,
+      "translations": [
+        {
+          "text": "I was not outside",
+          "language": "en"
+        },
+        {
+          "text": "Je n'étais pas dehors",
+          "language": "fr"
+        },
+        {
+          "text": "Non ero fuori",
+          "language": "it"
+        },
+        {
+          "text": "No estaba afuera",
+          "language": "es"
+        },
+        {
+          "text": "لم أكن بالخارج",
+          "language": "ar"
+        },
+        {
+          "text": "من خارج نبودم",
+          "language": "fa"
+        },
+        {
+          "text": "Dışarıda değildim",
+          "language": "tr"
+        },
+        {
+          "text": "Δεν ήμουν έξω",
+          "language": "el"
+        },
+        {
+          "text": "زه بهر نه وم",
+          "language": "ps"
+        },
+        {
+          "text": "Я не был на улице",
+          "language": "ru"
+        },
+        {
+          "text": "Я не був на вулиці",
+          "language": "uk"
+        },
+        {
+          "text": "Nu eram afară",
+          "language": "ro"
+        },
+        {
+          "text": "Nie byłem na zewnątrz",
+          "language": "pl"
+        },
+        {
+          "text": "Ez derveyî ne",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "409e11f0-8162-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hola Bianca , bueno que estés ahí. ¿Qué te gustaba hacer afuera?",
+        "language": "es",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "jugar con mi amigo",
+      "language": "es",
+      "author": "Bianca",
+      "createdAt": 1559059460239,
+      "translations": [
+        {
+          "text": "Spiel mit meinem Freund",
+          "language": "de"
+        },
+        {
+          "text": "play with my friend",
+          "language": "en"
+        },
+        {
+          "text": "jouer avec mon ami",
+          "language": "fr"
+        },
+        {
+          "text": "gioca con il mio amico",
+          "language": "it"
+        },
+        {
+          "text": "العب مع صديقي",
+          "language": "ar"
+        },
+        {
+          "text": "با دوستم بازی کن",
+          "language": "fa"
+        },
+        {
+          "text": "arkadaşımla oyna",
+          "language": "tr"
+        },
+        {
+          "text": "παίζετε με τον φίλο μου",
+          "language": "el"
+        },
+        {
+          "text": "زما ملګري سره لوبې وکړئ",
+          "language": "ps"
+        },
+        {
+          "text": "играть с моим другом",
+          "language": "ru"
+        },
+        {
+          "text": "грати з моїм другом",
+          "language": "uk"
+        },
+        {
+          "text": "jucați cu prietenul meu",
+          "language": "ro"
+        },
+        {
+          "text": "bawić się z moim przyjacielem",
+          "language": "pl"
+        },
+        {
+          "text": "bi hevalê min play",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "7dd2b5d0-8162-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "language": "fr",
+        "text": "Bonjour c'est Chantal , bien que tu sois là. Qu'aimiez-vous faire à l'extérieur?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "oui",
+      "language": "fr",
+      "author": "c'est Chantal",
+      "createdAt": 1559059562925,
+      "translations": [
+        {
+          "text": "ja",
+          "language": "de"
+        },
+        {
+          "text": "Yes",
+          "language": "en"
+        },
+        {
+          "text": "sì",
+          "language": "it"
+        },
+        {
+          "text": "sí",
+          "language": "es"
+        },
+        {
+          "text": "نعم",
+          "language": "ar"
+        },
+        {
+          "text": "بله",
+          "language": "fa"
+        },
+        {
+          "text": "evet",
+          "language": "tr"
+        },
+        {
+          "text": "ναί",
+          "language": "el"
+        },
+        {
+          "text": "هو",
+          "language": "ps"
+        },
+        {
+          "text": "да",
+          "language": "ru"
+        },
+        {
+          "text": "да",
+          "language": "uk"
+        },
+        {
+          "text": "da",
+          "language": "ro"
+        },
+        {
+          "text": "tak",
+          "language": "pl"
+        },
+        {
+          "text": "erê",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "ac73d040-8162-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hola soy , bueno que estés ahí. ¿Qué te gustaba hacer afuera?",
+        "language": "es"
+      },
+      "text": "tengo una pepino en mi culo",
+      "language": "es",
+      "author": "soy",
+      "createdAt": 1559059641156,
+      "translations": [
+        {
+          "text": "Ich habe eine Gurke in meinem Arsch",
+          "language": "de"
+        },
+        {
+          "text": "I have a cucumber in my ass",
+          "language": "en"
+        },
+        {
+          "text": "J'ai un concombre dans le cul",
+          "language": "fr"
+        },
+        {
+          "text": "Ho un cetriolo nel culo",
+          "language": "it"
+        },
+        {
+          "text": "لدي خيار في مؤخرتي",
+          "language": "ar"
+        },
+        {
+          "text": "من یک خیار در الاغ دارم",
+          "language": "fa"
+        },
+        {
+          "text": "Kıçımda salatalık var",
+          "language": "tr"
+        },
+        {
+          "text": "Έχω ένα αγγούρι στον κώλο μου",
+          "language": "el"
+        },
+        {
+          "text": "زما په ګاونډ کې زما کڅوړه لري",
+          "language": "ps"
+        },
+        {
+          "text": "У меня в заднице огурец",
+          "language": "ru"
+        },
+        {
+          "text": "У мене є огірок в моєму попку",
+          "language": "uk"
+        },
+        {
+          "text": "Am un castravete în fundul meu",
+          "language": "ro"
+        },
+        {
+          "text": "Mam ogórka w dupie",
+          "language": "pl"
+        },
+        {
+          "text": "Di kulikê min de kûçek heye",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "4b8b8150-8163-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en",
+        "text": "Hello I'm Ricardo , nice that you are there. What did you like to do outside?"
+      },
+      "text": "I like to go bicycling",
+      "language": "en",
+      "author": "I'm Ricardo",
+      "createdAt": 1559059908069,
+      "translations": [
+        {
+          "text": "Ich fahre gerne Fahrrad",
+          "language": "de"
+        },
+        {
+          "text": "J'aime faire du vélo",
+          "language": "fr"
+        },
+        {
+          "text": "Mi piace andare in bicicletta",
+          "language": "it"
+        },
+        {
+          "text": "Me gusta ir en bicicleta",
+          "language": "es"
+        },
+        {
+          "text": "أحب أن أذهب لركوب الدراجات",
+          "language": "ar"
+        },
+        {
+          "text": "دوست دارم دوچرخه سواری کنم",
+          "language": "fa"
+        },
+        {
+          "text": "Bisiklete binmeyi severim",
+          "language": "tr"
+        },
+        {
+          "text": "Μου αρέσει να πηγαίνω με ποδήλατο",
+          "language": "el"
+        },
+        {
+          "text": "زه غواړم چې بایسکل چلولو ته لاړ شم",
+          "language": "ps"
+        },
+        {
+          "text": "Я люблю кататься на велосипеде",
+          "language": "ru"
+        },
+        {
+          "text": "Я люблю їздити на велосипеді",
+          "language": "uk"
+        },
+        {
+          "text": "Îmi place să merg cu bicicleta",
+          "language": "ro"
+        },
+        {
+          "text": "Lubię jeździć na rowerze",
+          "language": "pl"
+        },
+        {
+          "text": "Ez dixwazim bicycling biking",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "241bdfb0-8164-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hello  , nice that you are there. What did you like to do outside?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en"
+      },
+      "text": "turn on garage lights.",
+      "language": "en",
+      "author": "",
+      "createdAt": 1559060271403,
+      "translations": [
+        {
+          "text": "Schalten Sie die Garagenbeleuchtung ein.",
+          "language": "de"
+        },
+        {
+          "text": "allumer les lumières du garage.",
+          "language": "fr"
+        },
+        {
+          "text": "accendi le luci del garage.",
+          "language": "it"
+        },
+        {
+          "text": "encender las luces del garaje.",
+          "language": "es"
+        },
+        {
+          "text": "تشغيل أضواء المرآب.",
+          "language": "ar"
+        },
+        {
+          "text": "چراغ گاراژ را روشن کنید",
+          "language": "fa"
+        },
+        {
+          "text": "Garaj ışıklarını aç.",
+          "language": "tr"
+        },
+        {
+          "text": "ενεργοποιήστε τα φώτα του γκαράζ.",
+          "language": "el"
+        },
+        {
+          "text": "د گیراج څراغونه وتړئ.",
+          "language": "ps"
+        },
+        {
+          "text": "включить огни гаража.",
+          "language": "ru"
+        },
+        {
+          "text": "увімкніть вогні гаража.",
+          "language": "uk"
+        },
+        {
+          "text": "activați lămpile de garaj.",
+          "language": "ro"
+        },
+        {
+          "text": "włącz światła garażowe.",
+          "language": "pl"
+        },
+        {
+          "text": "şewitandina garajên gûrajiyê vedigirin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "573e1570-8164-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hello optimal definition , nice that you are there. What did you like to do outside?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en"
+      },
+      "text": "hello Richard Orchard Plaza",
+      "language": "en",
+      "author": "optimal definition",
+      "createdAt": 1559060357192,
+      "translations": [
+        {
+          "text": "Hallo Richard Orchard Plaza",
+          "language": "de"
+        },
+        {
+          "text": "bonjour Richard Orchard Plaza",
+          "language": "fr"
+        },
+        {
+          "text": "ciao Richard Orchard Plaza",
+          "language": "it"
+        },
+        {
+          "text": "Hola, Richard Orchard Plaza",
+          "language": "es"
+        },
+        {
+          "text": "مرحبا ريتشارد أوركارد بلازا",
+          "language": "ar"
+        },
+        {
+          "text": "سلام ریچارد ارچارد پلازا",
+          "language": "fa"
+        },
+        {
+          "text": "merhaba Richard Orchard Plaza",
+          "language": "tr"
+        },
+        {
+          "text": "γεια σου Richard Orchard Plaza",
+          "language": "el"
+        },
+        {
+          "text": "سلام رچرډ آرکټر پلازا",
+          "language": "ps"
+        },
+        {
+          "text": "привет Ричард Орчард Плаза",
+          "language": "ru"
+        },
+        {
+          "text": "привіт Річард Орчард Плаза",
+          "language": "uk"
+        },
+        {
+          "text": "salut Richard Orchard Plaza",
+          "language": "ro"
+        },
+        {
+          "text": "witam Richard Orchard Plaza",
+          "language": "pl"
+        },
+        {
+          "text": "Richard Orchard Plaza hello",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "7834f500-8164-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hello  , nice that you are there. What did you like to do outside?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en"
+      },
+      "text": "Helena Pizza",
+      "language": "en",
+      "author": "",
+      "createdAt": 1559060412496,
+      "translations": [
+        {
+          "text": "Helena Pizza",
+          "language": "de"
+        },
+        {
+          "text": "Helena Pizza",
+          "language": "fr"
+        },
+        {
+          "text": "Helena Pizza",
+          "language": "it"
+        },
+        {
+          "text": "Pizza de helena",
+          "language": "es"
+        },
+        {
+          "text": "هيلينا بيتزا",
+          "language": "ar"
+        },
+        {
+          "text": "هلنا پیتزا",
+          "language": "fa"
+        },
+        {
+          "text": "Helena Pizza",
+          "language": "tr"
+        },
+        {
+          "text": "Helena Pizza",
+          "language": "el"
+        },
+        {
+          "text": "هیلینا پزا",
+          "language": "ps"
+        },
+        {
+          "text": "Елена Пицца",
+          "language": "ru"
+        },
+        {
+          "text": "Піца Хелена",
+          "language": "uk"
+        },
+        {
+          "text": "Helena Pizza",
+          "language": "ro"
+        },
+        {
+          "text": "Pizza Helena",
+          "language": "pl"
+        },
+        {
+          "text": "Helena Pizza",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "8fc1b460-8164-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hello Alex , nice that you are there. What did you like to do outside?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en"
+      },
+      "text": "liming on trees",
+      "language": "en",
+      "author": "Alex",
+      "createdAt": 1559060452006,
+      "translations": [
+        {
+          "text": "auf Bäumen kalken",
+          "language": "de"
+        },
+        {
+          "text": "chaulage sur les arbres",
+          "language": "fr"
+        },
+        {
+          "text": "calcare su alberi",
+          "language": "it"
+        },
+        {
+          "text": "encalado en los árboles",
+          "language": "es"
+        },
+        {
+          "text": "حصر على الأشجار",
+          "language": "ar"
+        },
+        {
+          "text": "آهک درختان",
+          "language": "fa"
+        },
+        {
+          "text": "ağaçta kireç",
+          "language": "tr"
+        },
+        {
+          "text": "αραίωση στα δέντρα",
+          "language": "el"
+        },
+        {
+          "text": "په ونو باندې محدوديت",
+          "language": "ps"
+        },
+        {
+          "text": "на деревьях",
+          "language": "ru"
+        },
+        {
+          "text": "вапнування на деревах",
+          "language": "uk"
+        },
+        {
+          "text": "calcar pe copaci",
+          "language": "ro"
+        },
+        {
+          "text": "wapnowanie na drzewach",
+          "language": "pl"
+        },
+        {
+          "text": "li ser daran",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "a689c430-8164-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hello  , nice that you are there. What did you like to do outside?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en"
+      },
+      "text": "stop jumping into plushies",
+      "language": "en",
+      "author": "",
+      "createdAt": 1559060490228,
+      "translations": [
+        {
+          "text": "Hör auf, in Plüschtiere zu springen",
+          "language": "de"
+        },
+        {
+          "text": "arrêter de sauter dans des peluches",
+          "language": "fr"
+        },
+        {
+          "text": "smettere di saltare in più",
+          "language": "it"
+        },
+        {
+          "text": "deja de saltar a los peluches",
+          "language": "es"
+        },
+        {
+          "text": "التوقف عن القفز في plushies",
+          "language": "ar"
+        },
+        {
+          "text": "توقف پریدن به plushies",
+          "language": "fa"
+        },
+        {
+          "text": "pelüşlere atlamayı bırak",
+          "language": "tr"
+        },
+        {
+          "text": "Σταματήστε να πηδάτε στα πέλματα",
+          "language": "el"
+        },
+        {
+          "text": "په تختو کې ځنډول ودروي",
+          "language": "ps"
+        },
+        {
+          "text": "хватит прыгать в плюши",
+          "language": "ru"
+        },
+        {
+          "text": "припиніть стрибати в плюші",
+          "language": "uk"
+        },
+        {
+          "text": "oprește săriturile în plușuri",
+          "language": "ro"
+        },
+        {
+          "text": "przestań skakać w pluszaki",
+          "language": "pl"
+        },
+        {
+          "text": "dorpêçê hilkişînin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "c261c1d0-8164-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hallo ich habe dir jetzt, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "Seilspringen",
+      "language": "de",
+      "author": "ich habe dir jetzt",
+      "createdAt": 1559060536941,
+      "translations": [
+        {
+          "text": "skipping",
+          "language": "en"
+        },
+        {
+          "text": "saut",
+          "language": "fr"
+        },
+        {
+          "text": "saltare",
+          "language": "it"
+        },
+        {
+          "text": "saltarse",
+          "language": "es"
+        },
+        {
+          "text": "تخطي",
+          "language": "ar"
+        },
+        {
+          "text": "پرش",
+          "language": "fa"
+        },
+        {
+          "text": "atlama",
+          "language": "tr"
+        },
+        {
+          "text": "παρακάμπτοντας",
+          "language": "el"
+        },
+        {
+          "text": "skipping",
+          "language": "ps"
+        },
+        {
+          "text": "вприпрыжку",
+          "language": "ru"
+        },
+        {
+          "text": "підстрибом",
+          "language": "uk"
+        },
+        {
+          "text": "sărind peste",
+          "language": "ro"
+        },
+        {
+          "text": "skaczący",
+          "language": "pl"
+        },
+        {
+          "text": "yek§emiyan",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "da4db830-8164-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hallo Marie, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "springen",
+      "language": "de",
+      "author": "Marie",
+      "createdAt": 1559060577075,
+      "translations": [
+        {
+          "text": "jump",
+          "language": "en"
+        },
+        {
+          "text": "sauter",
+          "language": "fr"
+        },
+        {
+          "text": "saltare",
+          "language": "it"
+        },
+        {
+          "text": "saltar",
+          "language": "es"
+        },
+        {
+          "text": "قفز",
+          "language": "ar"
+        },
+        {
+          "text": "پرش",
+          "language": "fa"
+        },
+        {
+          "text": "atlama",
+          "language": "tr"
+        },
+        {
+          "text": "άλμα",
+          "language": "el"
+        },
+        {
+          "text": "ټوپ",
+          "language": "ps"
+        },
+        {
+          "text": "прыгать",
+          "language": "ru"
+        },
+        {
+          "text": "стрибати",
+          "language": "uk"
+        },
+        {
+          "text": "sări",
+          "language": "ro"
+        },
+        {
+          "text": "skok",
+          "language": "pl"
+        },
+        {
+          "text": "helperkîn",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "fd797920-8164-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hallo das ist gar nicht so schlecht, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "kann ich da drauf sitzen",
+      "language": "de",
+      "author": "das ist gar nicht so schlecht",
+      "createdAt": 1559060636082,
+      "translations": [
+        {
+          "text": "Can I sit on it?",
+          "language": "en"
+        },
+        {
+          "text": "Puis-je m'asseoir dessus?",
+          "language": "fr"
+        },
+        {
+          "text": "Posso sedermi sopra?",
+          "language": "it"
+        },
+        {
+          "text": "¿Me puedo sentar en ella?",
+          "language": "es"
+        },
+        {
+          "text": "هل يمكنني الجلوس عليها؟",
+          "language": "ar"
+        },
+        {
+          "text": "آیا می توانم روی آن بنشینم؟",
+          "language": "fa"
+        },
+        {
+          "text": "Üzerine oturabilir miyim?",
+          "language": "tr"
+        },
+        {
+          "text": "Μπορώ να καθίσω σε αυτό;",
+          "language": "el"
+        },
+        {
+          "text": "ایا زه کولی شم په دې باندې وسوځم؟",
+          "language": "ps"
+        },
+        {
+          "text": "Можно мне на это сесть?",
+          "language": "ru"
+        },
+        {
+          "text": "Чи можу я сидіти на ньому?",
+          "language": "uk"
+        },
+        {
+          "text": "Pot să stau pe ea?",
+          "language": "ro"
+        },
+        {
+          "text": "Czy mogę na nim usiąść?",
+          "language": "pl"
+        },
+        {
+          "text": "Ez dikarim li rûniştin?",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "9c6beef0-8165-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hallo vielleicht, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "was hast du so draußen gemacht",
+      "language": "de",
+      "author": "vielleicht",
+      "createdAt": 1559060902751,
+      "translations": [
+        {
+          "text": "what did you do outside?",
+          "language": "en"
+        },
+        {
+          "text": "qu'as-tu fait dehors?",
+          "language": "fr"
+        },
+        {
+          "text": "cosa hai fatto fuori?",
+          "language": "it"
+        },
+        {
+          "text": "que hiciste afuera",
+          "language": "es"
+        },
+        {
+          "text": "ماذا فعلت بالخارج",
+          "language": "ar"
+        },
+        {
+          "text": "بیرون چه کار کردی؟",
+          "language": "fa"
+        },
+        {
+          "text": "dışarıda ne yaptın",
+          "language": "tr"
+        },
+        {
+          "text": "τι κάνατε έξω;",
+          "language": "el"
+        },
+        {
+          "text": "تاسو بهر څه وکړ؟",
+          "language": "ps"
+        },
+        {
+          "text": "что ты делал на улице?",
+          "language": "ru"
+        },
+        {
+          "text": "що ви робили поза?",
+          "language": "uk"
+        },
+        {
+          "text": "ce ai făcut afară?",
+          "language": "ro"
+        },
+        {
+          "text": "co robiłeś na zewnątrz?",
+          "language": "pl"
+        },
+        {
+          "text": "tu ji derve re kir?",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "d28bd450-8165-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hallo aber ich meine, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "existiert oder auch immer nachwirkt die man nicht will das man Torten einfach Sauerstoff",
+      "language": "de",
+      "author": "aber ich meine",
+      "createdAt": 1559060993557,
+      "translations": [
+        {
+          "text": "exists or does not always work you do not want the pies just oxygen",
+          "language": "en"
+        },
+        {
+          "text": "existe ou ne fonctionne pas toujours vous ne voulez pas les tartes juste de l'oxygène",
+          "language": "fr"
+        },
+        {
+          "text": "esiste o non funziona sempre non vuoi le torte solo ossigeno",
+          "language": "it"
+        },
+        {
+          "text": "Existe o no siempre funciona, no quieres las tartas solo oxígeno.",
+          "language": "es"
+        },
+        {
+          "text": "موجود أو لا يعمل دائما أنت لا تريد الفطائر فقط الأكسجين",
+          "language": "ar"
+        },
+        {
+          "text": "وجود دارد و یا همیشه کار نمی کند شما نمی خواهید کیک فقط اکسیژن",
+          "language": "fa"
+        },
+        {
+          "text": "var ya da her zaman işe yaramazsa turta sadece oksijen istemez",
+          "language": "tr"
+        },
+        {
+          "text": "υπάρχει ή δεν λειτουργεί πάντα δεν θέλετε οι πίτες μόνο οξυγόνο",
+          "language": "el"
+        },
+        {
+          "text": "شتون لري یا تل تل کار نه کوي تاسو نه غواړو چې پزۍ یوازې اکسیجن",
+          "language": "ps"
+        },
+        {
+          "text": "существует или не всегда работает ты не хочешь пирожки просто кислород",
+          "language": "ru"
+        },
+        {
+          "text": "існує або не завжди працює ви не хочете пироги просто кисень",
+          "language": "uk"
+        },
+        {
+          "text": "există sau nu funcționează întotdeauna, nu doriți ca plăcintele să fie doar oxigen",
+          "language": "ro"
+        },
+        {
+          "text": "istnieje lub nie zawsze działa, nie chcesz, aby ciasta były tylko tlenem",
+          "language": "pl"
+        },
+        {
+          "text": "heye an jî herdem herdem dixebite we ne ku hûn nexşandin tenê tenê oxygen",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "ed925120-8165-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hallo Bianca, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "Proben abgeschossen mit meinen Freunden",
+      "language": "de",
+      "author": "Bianca",
+      "createdAt": 1559061038898,
+      "translations": [
+        {
+          "text": "Samples shot down with my friends",
+          "language": "en"
+        },
+        {
+          "text": "Les échantillons ont tiré avec mes amis",
+          "language": "fr"
+        },
+        {
+          "text": "Campioni abbattuti con i miei amici",
+          "language": "it"
+        },
+        {
+          "text": "Muestras derribadas con mis amigos.",
+          "language": "es"
+        },
+        {
+          "text": "عينات اسقطت مع أصدقائي",
+          "language": "ar"
+        },
+        {
+          "text": "نمونه ها با دوستانم خل شد",
+          "language": "fa"
+        },
+        {
+          "text": "Örnekler arkadaşlarımla vuruldu",
+          "language": "tr"
+        },
+        {
+          "text": "Δείγματα που κατέρρευσαν με τους φίλους μου",
+          "language": "el"
+        },
+        {
+          "text": "نمونې د خپلو ملګرو سره ډزې وشوې",
+          "language": "ps"
+        },
+        {
+          "text": "Образцы сбиты с моими друзьями",
+          "language": "ru"
+        },
+        {
+          "text": "Зразки збили друзями",
+          "language": "uk"
+        },
+        {
+          "text": "Probele s-au prăbușit cu prietenii mei",
+          "language": "ro"
+        },
+        {
+          "text": "Próbki zestrzelone z moimi przyjaciółmi",
+          "language": "pl"
+        },
+        {
+          "text": "Samples bi hevalên xwe veşartin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "11002420-8166-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hallo Hallo, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "Taxi essen",
+      "language": "de",
+      "author": "Hallo",
+      "createdAt": 1559061098338,
+      "translations": [
+        {
+          "text": "Eat a taxi",
+          "language": "en"
+        },
+        {
+          "text": "Manger un taxi",
+          "language": "fr"
+        },
+        {
+          "text": "Mangia un taxi",
+          "language": "it"
+        },
+        {
+          "text": "Comer un taxi",
+          "language": "es"
+        },
+        {
+          "text": "أكل سيارة أجرة",
+          "language": "ar"
+        },
+        {
+          "text": "یک تاکسی بخور",
+          "language": "fa"
+        },
+        {
+          "text": "Bir taksi ye",
+          "language": "tr"
+        },
+        {
+          "text": "Φάτε ένα ταξί",
+          "language": "el"
+        },
+        {
+          "text": "ټکسي ونیسئ",
+          "language": "ps"
+        },
+        {
+          "text": "Съесть такси",
+          "language": "ru"
+        },
+        {
+          "text": "З'їжте таксі",
+          "language": "uk"
+        },
+        {
+          "text": "Mănâncă un taxi",
+          "language": "ro"
+        },
+        {
+          "text": "Zjedź taksówką",
+          "language": "pl"
+        },
+        {
+          "text": "Taksî xwarin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "48379400-8166-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hallo , schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "rumgesessen und gequatscht",
+      "language": "de",
+      "author": "",
+      "createdAt": 1559061190976,
+      "translations": [
+        {
+          "text": "sat around and talked",
+          "language": "en"
+        },
+        {
+          "text": "assis autour et a parlé",
+          "language": "fr"
+        },
+        {
+          "text": "si sedette e parlò",
+          "language": "it"
+        },
+        {
+          "text": "se sentó y habló",
+          "language": "es"
+        },
+        {
+          "text": "جلس وتحدث",
+          "language": "ar"
+        },
+        {
+          "text": "نشسته و صحبت کرد",
+          "language": "fa"
+        },
+        {
+          "text": "oturdum ve konuştum",
+          "language": "tr"
+        },
+        {
+          "text": "κάθισε και μίλησε",
+          "language": "el"
+        },
+        {
+          "text": "شاوخوا ناستې او خبرې وکړې",
+          "language": "ps"
+        },
+        {
+          "text": "сидел и говорил",
+          "language": "ru"
+        },
+        {
+          "text": "сиділи і розмовляли",
+          "language": "uk"
+        },
+        {
+          "text": "stătea în jur și vorbea",
+          "language": "ro"
+        },
+        {
+          "text": "usiadłem i rozmawiałem",
+          "language": "pl"
+        },
+        {
+          "text": "rûniştin û dipeyivî",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "cd8ce100-8166-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "language": "en",
+        "text": "Hello I am been , nice that you are there. What did you like to do outside?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "I'm relocating it was",
+      "language": "en",
+      "author": "I am been",
+      "createdAt": 1559061414672,
+      "translations": [
+        {
+          "text": "Ich ziehe um, es war",
+          "language": "de"
+        },
+        {
+          "text": "Je suis en train de déménager",
+          "language": "fr"
+        },
+        {
+          "text": "Mi sto trasferendo",
+          "language": "it"
+        },
+        {
+          "text": "Me estoy reubicando fue",
+          "language": "es"
+        },
+        {
+          "text": "أنا نقل كان عليه",
+          "language": "ar"
+        },
+        {
+          "text": "من این را نقل مکان کردم",
+          "language": "fa"
+        },
+        {
+          "text": "Yerini değiştirdim",
+          "language": "tr"
+        },
+        {
+          "text": "Μεταφέρω ότι ήταν",
+          "language": "el"
+        },
+        {
+          "text": "زه دا بدل کړم",
+          "language": "ps"
+        },
+        {
+          "text": "Я переехал это было",
+          "language": "ru"
+        },
+        {
+          "text": "Я переїжджаю",
+          "language": "uk"
+        },
+        {
+          "text": "Mă mutăm",
+          "language": "ro"
+        },
+        {
+          "text": "Przeniosłem to",
+          "language": "pl"
+        },
+        {
+          "text": "Ez veguherînim ev bû",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "fe6574e0-8166-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo hallo hier ist die Marie, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "ich habe gerne auf der Wiese Wikingerschach gespielt mit meinen Freunden und getrunken Alkohol",
+      "language": "de",
+      "author": "hallo hier ist die Marie",
+      "createdAt": 1559061496622,
+      "translations": [
+        {
+          "text": "I enjoyed playing Viking chess on the meadow with my friends and drinking alcohol",
+          "language": "en"
+        },
+        {
+          "text": "J'ai aimé jouer aux échecs vikings sur le pré avec mes amis et boire de l'alcool",
+          "language": "fr"
+        },
+        {
+          "text": "Mi è piaciuto giocare a scacchi vichinghi sul prato con i miei amici e bere alcolici",
+          "language": "it"
+        },
+        {
+          "text": "Disfruté jugando ajedrez vikingo en el prado con mis amigos y bebiendo alcohol",
+          "language": "es"
+        },
+        {
+          "text": "لقد استمتعت بلعب لعبة الشطرنج Viking على المرج مع أصدقائي وشرب الكحول",
+          "language": "ar"
+        },
+        {
+          "text": "با دوستانم و نوشیدن الکل، لذت بردم که شطرنج وایکینگ را روی چمنزار بازی کردم",
+          "language": "fa"
+        },
+        {
+          "text": "Çayırda arkadaşlarımla Viking satranç oynamaktan ve alkol almaktan zevk aldım.",
+          "language": "tr"
+        },
+        {
+          "text": "Μου άρεσε να παίζω σκάκι Βίκινγκ στο λιβάδι με τους φίλους μου και να πίνω αλκοόλ",
+          "language": "el"
+        },
+        {
+          "text": "ما د خپلو ملګرو سره د ماینونو او الکول څښلو په اړه د ویکینګ شطرنج لوبیدو",
+          "language": "ps"
+        },
+        {
+          "text": "Я с удовольствием играл в шахматы викингов на лугу с друзьями и пил алкоголь",
+          "language": "ru"
+        },
+        {
+          "text": "Мені подобалося грати на лузі з друзями і пити алкоголь",
+          "language": "uk"
+        },
+        {
+          "text": "Mi-a plăcut să joc șah viking pe luncă împreună cu prietenii mei și să beau alcool",
+          "language": "ro"
+        },
+        {
+          "text": "Lubiłem grać w Wikingów na łące z przyjaciółmi i pić alkohol",
+          "language": "pl"
+        },
+        {
+          "text": "Min şîra Viking şêr bi kêfxweş kir ku bi hevalên xwe û alkol vexwarin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "af479770-8167-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Привет Меня зовут Вова , приятно, что ты там. Что ты любил делать на улице?",
+        "language": "ru",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "Я живу по улице",
+      "language": "ru",
+      "author": "Меня зовут Вова",
+      "createdAt": 1559061793383,
+      "translations": [
+        {
+          "text": "Ich wohne auf der Straße",
+          "language": "de"
+        },
+        {
+          "text": "I live on the street",
+          "language": "en"
+        },
+        {
+          "text": "J'habite dans la rue",
+          "language": "fr"
+        },
+        {
+          "text": "Vivo per strada",
+          "language": "it"
+        },
+        {
+          "text": "Yo vivo en la calle",
+          "language": "es"
+        },
+        {
+          "text": "أنا أعيش في الشارع",
+          "language": "ar"
+        },
+        {
+          "text": "من در خیابان زندگی می کنم",
+          "language": "fa"
+        },
+        {
+          "text": "Sokakta yaşıyorum",
+          "language": "tr"
+        },
+        {
+          "text": "Ζω στο δρόμο",
+          "language": "el"
+        },
+        {
+          "text": "زه په سړک کې اوسيږم",
+          "language": "ps"
+        },
+        {
+          "text": "Я живу по вулиці",
+          "language": "uk"
+        },
+        {
+          "text": "Eu locuiesc pe stradă",
+          "language": "ro"
+        },
+        {
+          "text": "Mieszkam na ulicy",
+          "language": "pl"
+        },
+        {
+          "text": "Ez li kolanan dijîn",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "c8fa6b20-8167-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Привет у вас , приятно, что ты там. Что ты любил делать на улице?",
+        "language": "ru",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "страус",
+      "language": "ru",
+      "author": "у вас",
+      "createdAt": 1559061836499,
+      "translations": [
+        {
+          "text": "ein Strauß",
+          "language": "de"
+        },
+        {
+          "text": "ostrich",
+          "language": "en"
+        },
+        {
+          "text": "une autruche",
+          "language": "fr"
+        },
+        {
+          "text": "uno struzzo",
+          "language": "it"
+        },
+        {
+          "text": "un avestruz",
+          "language": "es"
+        },
+        {
+          "text": "نعامة",
+          "language": "ar"
+        },
+        {
+          "text": "شترمرغ",
+          "language": "fa"
+        },
+        {
+          "text": "Bir devekuşu",
+          "language": "tr"
+        },
+        {
+          "text": "μια στρουθοκαμήλου",
+          "language": "el"
+        },
+        {
+          "text": "یو شیشې",
+          "language": "ps"
+        },
+        {
+          "text": "страус",
+          "language": "uk"
+        },
+        {
+          "text": "o struț",
+          "language": "ro"
+        },
+        {
+          "text": "struś",
+          "language": "pl"
+        },
+        {
+          "text": "xwenîşandanek",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "97d0e630-8169-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "language": "de",
+        "text": "Hallo Sandra, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "Sarah hat seinen Freunden auf dem Golfplatz gespielt",
+      "language": "de",
+      "author": "Sandra",
+      "createdAt": 1559062613011,
+      "translations": [
+        {
+          "text": "Sarah played with his friends on the golf course",
+          "language": "en"
+        },
+        {
+          "text": "Sarah a joué avec ses amis sur le terrain de golf",
+          "language": "fr"
+        },
+        {
+          "text": "Sarah ha giocato con i suoi amici sul campo da golf",
+          "language": "it"
+        },
+        {
+          "text": "Sarah jugó con sus amigos en el campo de golf.",
+          "language": "es"
+        },
+        {
+          "text": "لعبت سارة مع أصدقائه في ملعب الجولف",
+          "language": "ar"
+        },
+        {
+          "text": "سارا با دوستانش در زمین گلف بازی کرد",
+          "language": "fa"
+        },
+        {
+          "text": "Sarah golf sahasında arkadaşlarıyla oynadı",
+          "language": "tr"
+        },
+        {
+          "text": "Η Σάρα έπαιξε με τους φίλους του στο γήπεδο του γκολφ",
+          "language": "el"
+        },
+        {
+          "text": "ساره د خپلو ملګرو سره د ګالف کورس کې لوبه کوله",
+          "language": "ps"
+        },
+        {
+          "text": "Сара играла со своими друзьями на поле для гольфа",
+          "language": "ru"
+        },
+        {
+          "text": "Сара грала зі своїми друзями на полі для гольфу",
+          "language": "uk"
+        },
+        {
+          "text": "Sarah a jucat cu prietenii săi pe terenul de golf",
+          "language": "ro"
+        },
+        {
+          "text": "Sarah bawiła się z przyjaciółmi na polu golfowym",
+          "language": "pl"
+        },
+        {
+          "text": "Sarah bi hevalên xwe re qursa golfê re lîstin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "ba061220-8169-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "language": "ru",
+        "text": "Привет Алло здравствуй , приятно, что ты там. Что ты любил делать на улице?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "лошади",
+      "language": "ru",
+      "author": "Алло здравствуй",
+      "createdAt": 1559062670402,
+      "translations": [
+        {
+          "text": "pferde",
+          "language": "de"
+        },
+        {
+          "text": "horses",
+          "language": "en"
+        },
+        {
+          "text": "les chevaux",
+          "language": "fr"
+        },
+        {
+          "text": "cavallo",
+          "language": "it"
+        },
+        {
+          "text": "los caballos",
+          "language": "es"
+        },
+        {
+          "text": "حصان",
+          "language": "ar"
+        },
+        {
+          "text": "اسب ها",
+          "language": "fa"
+        },
+        {
+          "text": "at",
+          "language": "tr"
+        },
+        {
+          "text": "άλογα",
+          "language": "el"
+        },
+        {
+          "text": "اسونه",
+          "language": "ps"
+        },
+        {
+          "text": "коні",
+          "language": "uk"
+        },
+        {
+          "text": "cal",
+          "language": "ro"
+        },
+        {
+          "text": "konie",
+          "language": "pl"
+        },
+        {
+          "text": "hesp",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "f6c055e0-8169-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "language": "ru",
+        "text": "Привет Алма , приятно, что ты там. Что ты любил делать на улице?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "правда",
+      "language": "ru",
+      "author": "Алма",
+      "createdAt": 1559062772286,
+      "translations": [
+        {
+          "text": "die Wahrheit",
+          "language": "de"
+        },
+        {
+          "text": "true",
+          "language": "en"
+        },
+        {
+          "text": "la vérité",
+          "language": "fr"
+        },
+        {
+          "text": "la verità",
+          "language": "it"
+        },
+        {
+          "text": "la verdad",
+          "language": "es"
+        },
+        {
+          "text": "الحقيقة",
+          "language": "ar"
+        },
+        {
+          "text": "حقیقت",
+          "language": "fa"
+        },
+        {
+          "text": "gerçek",
+          "language": "tr"
+        },
+        {
+          "text": "την αλήθεια",
+          "language": "el"
+        },
+        {
+          "text": "حقیقت",
+          "language": "ps"
+        },
+        {
+          "text": "правда",
+          "language": "uk"
+        },
+        {
+          "text": "adevărul",
+          "language": "ro"
+        },
+        {
+          "text": "prawda",
+          "language": "pl"
+        },
+        {
+          "text": "rastiyê",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "11fd7310-816a-11e9-861e-4bbbfb1160bd",
+      "question": {
+        "text": "Hallo blablabla, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "beim stoppen",
+      "language": "de",
+      "author": "blablabla",
+      "createdAt": 1559062817985,
+      "translations": [
+        {
+          "text": "while stopping",
+          "language": "en"
+        },
+        {
+          "text": "en s'arrêtant",
+          "language": "fr"
+        },
+        {
+          "text": "mentre si ferma",
+          "language": "it"
+        },
+        {
+          "text": "mientras se detiene",
+          "language": "es"
+        },
+        {
+          "text": "بينما توقف",
+          "language": "ar"
+        },
+        {
+          "text": "در حالی که متوقف می شود",
+          "language": "fa"
+        },
+        {
+          "text": "dururken",
+          "language": "tr"
+        },
+        {
+          "text": "ενώ σταματά",
+          "language": "el"
+        },
+        {
+          "text": "کله چې ودریږي",
+          "language": "ps"
+        },
+        {
+          "text": "во время остановки",
+          "language": "ru"
+        },
+        {
+          "text": "під час зупинки",
+          "language": "uk"
+        },
+        {
+          "text": "în timp ce se oprește",
+          "language": "ro"
+        },
+        {
+          "text": "podczas zatrzymywania się",
+          "language": "pl"
+        },
+        {
+          "text": "dema rawestandina",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "6341f0f0-8612-11e9-b806-77e68bc800de",
+      "question": {
+        "language": "en",
+        "text": "Hello Dave , nice that you are there. What did you like to do outside?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "I climbed on trees",
+      "language": "en",
+      "author": "Dave",
+      "createdAt": 1559574914431
+    },
+    {
+      "id": "d7845ca0-8612-11e9-b806-77e68bc800de",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo Gudrun Hi, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de"
+      },
+      "text": "auf Bäumen rum geklettert",
+      "language": "de",
+      "author": "Gudrun Hi",
+      "createdAt": 1559575109483,
+      "translations": [
+        {
+          "text": "climbed on trees around",
+          "language": "en"
+        },
+        {
+          "text": "monté sur des arbres autour",
+          "language": "fr"
+        },
+        {
+          "text": "arrampicato sugli alberi intorno",
+          "language": "it"
+        },
+        {
+          "text": "trepó a los árboles alrededor",
+          "language": "es"
+        },
+        {
+          "text": "ارتفع على الأشجار حولها",
+          "language": "ar"
+        },
+        {
+          "text": "بر روی درختان درختان برپا کرد",
+          "language": "fa"
+        },
+        {
+          "text": "etrafındaki ağaçlara tırmandı",
+          "language": "tr"
+        },
+        {
+          "text": "ανέβηκε στα δέντρα γύρω",
+          "language": "el"
+        },
+        {
+          "text": "په ونو کې راوتل",
+          "language": "ps"
+        },
+        {
+          "text": "залез на деревья вокруг",
+          "language": "ru"
+        },
+        {
+          "text": "залізли по деревах навколо",
+          "language": "uk"
+        },
+        {
+          "text": "urcat pe copaci în jur",
+          "language": "ro"
+        },
+        {
+          "text": "wspiął się na drzewa wokół",
+          "language": "pl"
+        },
+        {
+          "text": "li ser darên xwe çûn",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "272e30f0-8613-11e9-b806-77e68bc800de",
+      "question": {
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "text": "Hallo Hi traut, schön, dass du da bist. Was hast du früher gerne draußen gemacht?"
+      },
+      "text": "nichts",
+      "language": "de",
+      "author": "Hi traut",
+      "createdAt": 1559575243135,
+      "translations": [
+        {
+          "text": "Nothing",
+          "language": "en"
+        },
+        {
+          "text": "rien",
+          "language": "fr"
+        },
+        {
+          "text": "niente",
+          "language": "it"
+        },
+        {
+          "text": "nada",
+          "language": "es"
+        },
+        {
+          "text": "لا شيء",
+          "language": "ar"
+        },
+        {
+          "text": "هیچ",
+          "language": "fa"
+        },
+        {
+          "text": "hiçbir şey",
+          "language": "tr"
+        },
+        {
+          "text": "τίποτα",
+          "language": "el"
+        },
+        {
+          "text": "هيڅ",
+          "language": "ps"
+        },
+        {
+          "text": "ничего",
+          "language": "ru"
+        },
+        {
+          "text": "нічого",
+          "language": "uk"
+        },
+        {
+          "text": "nimic",
+          "language": "ro"
+        },
+        {
+          "text": "nic",
+          "language": "pl"
+        },
+        {
+          "text": "tiştekî",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "78677ee0-8613-11e9-b806-77e68bc800de",
+      "question": {
+        "text": "Hallo Klaus-Jürgen, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "Hey ich habe geschaukelt und gewippt und gesungen und getanzt",
+      "language": "de",
+      "author": "Klaus-Jürgen",
+      "createdAt": 1559575379406,
+      "translations": [
+        {
+          "text": "Hey, I rocked and rocked and sang and danced",
+          "language": "en"
+        },
+        {
+          "text": "Hey, j'ai balancé et balancé et chanté et dansé",
+          "language": "fr"
+        },
+        {
+          "text": "Ehi, ho dondolato, cullato, cantato e ballato",
+          "language": "it"
+        },
+        {
+          "text": "Oye, me mecí y me mecí y canté y bailé",
+          "language": "es"
+        },
+        {
+          "text": "مهلا ، هزت واهتزت وغنيت ورقصت",
+          "language": "ar"
+        },
+        {
+          "text": "هی، من را لرزید و تکان داد و آواز خواند و رقصید",
+          "language": "fa"
+        },
+        {
+          "text": "Hey, sallandım, sallandım, şarkı söyledim ve dans ettim",
+          "language": "tr"
+        },
+        {
+          "text": "Hey, κουνιστήκαμε και λικίσαμε, τραγουδούσαμε και χορούσαμε",
+          "language": "el"
+        },
+        {
+          "text": "اې، ما ټیټ شوی او ټیټ شوی او ښکلی او خوړلی دی",
+          "language": "ps"
+        },
+        {
+          "text": "Эй, я качал и качал и пел и танцевал",
+          "language": "ru"
+        },
+        {
+          "text": "Гей, я розгойдувався і качався, співав і танцював",
+          "language": "uk"
+        },
+        {
+          "text": "Hei, m-am rotit, am cantat si am cantat si am dansat",
+          "language": "ro"
+        },
+        {
+          "text": "Hej, kołysałem się, kołysałem, śpiewałem i tańczyłem",
+          "language": "pl"
+        },
+        {
+          "text": "Hey, ez çiyayî û çiyayî û şahîn û dagirtiye",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "fae59000-8613-11e9-b806-77e68bc800de",
+      "question": {
+        "text": "Hallo Gudrun, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "de"
+      },
+      "text": "programmiert",
+      "language": "de",
+      "author": "Gudrun",
+      "createdAt": 1559575598336
+    },
+    {
+      "id": "4e026b00-8614-11e9-b806-77e68bc800de",
+      "question": {
+        "text": "Hallo Heinz, schön, dass du da bist. Was hast du früher gerne draußen gemacht?",
+        "language": "de",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "nichts besonderes",
+      "language": "de",
+      "author": "Heinz",
+      "createdAt": 1559575737776,
+      "translations": [
+        {
+          "text": "nothing special",
+          "language": "en"
+        },
+        {
+          "text": "rien de spécial",
+          "language": "fr"
+        },
+        {
+          "text": "niente di speciale",
+          "language": "it"
+        },
+        {
+          "text": "nada especial",
+          "language": "es"
+        },
+        {
+          "text": "لا شيء خاص",
+          "language": "ar"
+        },
+        {
+          "text": "چیز خاصی نیست",
+          "language": "fa"
+        },
+        {
+          "text": "özel bir şey değil",
+          "language": "tr"
+        },
+        {
+          "text": "τίποτα ιδιαίτερο",
+          "language": "el"
+        },
+        {
+          "text": "هیڅ شی نه",
+          "language": "ps"
+        },
+        {
+          "text": "ничего особенного",
+          "language": "ru"
+        },
+        {
+          "text": "нічого особливого",
+          "language": "uk"
+        },
+        {
+          "text": "nimic special",
+          "language": "ro"
+        },
+        {
+          "text": "nic specjalnego",
+          "language": "pl"
+        },
+        {
+          "text": "tiştek taybet",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "72faae90-8614-11e9-b806-77e68bc800de",
+      "question": {
+        "text": "Hello it's Dave , nice that you are there. What did you like to do outside?",
+        "language": "en",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "take drugs",
+      "language": "en",
+      "author": "it's Dave",
+      "createdAt": 1559575799801,
+      "translations": [
+        {
+          "text": "Drogen nehmen",
+          "language": "de"
+        },
+        {
+          "text": "se droguer",
+          "language": "fr"
+        },
+        {
+          "text": "prendere droghe",
+          "language": "it"
+        },
+        {
+          "text": "consumir drogas",
+          "language": "es"
+        },
+        {
+          "text": "خذ الأدوية",
+          "language": "ar"
+        },
+        {
+          "text": "دارو بخور",
+          "language": "fa"
+        },
+        {
+          "text": "ilaç al",
+          "language": "tr"
+        },
+        {
+          "text": "παίρνω ναρκωτικά",
+          "language": "el"
+        },
+        {
+          "text": "نشه يي توکي واخلئ",
+          "language": "ps"
+        },
+        {
+          "text": "принимать наркотики",
+          "language": "ru"
+        },
+        {
+          "text": "вживати наркотики",
+          "language": "uk"
+        },
+        {
+          "text": "ia medicamente",
+          "language": "ro"
+        },
+        {
+          "text": "brać narkotyki",
+          "language": "pl"
+        },
+        {
+          "text": "tedawî bibin",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "d2af4300-8614-11e9-b806-77e68bc800de",
+      "question": {
+        "text": "Γεια σας Λευτέρης , ωραία ότι είστε εκεί. Τι σας άρεσε να κάνετε έξω;",
+        "language": "el",
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736"
+      },
+      "text": "να παίζω ποδόσφαιρο",
+      "language": "el",
+      "author": "Λευτέρης",
+      "createdAt": 1559575960368,
+      "translations": [
+        {
+          "text": "Fußball spielen",
+          "language": "de"
+        },
+        {
+          "text": "to play football",
+          "language": "en"
+        },
+        {
+          "text": "jouer au foot",
+          "language": "fr"
+        },
+        {
+          "text": "giocare a calcio",
+          "language": "it"
+        },
+        {
+          "text": "jugar futbol",
+          "language": "es"
+        },
+        {
+          "text": "للعب كرة القدم",
+          "language": "ar"
+        },
+        {
+          "text": "بازی فوتبال",
+          "language": "fa"
+        },
+        {
+          "text": "futbol oynamak",
+          "language": "tr"
+        },
+        {
+          "text": "د فوټبال لوبه",
+          "language": "ps"
+        },
+        {
+          "text": "играть в футбол",
+          "language": "ru"
+        },
+        {
+          "text": "грати у футбол",
+          "language": "uk"
+        },
+        {
+          "text": "pentru a juca fotbal",
+          "language": "ro"
+        },
+        {
+          "text": "grać w piłkę nożną",
+          "language": "pl"
+        },
+        {
+          "text": "bi fûtbolê play",
+          "language": "ku"
+        }
+      ]
+    },
+    {
+      "id": "5d9d1d40-86ae-11e9-9e43-858c2fee4318",
+      "question": {
+        "id": "9f4fa360-7a11-11e9-90bb-598ea57ca736",
+        "language": "en",
+        "text": "Hello date , nice that you are there. What did you like to do outside?"
+      },
+      "text": "take trucks",
+      "language": "en",
+      "author": "date",
+      "createdAt": 1559641906452,
+      "translations": [
+        {
+          "text": "Nimm Lastwagen",
+          "language": "de"
+        },
+        {
+          "text": "prendre des camions",
+          "language": "fr"
+        },
+        {
+          "text": "prendere i camion",
+          "language": "it"
+        },
+        {
+          "text": "tomar camiones",
+          "language": "es"
+        },
+        {
+          "text": "تأخذ شاحنات",
+          "language": "ar"
+        },
+        {
+          "text": "کامیون ببر",
+          "language": "fa"
+        },
+        {
+          "text": "kamyon almak",
+          "language": "tr"
+        },
+        {
+          "text": "πάρτε φορτηγά",
+          "language": "el"
+        },
+        {
+          "text": "لارۍ واخلئ",
+          "language": "ps"
+        },
+        {
+          "text": "брать грузовики",
+          "language": "ru"
+        },
+        {
+          "text": "приймати вантажівки",
+          "language": "uk"
+        },
+        {
+          "text": "ia camioane",
+          "language": "ro"
+        },
+        {
+          "text": "weź ciężarówki",
+          "language": "pl"
+        },
+        {
+          "text": "wesayît",
+          "language": "ku"
+        }
+      ]
+    }
+  ]
+}

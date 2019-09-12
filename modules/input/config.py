@@ -4,6 +4,6 @@ config = dict(
     #        "ar-EG", "ar-PS", "ar-MA", "ar-IQ", "fa-IR", "ka-GE" ],
     SUPPORTED_LANGUAGES = [ "de", "en", "fr", "it", "es", "ar", "tr", "el", "ru", "uk", "pl"],
     RECORDING_DURATION = 8.0, # not used
-    SPEAKING_ANSWER_TIMEOUT = 4.0,
-    PRINTED_LANGUAGES = ["en", "de", "tr", "ar"]
+    SPEAKING_ANSWER_TIMEOUT = 2,
+    PRINTED_LANGUAGES = ["en", "de", "el", "tr", "ar"]
 )

@@ -1,63 +1,63 @@
 [
     {
         "id": "4f765aa0-7a11-11e9-9ea7-4d94fda0fbcf",
-        "text": "Danke für deine Antwort {{NAME}}. Komm doch bald wieder einmal vorbei.",
+        "text": "Danke, {{NAME}}. Deine Antwort wird nun ausgedruckt, um sie mit anderen zu teilen. Schaue doch nach, ob ich dich richtig verstanden habe. Bis bald!",
         "language": "de",
         "translations": [
             {
-                "text": "Thanks for your answer {{NAME}} . Come back soon.",
+                "text": "Thanks, {{NAME}}. Your answer will now be printed out to share with others. Check if I understand you correctly. Bye for now!",
                 "language": "en"
             },
             {
-                "text": "Merci pour votre réponse {{NAME}} . Reviens bientôt.",
+                "text": "Merci {{NAME}}. Votre réponse va maintenant être imprimée pour être partagée avec les autres. Vérifiez si je vous ai bien compris. A bientôt!",
                 "language": "fr"
             },
             {
-                "text": "Grazie per la tua risposta {{NAME}} . Torna presto.",
+                "text": "Grazie, {{NAME}}. La tua risposta verrà ora stampata per condividerla con gli altri. Controlla se ti capisco bene. A presto!",
                 "language": "it"
             },
             {
-                "text": "Gracias por tu respuesta {{NAME}} . Vuelve pronto",
+                "text": "Gracias, {{NAME}}. Su respuesta ahora se imprimirá para compartir con otros. Comprueba si te entiendo correctamente. Nos vemos pronto",
                 "language": "es"
             },
             {
-                "text": "شكرًا لإجابتك {{NAME}} . عد قريبا",
+                "text": "شكرا ، {{NAME}}. ستتم الآن طباعة إجابتك لمشاركتها مع الآخرين. تحقق مما إذا كنت أفهمك بشكل صحيح. الى اللقاء!",
                 "language": "ar"
             },
             {
-                "text": "از پاسخ شما برای {{NAME}} متشکریم به زودی بیا",
+                "text": "متشکرم، {{NAME}} پاسخ شما اکنون برای اشتراک گذاشتن با دیگران چاپ خواهد شد. بررسی کنید که آیا شما به درستی درک می کنید. تا بعد!",
                 "language": "fa"
             },
             {
-                "text": "{{NAME}} cevabınız için teşekkürler. Yakında geri dön.",
+                "text": "Teşekkürler, {{NAME}} Cevabınız şimdi başkalarıyla paylaşmak için basılacak. Seni doğru anladı mı kontrol et. Yakında görüşürüz!",
                 "language": "tr"
             },
             {
-                "text": "Ευχαριστώ για την απάντησή σας {{NAME}} . Επιστρέψτε σύντομα.",
+                "text": "Γεια σου {{NAME}}. Χαίρομαι που είσαι εδώ. Τι έκανες παλιότερα όταν έβγαινες έξω;",
                 "language": "el"
             },
             {
-                "text": "ستاسو د ځواب {{NAME}} لپاره مننه. ژر ژر راشه.",
+                "text": "مننه، {{NAME}}. ستاسو ځواب به د نورو سره شریکولو لپاره چاپ شي. وګورئ که زه تاسو په سمه توګه پیژني. ژر ژر وګورئ!",
                 "language": "ps"
             },
             {
-                "text": "Спасибо за ваш ответ {{NAME}} . Возвращайся скорее.",
+                "text": "Спасибо, {{NAME}}. Ваш ответ теперь будет распечатан, чтобы поделиться с другими. Проверьте, правильно ли я вас понимаю. До скорого!",
                 "language": "ru"
             },
             {
-                "text": "Дякуємо за вашу відповідь {{NAME}} . Поверніться найближчим часом.",
+                "text": "Дякуємо, {{NAME}}. Тепер ваша відповідь буде роздрукована для обміну з іншими. Перевірте, чи правильно я вас розумію. До зустрічі!",
                 "language": "uk"
             },
             {
-                "text": "Vă mulțumim pentru răspunsul dvs. {{NAME}} . Vino în curând.",
+                "text": "Mulțumesc, {{NAME}}. Răspunsul dvs. va fi acum tipărit pentru a permite accesul altor persoane. Verificați dacă vă înțeleg corect. Ne vedem curând!",
                 "language": "ro"
             },
             {
-                "text": "Dziękujemy za odpowiedź {{NAME}} . Wróć wkrótce.",
+                "text": "Dzięki, {{NAME}}. Twoja odpowiedź zostanie teraz wydrukowana i udostępniona innym. Sprawdź, czy dobrze cię rozumiem. Do zobaczenia wkrótce!",
                 "language": "pl"
             },
             {
-                "text": "Ji bo bersiva we ji kerema xwe {{NAME}} . Zû vegerin.",
+                "text": "Sipasî, {{NAME}}. Bersivê we dê ji bo kesên din re veşartin çap kirin. Heke ez di rastiyê de fêm dikim. Hûn zû zû bibînin!",
                 "language": "ku"
             }
         ]

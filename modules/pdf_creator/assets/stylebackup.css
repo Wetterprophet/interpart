@@ -8,24 +8,29 @@ body {
 }
 
 h1 {
-    font-size: 100%
+    margin: 0 0 .3em 0;
+    line-height: 1;
+    font-size: 300%
 }
 
 h2 {
-    font-size: 150%
+    margin: 0 0 1.5em 0;
+    line-height: 1;
+    color: lightgray;
+    font-size: 180%
 }
 
 h3 {
-    font-size: 120% /*cp-added the whole bracket*/
+    font-size: 70% /*cp-added the whole bracket*/
 }
 
 ul {
     padding-left: 25px;
-    font-size: 120%
+    font-size: 90% /*cp-added to have more space*/
 }
 
 .content {
-    margin: 10px;
+    margin: 20px;
 }
 
 .map {

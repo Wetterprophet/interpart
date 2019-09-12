@@ -10,19 +10,18 @@ html
   body
     div.content
       div.top
-        img.map(src="../assets/LOGO_biebrich.png")
+        img.map(src="../assets/LOGO_moabit.png")
 
       div.bottom
         p.created-at 
-            h1 @studio biebrich  I  #{submission.createdAt}
+            h1 #|Erstellt: #{submission.createdAt} in Berlin Moabit von 
+               |<i>#{submission.author}</i>.
 
 
-        h3 #{submission.question.text}
+        h2 #{submission.question.text}
         ul
-          li
-            p #{submission.text}
+	  p #{submission.text}
           
           each translation in translations
-            li
-              //h3 #{translation.question.text}
-              p #{translation.submission.text}
+          p #{translation.question.text}
+          p #{translation.submission.text}

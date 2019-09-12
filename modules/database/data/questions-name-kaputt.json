@@ -1,0 +1,63 @@
+{
+    "id": "84a9bb40-8e98-11e9-a301-59a5604faed7",
+    "text": "Hallo! Bitte sage mir deinen Vornamen!",
+    "language": "de",
+    "translations": [
+        {
+            "text": "Hello! Please tell me your first name!",
+            "language": "en"
+        },
+        {
+            "text": "Bonjour! S'il vous plaît dites-moi votre prénom!",
+            "language": "fr"
+        },
+        {
+            "text": "Ciao! Per favore dimmi il tuo nome!",
+            "language": "it"
+        },
+        {
+            "text": "¡Hola! Por favor dime tu nombre!",
+            "language": "es"
+        },
+        {
+            "text": "مرحبا! من فضلك قل لي اسمك الأول!",
+            "language": "ar"
+        },
+        {
+            "text": "سلام! لطفا نام خود را به من بگویید",
+            "language": "fa"
+        },
+        {
+            "text": "Merhaba! Lütfen ilk adını söyle!",
+            "language": "tr"
+        },
+        {
+            "text": "Γεια σας! Παρακαλώ πείτε μου το όνομά σας!",
+            "language": "el"
+        },
+        {
+            "text": "سلام! مهرباني وکړئ خپل لومړی نوم ته ووایاست!",
+            "language": "ps"
+        },
+        {
+            "text": "Здравствуйте! Пожалуйста, скажи мне свое имя!",
+            "language": "ru"
+        },
+        {
+            "text": "Здравствуйте! Скажіть, будь ласка, ваше ім'я!",
+            "language": "uk"
+        },
+        {
+            "text": "Buna ziua! Spune-mi numele tău!",
+            "language": "ro"
+        },
+        {
+            "text": "Cześć! Podaj mi swoje imię!",
+            "language": "pl"
+        },
+        {
+            "text": "Hello! Ji kerema xwe re navê min ji we re bêjim!",
+            "language": "ku"
+        }
+    ]
+}

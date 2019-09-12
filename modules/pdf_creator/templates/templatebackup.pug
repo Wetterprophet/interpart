@@ -10,11 +10,17 @@ html
   body
     div.content
       div.top
-        img.map(src="../assets/LOGO_biebrich.png")
+        div.left
+          h1 Interpart
+          h2 Wann ist ein Platz ein Platz?
+
+        div.right
+          img.map(src="../assets/image.png")
 
       div.bottom
         p.created-at 
-            h1 @studio biebrich  I  #{submission.createdAt}
+            |Erstellt: #{submission.createdAt} in Berlin Moabit von 
+            |<i>#{submission.author}</i>.
 
 
         h3 #{submission.question.text}

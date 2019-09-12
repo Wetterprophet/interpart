@@ -38,25 +38,18 @@ def listenForKey(stdscr):
     curses.cbreak()
     stdscr.clear()
 
-# flush all input buffers
-    curses.flushinp()
-
     #print keymap
     stdscr.addstr("# CHOOSE INPUT LANGUAGE\n\n")
     for key in KEY_MAP:
         stdscr.addstr("- Press key {} for language: {}\n\r".format(key, KEY_MAP[key]))
 
     c = stdscr.getch()
-
-    # flush all input buffers
-    #curses.flushinp()
-
+    
     # disable curses screen
     stdscr.keypad(False)
     curses.nocbreak()
     curses.echo()
     curses.endwin()
-    
 
     return c
     
