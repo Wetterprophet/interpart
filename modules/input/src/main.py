@@ -43,9 +43,10 @@ def run(config):
                 state.consumeAction(Action.SET_LANGUAGE, language = language)
 
         elif state.status == State.ASKING_FOR_NAME:
-            logging.info("fetching name question...")
+            logging.info("fetching greeting")
             try:
-                questions = restClient.getNameQuestion(state.language)
+                # get greeting instead of name question
+                questions = restClient.getGreeting(state.language)
                 nameQuestion = questions[random.randint(0, len(questions) - 1)]
                 led.update(Leds.rgb_on(Color.BLUE))
                 speakText(nameQuestion["text"], state.language)
@@ -77,8 +78,8 @@ def run(config):
                 # put in name
                 question["text"] = question["text"].replace("{{NAME}}", state.author)
                 state.consumeAction(Action.SET_QUESTION, question = question)
-            except:
-                state.consumeAction(Action.THROW_ERROR, error = "Could not fetch question")
+            except Exception as error:
+                state.consumeAction(Action.THROW_ERROR, error = str(error))
 
         elif state.status == State.ASKING_QUESTION:
             logging.info("asking question: " + str(state.question))

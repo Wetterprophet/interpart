@@ -49,7 +49,9 @@ class StateMachine:
 
         elif self.status == State.ASKING_FOR_NAME:
             if action == Action.DONE:
-                self.status = State.LISTENING_FOR_NAME
+                self.author = "unknown"
+                # skip listening for name
+                self.status = State.FETCH_QUESTION
 
         elif self.status ==  State.LISTENING_FOR_NAME:
             if action == Action.SET_NAME:

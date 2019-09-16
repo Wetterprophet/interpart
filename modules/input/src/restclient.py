@@ -24,6 +24,12 @@ class RestClient:
         questions = response.json()["data"]
         return questions
 
+    def getGreeting(self, language):
+        url = self.apiAdress + "/questions/greeting?lang=" + language
+        response = requests.get(url)
+        greeting = response.json()["data"]
+        return greeting
+
     def getGoodbye(self, language):
         url = self.apiAdress + "/questions/goodbye?lang=" + language
         response = requests.get(url)
