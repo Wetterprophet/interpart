@@ -1,0 +1,65 @@
+[
+  {
+    "id": "07d105d0-d8b5-11e9-bb15-4d2a82730853",
+    "text": "Hallo. Schön, dass du da bist.",
+    "language": "de",
+    "translations": [
+      {
+        "text": "Hi. Nice that you're here.",
+        "language": "en"
+      },
+      {
+        "text": "Bonjour. Bien que tu sois là.",
+        "language": "fr"
+      },
+      {
+        "text": "Ciao. Bello che tu ci sia.",
+        "language": "it"
+      },
+      {
+        "text": "Hola. Es bueno que estés allí.",
+        "language": "es"
+      },
+      {
+        "text": "مرحبا. جميل أنك هناك.",
+        "language": "ar"
+      },
+      {
+        "text": "سلام. خوب که شما آنجا هستید.",
+        "language": "fa"
+      },
+      {
+        "text": "Merhaba. Orda olmana sevindim.",
+        "language": "tr"
+      },
+      {
+        "text": "Γεια σας. Νίκαιας ότι είσαι εκεί.",
+        "language": "el"
+      },
+      {
+        "text": "سلام. ښه چې تاسو هلته یاست.",
+        "language": "ps"
+      },
+      {
+        "text": "Здравствуйте. Хорошо, что ты здесь.",
+        "language": "ru"
+      },
+      {
+        "text": "Здравствуйте. Приємно, що ти там.",
+        "language": "uk"
+      },
+      {
+        "text": "Buna ziua. Frumos că ești acolo.",
+        "language": "ro"
+      },
+      {
+        "text": "Witam. Fajnie, że tam jesteś.",
+        "language": "pl"
+      },
+      {
+        "text": "Hello. Nice ku hûn li wir in.",
+        "language": "ku"
+      }
+    ]
+  }
+]

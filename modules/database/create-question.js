@@ -3,6 +3,7 @@
 const commandLineArgs = require('command-line-args')
 const commandLineUsage = require('command-line-usage')
 const _ = require("lodash")
+const fs = require('fs').promises;
 
 const { QuestionModel } = require('./models/QuestionModel') 
 
@@ -16,10 +17,17 @@ const optionDefinitions = [
     },
     { 
         name: 'lang',
+        alias: "l",
         type: String, 
         defaultValue: "de",
         typeLabel: 'string',
         description: 'Language of the question'
+    },
+
+    {
+        name: 'file',
+        alias: 'f',
+        description: 'File to write output question to'
     },
     {
         name: 'help',
@@ -40,6 +48,9 @@ try {
     if (!_.has(options,'question'))
         throw new Error('No Question supplied')
 
+        if (!_.has(options,'file'))
+        throw new Error('No Output file supplied')
+
 } catch (err) {
     console.log(err)
     const usage = commandLineUsage([
@@ -54,7 +65,7 @@ try {
         {
             header: 'Example',
             content: [
-              './create_question.js "Hello World" --language en',
+              './create_question.js "Hello World" --lang en --file output.json',
             ]
         }
     ])
@@ -65,22 +76,28 @@ try {
 // if everything is ok run it
 run(options)
 
-async function run(options) {
 
+async function run(options) {
+    
     let data = {
         text : options.question,
         language : options.lang
     }
 
-    if (!QuestionModel.validate(data))
-        throw "Validation failed"
+    try {
+        if (!QuestionModel.validate(data))
+            throw "Validation failed"
 
-    var question = new QuestionModel(data)
-    await question.translate()
+        var question = new QuestionModel(data)
+        await question.translate()
 
-    output(question.data)
+        await output(question.data, options.file)
+    } catch (err) {
+        console.error(err);
+    }
+    
 }
 
-function output(json) {
-    console.log(JSON.stringify(json, null, 4))
+async function output(json, filename) {
+    await fs.writeFile(filename, JSON.stringify([json], null, 2), 'utf8');
 } 
