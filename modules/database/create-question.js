@@ -52,7 +52,7 @@ try {
         throw new Error('No Output file supplied')
 
 } catch (err) {
-    console.log(err)
+    console.error(err)
     const usage = commandLineUsage([
         {
             header: 'Interpart Question Creator',
@@ -92,6 +92,7 @@ async function run(options) {
         await question.translate()
 
         await output(question.data, options.file)
+        console.log("Question written to " + options.file + ".")
     } catch (err) {
         console.error(err);
     }
